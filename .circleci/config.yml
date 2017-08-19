@@ -1,18 +1,10 @@
-# jekyll config for pushing to github pages
 machine:
-  environment:
-    NOKOGIRI_USE_SYSTEM_LIBRARIES: true # speeds up installation of html-proofer
-
+  ruby:
+    version: 2.4.0
 dependencies:
+  pre:
+    - gem install bundler
+checkout:
   post:
-    - bundle exec jekyll build
-
-test:
-  post:
-    - bundle exec htmlproofer ./_site --allow-hash-href --check-favicon --check-html --disable-external
-
-deployment:
-  production:
-    branch: master
-    commands:
-      - ./bin/automated
+    - bundle install
+    - bash ./bin/automated.sh
