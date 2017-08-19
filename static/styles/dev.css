@@ -1,0 +1,36 @@
+/* ======================
+   Plain CSS for the Devs
+   ====================== */
+.hero {
+  height: 800px;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align:center;
+}
+#quote-wrap {
+  margin: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 30%
+}
+#quote-slider div {
+  display:block;
+  font-weight:bold;
+  color:#14ADE5;
+  font-size:20px
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
