@@ -1,0 +1,18 @@
+---
+sys:
+  id: 1Y3Zea1ZAIuKEMym0OoAGA
+  created_at: !ruby/object:DateTime 2017-08-16 01:50:30.615000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 02:05:11.631000000 Z
+  content_type_id: author
+name: Amen Ra Mashariki
+title: Urban Analytics Lead
+bio_link: https://www.linkedin.com/in/amen-ra-mashariki-1452885
+organization: Esri
+photo:
+  sys:
+    id: 6F82u5xUTmAcCgAguScEo2
+    created_at: !ruby/object:DateTime 2017-08-16 02:04:58.951000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:04:58.951000000 Z
+  title: Amen Ra Mashariki
+  description: 
+  url: "//images.contentful.com/yn4kaxil22ax/6F82u5xUTmAcCgAguScEo2/1f7964d59ec2e5aec28da94845c8bfdd/Amen_Ra_Mashariki.png"

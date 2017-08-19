@@ -1,0 +1,9 @@
+---
+sys:
+  id: 6f1RRzOlDaEws6SM2weWy4
+  created_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
+  content_type_id: quote
+text: The shortage of data scientists is becoming a serious constraint in some sectors.
+author: DJ Patil, Former Chief Data Scientist of the United States
+link: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century

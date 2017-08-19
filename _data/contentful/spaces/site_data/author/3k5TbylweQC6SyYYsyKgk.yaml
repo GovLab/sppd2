@@ -1,0 +1,18 @@
+---
+sys:
+  id: 3k5TbylweQC6SyYYsyKgk
+  created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 02:07:21.920000000 Z
+  content_type_id: author
+name: Gideon Mann
+title: Head of Data Science
+bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
+organization: CTO Office at Bloomberg LP
+photo:
+  sys:
+    id: 3N6Div9CxqIcu8uQYUgu0M
+    created_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
+  title: Gideon Mann
+  description: 
+  url: "//images.contentful.com/yn4kaxil22ax/3N6Div9CxqIcu8uQYUgu0M/e5973fd90dbdc8eaf4dfa57cf06a57df/Gideon_Mann.png"

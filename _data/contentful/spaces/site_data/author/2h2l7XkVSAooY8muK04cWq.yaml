@@ -1,0 +1,18 @@
+---
+sys:
+  id: 2h2l7XkVSAooY8muK04cWq
+  created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 01:59:20.112000000 Z
+  content_type_id: author
+name: Julia Lane
+title: Professor
+bio_link: http://cusp.nyu.edu/people/julia-lane/
+organization: Center for Urban Science and Progress, NYU
+photo:
+  sys:
+    id: 2UVPvPjobu2Eq8q8o42c4Q
+    created_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
+  title: Julia Lane
+  description: 
+  url: "//images.contentful.com/yn4kaxil22ax/2UVPvPjobu2Eq8q8o42c4Q/3d8decacda7d43ddc56f7a5b3377031f/Julia_Lane.jpg"

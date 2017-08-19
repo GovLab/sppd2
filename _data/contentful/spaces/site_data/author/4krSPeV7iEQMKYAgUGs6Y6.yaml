@@ -1,0 +1,18 @@
+---
+sys:
+  id: 4krSPeV7iEQMKYAgUGs6Y6
+  created_at: !ruby/object:DateTime 2017-08-16 01:48:29.434000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 02:00:38.677000000 Z
+  content_type_id: author
+name: Daniel Goroff
+title: Distinguished Visiting Professor
+bio_link: https://www.linkedin.com/in/daniel-goroff-99883640/
+organization: Columbia University
+photo:
+  sys:
+    id: 23cu8T2eeQyKWqic8G8ue2
+    created_at: !ruby/object:DateTime 2017-08-16 02:00:33.379000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:00:33.379000000 Z
+  title: Daniel Goroff
+  description: 
+  url: "//images.contentful.com/yn4kaxil22ax/23cu8T2eeQyKWqic8G8ue2/d157639489d19e5a2ff76d0242626960/Daniel_Goroff.jpg"

@@ -1,0 +1,13 @@
+---
+sys:
+  id: 3cDnn0hMHmMOC2iqWGI4om
+  created_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
+  content_type_id: quote
+text: What sort of personality makes for an effective data scientist? Definitely curiosity….
+  __The biggest question in data science is 'Why?'__ Why is this happening? If you
+  notice that there's a pattern, ask, 'Why?' Is there something wrong with the data
+  or is this an actual pattern going on? Can we conclude anything from this pattern?
+  A natural curiosity will definitely give you a good foundation.
+author: Carla Gentry, Data Scientist at Talent Analytics
+link: https://www.linkedin.com/in/datanerd13/

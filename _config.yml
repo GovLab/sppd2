@@ -35,6 +35,7 @@ contentful:
       - site_data:
             space: ENV_CONTENTFUL_SPACE_ID
             access_token: ENV_CONTENTFUL_ACCESS_TOKEN
+            individual_entry_files: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

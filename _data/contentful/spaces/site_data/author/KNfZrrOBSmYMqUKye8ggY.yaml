@@ -1,0 +1,19 @@
+---
+sys:
+  id: KNfZrrOBSmYMqUKye8ggY
+  created_at: !ruby/object:DateTime 2017-08-16 01:51:38.364000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-16 02:05:38.430000000 Z
+  content_type_id: author
+name: Quentin Palfrey
+title: Executive Director
+bio_link: https://www.povertyactionlab.org/palfrey
+organization: Abdul Latif Jameel Poverty Action Lab, North America | MIT Department
+  of Economics
+photo:
+  sys:
+    id: 6q0xKx31WEGuAe0g64Aawm
+    created_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
+  title: Quentin Palfrey
+  description: 
+  url: "//images.contentful.com/yn4kaxil22ax/6q0xKx31WEGuAe0g64Aawm/b568a249819fc2843bba48a80daeb388/Quentin_Palfrey.jpg"
