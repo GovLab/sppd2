@@ -12,7 +12,7 @@ CONTENTFUL_ACCESS_TOKEN=${ENV_CONTENTFUL_ACCESS_TOKEN} CONTENTFUL_SPACE_ID=${ENV
 bundle exec jekyll build
 
 # Push newly built repository
-cp -r $CWD/_build/* /tmp/build # or $CWD/_site
+cp -r $CWD/_site/* /tmp/build
 
 cd /tmp/build
 
