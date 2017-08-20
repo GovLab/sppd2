@@ -1,10 +1,16 @@
-machine:
-  ruby:
-    version: 2.4.0
-dependencies:
-  pre:
-    - gem install bundler
-checkout:
-  post:
-    - bundle install
-    - bash ./bin/automated.sh
+# Ruby CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-ruby/ for more details
+#
+version: 2
+jobs:
+  build:
+    machine:
+      ruby:
+        version: 2.4.0
+
+    steps:
+      - checkout
+
+      - run: bundle install
+      - run: bash ./bin/automated.sh
