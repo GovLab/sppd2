@@ -15,5 +15,5 @@ jobs:
       - run: bundle install
       - add_ssh_keys:
           fingerprints:
-            - "0e:1d:2c:16:33:14:de:c4:2d:03:5d:5c:9f:cf:e3:77"
+            - "78:57:ff:c9:2b:89:1b:ff:fe:d0:26:13:c7:c7:27:ba"
       - run: bash ./bin/automated.sh
