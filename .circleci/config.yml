@@ -10,9 +10,10 @@ jobs:
 
     steps:
       - checkout
+
+      - run: gem install bundler
+      - run: bundle install
       - add-ssh-keys:
         fingerprints:
           - "0e:1d:2c:16:33:14:de:c4:2d:03:5d:5c:9f:cf:e3:77"
-      - run: gem install bundler
-      - run: bundle install
       - run: bash ./bin/automated.sh
