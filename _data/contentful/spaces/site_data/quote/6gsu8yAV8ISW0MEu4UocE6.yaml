@@ -1,0 +1,9 @@
+---
+sys:
+  id: 6gsu8yAV8ISW0MEu4UocE6
+  created_at: !ruby/object:DateTime 2017-08-20 14:50:41.133000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-20 14:50:41.133000000 Z
+  content_type_id: quote
+text: A third fake quote
+author: nobody
+link: https://www.example.com
