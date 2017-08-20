@@ -8,7 +8,7 @@ git clone git@github.com:jwrubel/ga-contentful.git build
 
 # Trigger Jekyll rebuild
 cd $CWD
-CONTENTFUL_ACCESS_TOKEN=${ENV_CONTENTFUL_ACCESS_TOKEN} CONTENTFUL_SPACE_ID=${ENV_CONTENTFUL_SPACE_ID} bundle exec jekyll contentful --rebuild
+CONTENTFUL_ACCESS_TOKEN=${ENV_CONTENTFUL_ACCESS_TOKEN} CONTENTFUL_SPACE_ID=${ENV_CONTENTFUL_SPACE_ID} bundle exec jekyll contentful
 bundle exec jekyll build
 
 # Push newly built repository
