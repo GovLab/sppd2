@@ -12,5 +12,6 @@ jobs:
     steps:
       - checkout
 
+      - run: gem install bundler
       - run: bundle install
       - run: bash ./bin/automated.sh
