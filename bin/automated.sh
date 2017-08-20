@@ -3,7 +3,7 @@ CWD=`pwd`
 
 # Clone Pages repository
 cd /tmp
-git clone master build
+git clone git@github.com:jwrubel/ga-contentful.git build
 # cd build && git checkout -b YOUR_BRANCH origin/YOUR_BRANCH # If not using master
 
 # Trigger Jekyll rebuild
