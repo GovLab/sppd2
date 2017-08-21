@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - checkout
-
+      - run: sleep 120
       - run: gem install bundler
       - run: bundle install
       - add_ssh_keys:
