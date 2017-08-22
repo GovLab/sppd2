@@ -2,24 +2,73 @@
    Plain CSS for the Devs
    ====================== */
 .hero {
-  height: 800px;
   background-image: url("../img/hero.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: 100%;
   text-align:center;
 }
-#quote-wrap {
-  margin: auto;
-  margin-left: 20%;
-  margin-right: 20%;
-  padding-top: 30%
+.right-aligned {
+  text-align: right;
 }
-#quote-slider div {
-  display:block;
-  font-weight:bold;
-  color:#14ADE5;
-  font-size:20px
+#title {
+  min-height: 50%;
+  padding-top: 12.5%
 }
+.purple {
+  color: #523080;
+  font-family: 'Montserrat', sans-serif;
+}
+#headline {
+  font-weight: 400;
+}
+#subhead {
+  font-weight: 300;
+  margin-top: -8px;
+}
+#tagline {
+  margin-top: 1.5rem;
+  font-weight: 300;
+}
+#cta-button {
+  background-color: #523080;
+  color: #EFEFEF;
+  top: 2rem;
+  -webkit-box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    0px 3px 3px rgba(50, 50, 50, 0.4);
+  box-shadow:         0px 3px 3px rgba(50, 50, 50, 0.4);
+}
+#quotes {
+  min-height: 50%;
+  max-width: 100%;
+  background: rgba(200, 200, 200, 0.5);
+}
+#quote-symbol {
+  font-size: 5rem;
+  padding-top: 4rem;
+  color: #523080;
+  font-family: 'Helvetica-bold';
+}
+#quote-slider {
+  overflow: hidden;
+}
+#quote-text {
+  font-size: 1rem;
+  font-weight: 200;
+}
+#link-wrap {
+  margin-top: 3%;
+  font-size: 0.5rem;
+}
+a#photo-credit:link,
+a#photo-credit:active,
+a#photo-credit:visited,
+a#photo-credit:hover  {
+  color: #EEE;
+  font-size: 0.1rem;
+  font-style: italic;
+}
+# styles for Swipe plugin
+# https://github.com/thebird/swipe/
 .swipe {
   overflow: hidden;
   visibility: hidden;
