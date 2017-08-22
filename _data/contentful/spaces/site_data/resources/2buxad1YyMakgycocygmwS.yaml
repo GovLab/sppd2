@@ -1,0 +1,14 @@
+---
+sys:
+  id: 2buxad1YyMakgycocygmwS
+  created_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
+  content_type_id: resources
+description: Utilize the [Methods Guides](http://egap.org/list-methods-guides) and
+  online experimental Tools written by [Evidence in Governance and Politics (EGAP)](http://egap.org/).
+  These guides provide both technical and non-technical discussions on challenges
+  commonly faced in causal inference, why randomization is important to experimental
+  design and causal attribution, but also cases when of non-experimental designs may
+  lead to causal insights. Example code, written in the R programming language, is
+  accessible here online, as well as example vignettes.
+resource_category: How-to

@@ -1,0 +1,81 @@
+---
+sys:
+  id: 4y8waJXitiMu8GkYKMCWsG
+  created_at: !ruby/object:DateTime 2017-08-22 22:15:50.883000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-22 22:15:50.883000000 Z
+  content_type_id: video
+title: 'Introduction to Evidence-Based Decision-Making: Examples in Economic Development'
+duration: 40
+description: 'If you invest in things that do not work rather than those that do,
+  real people’s lives may be affected in dramatic ways. However, how do you know what
+  works? Through real-world examples and contemporary debates (e.g., the expansion
+  of health insurance, or  crime and violence prevention), you will understand the
+  basic principles of evidence-based decision making, how this relates to “counterfactual”
+  reasoning, and frameworks for thinking about how to apply rigorous, scientifically-based
+  methods to solve problems in ways that are  both effective and cost-effective. '
+video_link: http://bit.ly/sppwd-quentindraft
+author:
+- sys:
+    id: KNfZrrOBSmYMqUKye8ggY
+    created_at: !ruby/object:DateTime 2017-08-16 01:51:38.364000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:05:38.430000000 Z
+    content_type_id: author
+  name: Quentin Palfrey
+  title: Executive Director
+  bio_link: https://www.povertyactionlab.org/palfrey
+  organization: Abdul Latif Jameel Poverty Action Lab, North America | MIT Department
+    of Economics
+  photo:
+    sys:
+      id: 6q0xKx31WEGuAe0g64Aawm
+      created_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
+    title: Quentin Palfrey
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/6q0xKx31WEGuAe0g64Aawm/b568a249819fc2843bba48a80daeb388/Quentin_Palfrey.jpg"
+resources:
+- sys:
+    id: 3CbskYE3XquE6KKmYkoQqC
+    created_at: !ruby/object:DateTime 2017-08-22 22:12:29.622000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:12:29.622000000 Z
+    content_type_id: resources
+  description: '"[Introduction to Evaluations](https://www.povertyactionlab.org/sites/default/files/resources/Introduction%20to%20Evaluations.Final_.pdf)"
+    by JPAL - an overarching summary of "impact evaluations", their history, how to
+    randomize effectively in experiments, why randomization is important, and common
+    concerns in study design'
+  resource_category: Read
+- sys:
+    id: 251rxqlKzCuGYqW6SM4s4w
+    created_at: !ruby/object:DateTime 2017-08-22 22:13:37.912000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:13:37.912000000 Z
+    content_type_id: resources
+  description: '"[Promoting Policies that work: Six steps for the Commission on Evidence-Based
+    Policymaking](http://thehill.com/blogs/congress-blog/the-administration/303781-promoting-policies-that-work-six-steps-for-the)"
+    by Quentin Palfrey -  a list of six concrete steps policymakers "can take to institutionalize
+    the use of administrative data to support policy-relevant research and evidence-informed
+    policymaking."'
+  resource_category: Read
+- sys:
+    id: 15dyabty9C6wqOOmAWssSG
+    created_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
+    content_type_id: resources
+  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
+    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
+    social experiments may help policymakers with poverty alleviation, and why experimental
+    designs provide compelling and unforeseen insights where other study approaches
+    may fail.
+  resource_category: Watch
+- sys:
+    id: 2buxad1YyMakgycocygmwS
+    created_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
+    content_type_id: resources
+  description: Utilize the [Methods Guides](http://egap.org/list-methods-guides) and
+    online experimental Tools written by [Evidence in Governance and Politics (EGAP)](http://egap.org/).
+    These guides provide both technical and non-technical discussions on challenges
+    commonly faced in causal inference, why randomization is important to experimental
+    design and causal attribution, but also cases when of non-experimental designs
+    may lead to causal insights. Example code, written in the R programming language,
+    is accessible here online, as well as example vignettes.
+  resource_category: How-to
