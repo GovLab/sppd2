@@ -18,6 +18,19 @@
   color: #523080;
   font-family: 'Montserrat', sans-serif;
 }
+.white {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.grey {
+  color: grey;
+}
+.bold {
+  font-weight: 400;
+}
+.section-subhead {
+  font-size: 0.8rem;
+}
 #headline {
   font-weight: 400;
 }
@@ -30,6 +43,7 @@
   font-weight: 300;
 }
 #cta-button {
+  position: relative;
   background-color: #523080;
   color: #EFEFEF;
   top: 2rem;
@@ -43,8 +57,9 @@
   background: rgba(200, 200, 200, 0.5);
 }
 #quote-symbol {
-  font-size: 5rem;
-  padding-top: 4rem;
+  font-size: 6rem;
+  margin-top: 2rem;
+  margin-bottom: -3rem;
   color: #523080;
   font-family: 'Helvetica-bold';
 }
@@ -66,9 +81,8 @@ a#photo-credit:hover  {
   color: #EEE;
   font-size: 0.1rem;
   font-style: italic;
+  margin-right: 2rem;
 }
-# styles for Swipe plugin
-# https://github.com/thebird/swipe/
 .swipe {
   overflow: hidden;
   visibility: hidden;
@@ -82,4 +96,43 @@ a#photo-credit:hover  {
   float:left;
   width:100%;
   position: relative;
+}
+.content-preview {
+  background: rgba(0, 0, 0, 0.8);
+  text-align:center;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.8);
+}
+.section-headline {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+}
+#preview-subhead {
+  font-family: 'Helvetica-bold';
+}
+#explainer-preview {
+  margin: 2rem;
+}
+.authors {
+  background: #523080;
+  text-align:center;
+}
+.author-list {
+  padding-top: 2rem;
+}
+.author-list div {
+  margin-bottom: 2rem;
+}
+.author {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 2.5rem;
+}
+.author-name {
+  padding-top: 1rem;
+}
+.caps {
+  font-variant: small-caps;
+}
+.tiny {
+  font-size: 0.4rem
 }
