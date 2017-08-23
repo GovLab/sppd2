@@ -57,7 +57,7 @@ layout: base
   </div>
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <img id="explainer-preview" src="/static/img/ben_wellington_preview.jpg" />
+      <img id="explainer-preview" src="{{ base }}/static/img/ben_wellington_preview.jpg" />
     </div>
   </div>
 </section>
@@ -102,7 +102,7 @@ layout: base
         {% for lecture in site.data.contentful.spaces.site_data.video %}
           <div class="column column-block">
             <a href="lectures{{ lecture.title | datapage_url: lectures }}">
-              <img class="lecture-preview" src="/static/img/ben_wellington_preview.jpg" />
+              <img class="lecture-preview" src="{{ base }}/static/img/ben_wellington_preview.jpg" />
               <div class="lecture-data">
                 <p class="tiny">{{lecture.title}}</p>
                 <p class="bold tiny">
