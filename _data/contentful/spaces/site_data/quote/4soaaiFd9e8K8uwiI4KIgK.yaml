@@ -1,9 +1,0 @@
----
-sys:
-  id: 4soaaiFd9e8K8uwiI4KIgK
-  created_at: !ruby/object:DateTime 2017-08-20 14:17:57.449000000 Z
-  updated_at: !ruby/object:DateTime 2017-08-21 16:16:16.009000000 Z
-  content_type_id: quote
-text: This is a test quote that is not real
-author: Marty McFly
-link: https://www.example.com

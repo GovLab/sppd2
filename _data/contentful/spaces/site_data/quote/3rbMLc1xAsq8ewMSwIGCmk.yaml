@@ -1,9 +1,0 @@
----
-sys:
-  id: 3rbMLc1xAsq8ewMSwIGCmk
-  created_at: !ruby/object:DateTime 2017-08-20 14:46:38.702000000 Z
-  updated_at: !ruby/object:DateTime 2017-08-20 14:46:38.702000000 Z
-  content_type_id: quote
-text: Here is yet another false quote, to test the automation
-author: Ghandi
-link: https://www.example.com

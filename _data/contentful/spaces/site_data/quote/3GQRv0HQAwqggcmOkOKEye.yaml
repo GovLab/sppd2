@@ -1,9 +1,0 @@
----
-sys:
-  id: 3GQRv0HQAwqggcmOkOKEye
-  created_at: !ruby/object:DateTime 2017-08-21 19:40:18.272000000 Z
-  updated_at: !ruby/object:DateTime 2017-08-21 19:40:18.272000000 Z
-  content_type_id: quote
-text: If this quote appears in the site, everything is working
-author: Bob Hope
-link: https://www.example.com

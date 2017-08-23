@@ -1,9 +1,0 @@
----
-sys:
-  id: 3QrKU9sksoY8kcIM2Y8U2K
-  created_at: !ruby/object:DateTime 2017-08-21 16:17:05.731000000 Z
-  updated_at: !ruby/object:DateTime 2017-08-21 16:17:05.731000000 Z
-  content_type_id: quote
-text: does it pick up a newly added quote
-author: none
-link: https://www.example.org

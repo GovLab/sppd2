@@ -1,9 +1,0 @@
----
-sys:
-  id: 4WwrYwFWJ2cac4EUYQgw6E
-  created_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
-  updated_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
-  content_type_id: quote
-text: We have tons of data; we are insight poor
-author: Tom Beach, Chief Data Strategist, USPTO
-link: https://www.data.gov/developers/tweet-from-usdatagov-887/
