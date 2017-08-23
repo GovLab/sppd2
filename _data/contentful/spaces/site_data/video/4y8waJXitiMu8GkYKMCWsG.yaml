@@ -2,12 +2,11 @@
 sys:
   id: 4y8waJXitiMu8GkYKMCWsG
   created_at: !ruby/object:DateTime 2017-08-22 22:15:50.883000000 Z
-  updated_at: !ruby/object:DateTime 2017-08-22 22:20:56.580000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-22 23:59:53.400000000 Z
   content_type_id: video
 title: 'Introduction to Evidence-Based Decision-Making: Examples in Economic Development'
 duration: 40
-objectives: |2+
-
+objectives: |+
   - Why randomization is important for obtaining causal evidence and impact evaluation.
   - Why causal claims implicitly make reference to a “counterfactual” outcome.
   - Practical advice for study design, as well as ideas for collaboration between organizations, researchers, and governments.
