@@ -28,8 +28,7 @@ layout: base
       <div class="row">
         <div id='quote-slider' class='swipe'>
           <div class='swipe-wrap'>
-            {% for quote_data in site.data.contentful.spaces.site_data.quote %}
-              {% assign quote = quote_data[1] %}
+            {% for quote in site.data.contentful.spaces.site_data.quote %}
               <div>
                 <div id="quote-wrap">
                   <span class="purple" id="quote-text">"{{quote.text}}"</span>
@@ -58,7 +57,7 @@ layout: base
   </div>
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <img id="explainer-preview" src="./static/img/ben_wellington_preview.jpg" />
+      <img id="explainer-preview" src="/static/img/ben_wellington_preview.jpg" />
     </div>
   </div>
 </section>
@@ -73,8 +72,7 @@ layout: base
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="author-list small-up-2 medium-up-3 large-up-5">
-        {% for author_data in site.data.contentful.spaces.site_data.author %}
-          {% assign author = author_data[1] %}
+        {% for author in site.data.contentful.spaces.site_data.author %}
           <div class="column column-block">
             <img class="author" src="{{author.photo.url}}">
             <p class="white bold tiny author-name">{{author.name | upcase}}</p>
@@ -101,18 +99,19 @@ layout: base
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="author-list small-up-2 medium-up-3 large-up-4">
-        {% for lecture_data in site.data.contentful.spaces.site_data.video %}
-          {% assign lecture = lecture_data[1] %}
+        {% for lecture in site.data.contentful.spaces.site_data.video %}
           <div class="column column-block">
-            <img class="lecture-preview" src="./static/img/ben_wellington_preview.jpg">
-            <div class="lecture-data">
-              <p class="tiny">{{lecture.title}}</p>
-              <p class="bold tiny">
-                {% for author in lecture.author %}
-                  {{ author.name}}
-                {% endfor %}
-              </p>
-            </div>
+            <a href="lectures{{ lecture.title | datapage_url: lectures }}">
+              <img class="lecture-preview" src="/static/img/ben_wellington_preview.jpg" />
+              <div class="lecture-data">
+                <p class="tiny">{{lecture.title}}</p>
+                <p class="bold tiny">
+                  {% for author in lecture.author %}
+                    {{ author.name}}
+                  {% endfor %}
+                </p>
+              </div>
+            </a>
           </div>
         {% endfor %}
       </div>

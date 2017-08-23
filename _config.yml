@@ -35,4 +35,9 @@ contentful:
       - site_data:
             space: ENV_CONTENTFUL_SPACE_ID
             access_token: ENV_CONTENTFUL_ACCESS_TOKEN
-            individual_entry_files: true
+
+page_gen:
+  - data: 'contentful.spaces.site_data.video'
+    template: 'lecture'
+    name: 'title'
+    dir: 'lectures'
