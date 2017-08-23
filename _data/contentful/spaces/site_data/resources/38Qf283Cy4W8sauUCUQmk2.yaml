@@ -1,0 +1,9 @@
+---
+sys:
+  id: 38Qf283Cy4W8sauUCUQmk2
+  created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+  updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+  content_type_id: resources
+description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
+  by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
+resource_category: Read
