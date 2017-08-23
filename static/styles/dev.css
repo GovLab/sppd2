@@ -1,11 +1,13 @@
 /* ======================
    Plain CSS for the Devs
    ====================== */
+section {
+  text-align:center;
+}
 .hero {
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: 100%;
-  text-align:center;
 }
 .right-aligned {
   text-align: right;
@@ -26,7 +28,7 @@
   color: grey;
 }
 .bold {
-  font-weight: 400;
+  font-weight: 700;
 }
 .section-subhead {
   font-size: 0.8rem;
@@ -98,13 +100,13 @@ a#photo-credit:hover  {
   position: relative;
 }
 .content-preview {
+  padding: 2rem;
   background: rgba(0, 0, 0, 0.8);
   text-align:center;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.8);
 }
 .section-headline {
   font-size: 0.8rem;
-  margin-top: 2rem;
 }
 #preview-subhead {
   font-family: 'Helvetica-bold';
@@ -114,13 +116,13 @@ a#photo-credit:hover  {
 }
 .authors {
   background: #523080;
-  text-align:center;
+  padding: 2rem;
 }
 .author-list {
   padding-top: 2rem;
 }
 .author-list div {
-  margin-bottom: 2rem;
+  padding-top: 1rem;
 }
 .author {
   height: 5rem;
@@ -135,4 +137,16 @@ a#photo-credit:hover  {
 }
 .tiny {
   font-size: 0.4rem
+}
+.lectures {
+  padding: 2rem;
+}
+.chooser-headline {
+  font-family: 'Helvetica';
+  font-size: 0.8rem;
+}
+.lecture-data {
+  text-align: left;
+  background-color: rgba(180, 180, 180, 1);
+  padding: 0.5rem;
 }
