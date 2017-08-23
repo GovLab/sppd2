@@ -16,4 +16,4 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "78:57:ff:c9:2b:89:1b:ff:fe:d0:26:13:c7:c7:27:ba"
-      - run: bash ./bin/automated.sh
+      - run: bash ./bin/deploy.sh
