@@ -21,6 +21,34 @@
     stopPropagation: false
   });
 </script>
+<script>
+  function getBackgroundColor($dom) {
+    var bgColor = "";
+    while ($dom[0].tagName.toLowerCase() != "html") {
+      bgColor = $dom.css("background-color");
+      if (bgColor != "rgba(0, 0, 0, 0)" && bgColor != "transparent") {
+        break;
+      }
+      $dom = $dom.parent();
+    }
+    return bgColor;
+  }
+  // embedded lecture videos play on a white background
+  // due to the html in the embedded iframe source
+  // this looks terrible with the current design
+  // this script finds the background of the parent
+  // section and sets the iframe source background to match
+  $("iframe[name=lecture]").load(function() {
+    var iframe = $(this)
+    var iframeBody = $(iframe).contents().find('body');
+    var bgColor = getBackgroundColor(iframe)
+    // this is because the default body color is
+    // rgba(0,0,0,0.03) so it ends up getting double-applied
+    var opaqueColor = bgColor.replace(/[^,]+(?=\))/, '0.0')
+    $(iframeBody).css('backgroundColor', opaqueColor);
+  });
+
+</script>
 <!-- Google Analytics -->
 <!--
 <script>
