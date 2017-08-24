@@ -1,40 +1,6 @@
 ---
 author:
 - sys:
-    id: 7dncesqupG6SokU0Ye2suG
-    created_at: !ruby/object:DateTime 2017-08-16 01:52:33.839000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 01:58:06.628000000 Z
-    content_type_id: author
-  name: Stefaan Verhulst
-  title: Co-Founder and Director of Research
-  bio_link: http://www.thegovlab.org/stefaan-verhulst.html
-  organization: The Governance Lab
-  photo:
-    sys:
-      id: 6n16G5LLtSo6ScMiEgqeAK
-      created_at: !ruby/object:DateTime 2017-08-16 01:57:59.243000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 01:57:59.243000000 Z
-    title: Stefaan Verhulst
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/6n16G5LLtSo6ScMiEgqeAK/b0e4711eb8dab5926ade672a81eb858c/Stefaan_Verhulst.jpg"
-- sys:
-    id: 1Y3Zea1ZAIuKEMym0OoAGA
-    created_at: !ruby/object:DateTime 2017-08-16 01:50:30.615000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:05:11.631000000 Z
-    content_type_id: author
-  name: Amen Ra Mashariki
-  title: Urban Analytics Lead
-  bio_link: https://www.linkedin.com/in/amen-ra-mashariki-1452885
-  organization: Esri
-  photo:
-    sys:
-      id: 6F82u5xUTmAcCgAguScEo2
-      created_at: !ruby/object:DateTime 2017-08-16 02:04:58.951000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:04:58.951000000 Z
-    title: Amen Ra Mashariki
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/6F82u5xUTmAcCgAguScEo2/1f7964d59ec2e5aec28da94845c8bfdd/Amen_Ra_Mashariki.png"
-- sys:
     id: 2Dx5hLd7KwgQCIGoegsgES
     created_at: !ruby/object:DateTime 2017-08-16 01:47:43.995000000 Z
     updated_at: !ruby/object:DateTime 2017-08-16 02:08:00.182000000 Z
@@ -52,108 +18,22 @@ author:
     description: 
     url: "//images.contentful.com/yn4kaxil22ax/6xkFpE8CdiyogkgwiC40cC/c5f27960cc2fdff9bc6c1bf3c4b06a73/Beth_Blauer.jpg"
 - sys:
-    id: 7JwuTgA2oomwYG60OoiYoc
-    created_at: !ruby/object:DateTime 2017-08-16 01:52:06.576000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:06:05.903000000 Z
+    id: 7dncesqupG6SokU0Ye2suG
+    created_at: !ruby/object:DateTime 2017-08-16 01:52:33.839000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 01:58:06.628000000 Z
     content_type_id: author
-  name: Arnaud Sahuguet
-  title: Director of the Foundry
-  bio_link: http://tech.cornell.edu/people/researchers
-  organization: Cornell Tech
-  photo:
-    sys:
-      id: 4C57GNMJi0U2SuoMugiEQI
-      created_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
-    title: Arnaud Sahuguet
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/4C57GNMJi0U2SuoMugiEQI/5e9be5a9c1c2a716a38e56f7544c8601/Arnaud_Sahuguet.jpg"
-- sys:
-    id: 5yMHeD6eKkGcCKi6Ag8IE
-    created_at: !ruby/object:DateTime 2017-08-16 01:51:07.680000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 01:59:57.086000000 Z
-    content_type_id: author
-  name: Beth Simone Noveck
-  title: Professor  and Director
-  bio_link: http://www.thegovlab.org/beth-noveck.html
+  name: Stefaan Verhulst
+  title: Co-Founder and Director of Research
+  bio_link: http://www.thegovlab.org/stefaan-verhulst.html
   organization: The Governance Lab
   photo:
     sys:
-      id: 1HMdZIKKaM4C0KCkqmMGiI
-      created_at: !ruby/object:DateTime 2017-08-16 01:59:48.643000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 01:59:48.643000000 Z
-    title: Beth Noveck
+      id: 6n16G5LLtSo6ScMiEgqeAK
+      created_at: !ruby/object:DateTime 2017-08-16 01:57:59.243000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 01:57:59.243000000 Z
+    title: Stefaan Verhulst
     description: 
-    url: "//images.contentful.com/yn4kaxil22ax/1HMdZIKKaM4C0KCkqmMGiI/0147debac02a191d1964ea5d93c20446/Beth_Noveck.png"
-- sys:
-    id: 3k5TbylweQC6SyYYsyKgk
-    created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:07:21.920000000 Z
-    content_type_id: author
-  name: Gideon Mann
-  title: Head of Data Science
-  bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
-  organization: CTO Office at Bloomberg LP
-  photo:
-    sys:
-      id: 3N6Div9CxqIcu8uQYUgu0M
-      created_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
-    title: Gideon Mann
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/3N6Div9CxqIcu8uQYUgu0M/e5973fd90dbdc8eaf4dfa57cf06a57df/Gideon_Mann.png"
-- sys:
-    id: 3IzMAygpAccqO6Giaia8i4
-    created_at: !ruby/object:DateTime 2017-08-16 01:53:21.827000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 01:58:13.427000000 Z
-    content_type_id: author
-  name: Ben Wellington
-  title: creator of I Quant NY and Visiting Assistant Professor
-  bio_link: http://iquantny.tumblr.com/about
-  organization: Pratt Institute in Brooklyn
-  photo:
-    sys:
-      id: 4EZbyO3KSsuUMu84aa84gs
-      created_at: !ruby/object:DateTime 2017-08-16 01:57:33.119000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 01:57:33.119000000 Z
-    title: Ben Wellington
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/4EZbyO3KSsuUMu84aa84gs/9f10fb1f4a049e6206fd269aa7ef5d9f/Ben_Wellington.jpg"
-- sys:
-    id: 4krSPeV7iEQMKYAgUGs6Y6
-    created_at: !ruby/object:DateTime 2017-08-16 01:48:29.434000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:00:38.677000000 Z
-    content_type_id: author
-  name: Daniel Goroff
-  title: Distinguished Visiting Professor
-  bio_link: https://www.linkedin.com/in/daniel-goroff-99883640/
-  organization: Columbia University
-  photo:
-    sys:
-      id: 23cu8T2eeQyKWqic8G8ue2
-      created_at: !ruby/object:DateTime 2017-08-16 02:00:33.379000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:00:33.379000000 Z
-    title: Daniel Goroff
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/23cu8T2eeQyKWqic8G8ue2/d157639489d19e5a2ff76d0242626960/Daniel_Goroff.jpg"
-- sys:
-    id: KNfZrrOBSmYMqUKye8ggY
-    created_at: !ruby/object:DateTime 2017-08-16 01:51:38.364000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:05:38.430000000 Z
-    content_type_id: author
-  name: Quentin Palfrey
-  title: Executive Director
-  bio_link: https://www.povertyactionlab.org/palfrey
-  organization: Abdul Latif Jameel Poverty Action Lab, North America | MIT Department
-    of Economics
-  photo:
-    sys:
-      id: 6q0xKx31WEGuAe0g64Aawm
-      created_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
-    title: Quentin Palfrey
-    description: 
-    url: "//images.contentful.com/yn4kaxil22ax/6q0xKx31WEGuAe0g64Aawm/b568a249819fc2843bba48a80daeb388/Quentin_Palfrey.jpg"
+    url: "//images.contentful.com/yn4kaxil22ax/6n16G5LLtSo6ScMiEgqeAK/b0e4711eb8dab5926ade672a81eb858c/Stefaan_Verhulst.jpg"
 - sys:
     id: 2h2l7XkVSAooY8muK04cWq
     created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
@@ -188,181 +68,134 @@ author:
     title: Carter Hewgley
     description: 
     url: "//images.contentful.com/yn4kaxil22ax/5m3vE584A822UgsiuWmg8s/783444f2673eb6308627a2eb701c59a7/Carter_Hewgley.jpg"
-quote:
 - sys:
-    id: jSfPVMq9TUGKOoEeA0ym6
-    created_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
-    content_type_id: quote
-  text: The world’s national, state and local governments don’t have the right digital
-    skills in the right quantities to meet the challenges of the coming century. This
-    is a Big Problem. 
-  author: Tom Steinberg, founder of mySociety.org
-  link: http://civichall.org/civicist/manifesto-for-public-technology/
+    id: KNfZrrOBSmYMqUKye8ggY
+    created_at: !ruby/object:DateTime 2017-08-16 01:51:38.364000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:05:38.430000000 Z
+    content_type_id: author
+  name: Quentin Palfrey
+  title: Executive Director
+  bio_link: https://www.povertyactionlab.org/palfrey
+  organization: Abdul Latif Jameel Poverty Action Lab, North America | MIT Department
+    of Economics
+  photo:
+    sys:
+      id: 6q0xKx31WEGuAe0g64Aawm
+      created_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:05:34.809000000 Z
+    title: Quentin Palfrey
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/6q0xKx31WEGuAe0g64Aawm/b568a249819fc2843bba48a80daeb388/Quentin_Palfrey.jpg"
 - sys:
-    id: 5XH9IcWU7esUgQQQWGeGK8
-    created_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
-    content_type_id: quote
-  text: Deep questions remain about the ability for many areas of government and civil
-    society to identify, cultivate and retain individuals with the necessary skills
-    for success in a world increasingly driven by information technology.
-  author: " NetGain"
-  link: https://www.macfound.org/media/files/A_Future_of_Failure_-_Public_.pdf
+    id: 4krSPeV7iEQMKYAgUGs6Y6
+    created_at: !ruby/object:DateTime 2017-08-16 01:48:29.434000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:00:38.677000000 Z
+    content_type_id: author
+  name: Daniel Goroff
+  title: Distinguished Visiting Professor
+  bio_link: https://www.linkedin.com/in/daniel-goroff-99883640/
+  organization: Columbia University
+  photo:
+    sys:
+      id: 23cu8T2eeQyKWqic8G8ue2
+      created_at: !ruby/object:DateTime 2017-08-16 02:00:33.379000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:00:33.379000000 Z
+    title: Daniel Goroff
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/23cu8T2eeQyKWqic8G8ue2/d157639489d19e5a2ff76d0242626960/Daniel_Goroff.jpg"
 - sys:
-    id: 6f1RRzOlDaEws6SM2weWy4
-    created_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
-    content_type_id: quote
-  text: The shortage of data scientists is becoming a serious constraint in some sectors.
-  author: DJ Patil, Former Chief Data Scientist of the United States
-  link: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
+    id: 3IzMAygpAccqO6Giaia8i4
+    created_at: !ruby/object:DateTime 2017-08-16 01:53:21.827000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 01:58:13.427000000 Z
+    content_type_id: author
+  name: Ben Wellington
+  title: creator of I Quant NY and Visiting Assistant Professor
+  bio_link: http://iquantny.tumblr.com/about
+  organization: Pratt Institute in Brooklyn
+  photo:
+    sys:
+      id: 4EZbyO3KSsuUMu84aa84gs
+      created_at: !ruby/object:DateTime 2017-08-16 01:57:33.119000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 01:57:33.119000000 Z
+    title: Ben Wellington
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/4EZbyO3KSsuUMu84aa84gs/9f10fb1f4a049e6206fd269aa7ef5d9f/Ben_Wellington.jpg"
 - sys:
-    id: 3QrKU9sksoY8kcIM2Y8U2K
-    created_at: !ruby/object:DateTime 2017-08-21 16:17:05.731000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-21 16:17:05.731000000 Z
-    content_type_id: quote
-  text: does it pick up a newly added quote
-  author: none
-  link: https://www.example.org
+    id: 5yMHeD6eKkGcCKi6Ag8IE
+    created_at: !ruby/object:DateTime 2017-08-16 01:51:07.680000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 01:59:57.086000000 Z
+    content_type_id: author
+  name: Beth Simone Noveck
+  title: Professor  and Director
+  bio_link: http://www.thegovlab.org/beth-noveck.html
+  organization: The Governance Lab
+  photo:
+    sys:
+      id: 1HMdZIKKaM4C0KCkqmMGiI
+      created_at: !ruby/object:DateTime 2017-08-16 01:59:48.643000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 01:59:48.643000000 Z
+    title: Beth Noveck
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/1HMdZIKKaM4C0KCkqmMGiI/0147debac02a191d1964ea5d93c20446/Beth_Noveck.png"
 - sys:
-    id: 5rBYpQMKA0oQiQC04y20wy
-    created_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
-    content_type_id: quote
-  text: There’s a digital revolution taking place both in and out of government in
-    favor of open-sourced data, innovation, and collaboration.
-  author: Kathleen Sebelius, Former United States Secretary of Health and Human Services
-  link: https://en.wikipedia.org/wiki/Kathleen_Sebelius
+    id: 7JwuTgA2oomwYG60OoiYoc
+    created_at: !ruby/object:DateTime 2017-08-16 01:52:06.576000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:06:05.903000000 Z
+    content_type_id: author
+  name: Arnaud Sahuguet
+  title: Director of the Foundry
+  bio_link: http://tech.cornell.edu/people/researchers
+  organization: Cornell Tech
+  photo:
+    sys:
+      id: 4C57GNMJi0U2SuoMugiEQI
+      created_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
+    title: Arnaud Sahuguet
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/4C57GNMJi0U2SuoMugiEQI/5e9be5a9c1c2a716a38e56f7544c8601/Arnaud_Sahuguet.jpg"
 - sys:
-    id: 4soaaiFd9e8K8uwiI4KIgK
-    created_at: !ruby/object:DateTime 2017-08-20 14:17:57.449000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-21 16:16:16.009000000 Z
-    content_type_id: quote
-  text: This is a test quote that is not real
-  author: Marty McFly
-  link: https://www.example.com
+    id: 3k5TbylweQC6SyYYsyKgk
+    created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:07:21.920000000 Z
+    content_type_id: author
+  name: Gideon Mann
+  title: Head of Data Science
+  bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
+  organization: CTO Office at Bloomberg LP
+  photo:
+    sys:
+      id: 3N6Div9CxqIcu8uQYUgu0M
+      created_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
+    title: Gideon Mann
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/3N6Div9CxqIcu8uQYUgu0M/e5973fd90dbdc8eaf4dfa57cf06a57df/Gideon_Mann.png"
 - sys:
-    id: 2WY44LtuvSGyEcKS2Eg0O
-    created_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
-    content_type_id: quote
-  text: Leaders in every sector will have to grapple with the implications of big
-    data, not just a few data-oriented managers.
-  author: MGI and McKinsey’s Business Technology Office
-  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
-- sys:
-    id: 4WwrYwFWJ2cac4EUYQgw6E
-    created_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
-    content_type_id: quote
-  text: We have tons of data; we are insight poor
-  author: Tom Beach, Chief Data Strategist, USPTO
-  link: https://www.data.gov/developers/tweet-from-usdatagov-887/
-- sys:
-    id: 3cDnn0hMHmMOC2iqWGI4om
-    created_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
-    content_type_id: quote
-  text: What sort of personality makes for an effective data scientist? Definitely
-    curiosity…. __The biggest question in data science is 'Why?'__ Why is this happening?
-    If you notice that there's a pattern, ask, 'Why?' Is there something wrong with
-    the data or is this an actual pattern going on? Can we conclude anything from
-    this pattern? A natural curiosity will definitely give you a good foundation.
-  author: Carla Gentry, Data Scientist at Talent Analytics
-  link: https://www.linkedin.com/in/datanerd13/
-- sys:
-    id: 3rbMLc1xAsq8ewMSwIGCmk
-    created_at: !ruby/object:DateTime 2017-08-20 14:46:38.702000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-20 14:46:38.702000000 Z
-    content_type_id: quote
-  text: Here is yet another false quote, to test the automation
-  author: Ghandi
-  link: https://www.example.com
-- sys:
-    id: 3GQRv0HQAwqggcmOkOKEye
-    created_at: !ruby/object:DateTime 2017-08-21 19:40:18.272000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-21 19:40:18.272000000 Z
-    content_type_id: quote
-  text: If this quote appears in the site, everything is working
-  author: Bob Hope
-  link: https://www.example.com
-- sys:
-    id: 2LEDVDCYzm6Qi6w62oWoOG
-    created_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
-    content_type_id: quote
-  text: By 2018, the United States alone could face a shortage of 140,000 to 190,000
-    people with deep analytical skills as well as 1.5 million managers and analysts
-    with the know-how to use the analysis of big data to make effective decisions.
-  author: MGI and McKinsey’s Business Technology Office
-  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
+    id: 1Y3Zea1ZAIuKEMym0OoAGA
+    created_at: !ruby/object:DateTime 2017-08-16 01:50:30.615000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:05:11.631000000 Z
+    content_type_id: author
+  name: Amen Ra Mashariki
+  title: Urban Analytics Lead
+  bio_link: https://www.linkedin.com/in/amen-ra-mashariki-1452885
+  organization: Esri
+  photo:
+    sys:
+      id: 6F82u5xUTmAcCgAguScEo2
+      created_at: !ruby/object:DateTime 2017-08-16 02:04:58.951000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:04:58.951000000 Z
+    title: Amen Ra Mashariki
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/6F82u5xUTmAcCgAguScEo2/1f7964d59ec2e5aec28da94845c8bfdd/Amen_Ra_Mashariki.png"
 resources:
 - sys:
-    id: 12xYmE8oYq4G4CkW24Wykq
-    created_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+    id: 38Qf283Cy4W8sauUCUQmk2
+    created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
     content_type_id: resources
-  description: 'For an in-depth training, check out the [Applied Data Analytics Training
-    Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
-    the first-of-its-kind program to give working professionals an opportunity to
-    develop the key computer science and data science skill sets necessary to harness
-    the wealth of newly-available data and to creatively address real civic problems. '
-  resource_category: How-to
-- sys:
-    id: 2buxad1YyMakgycocygmwS
-    created_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
-    content_type_id: resources
-  description: Utilize the [Methods Guides](http://egap.org/list-methods-guides) and
-    online experimental Tools written by [Evidence in Governance and Politics (EGAP)](http://egap.org/).
-    These guides provide both technical and non-technical discussions on challenges
-    commonly faced in causal inference, why randomization is important to experimental
-    design and causal attribution, but also cases when of non-experimental designs
-    may lead to causal insights. Example code, written in the R programming language,
-    is accessible here online, as well as example vignettes.
-  resource_category: How-to
-- sys:
-    id: 6s4MjqmvEksoYu4WAU0Io8
-    created_at: !ruby/object:DateTime 2017-08-23 00:02:15.552000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-23 00:02:15.552000000 Z
-    content_type_id: resources
-  description: Watch additional videos from "[JPAL's Global Executive Education Course](https://www.povertyactionlab.org/node/9933/)",
-    led by social scientists at Harvard, MIT, and JPAL, covering topics such as "sampling
-    and sample size," and assessing “cost effectiveness" in an evaluation.
-  resource_category: Watch
-- sys:
-    id: 6Vk4SxAbVmOU6aYkAUwyk2
-    created_at: !ruby/object:DateTime 2017-08-23 00:03:15.346000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-23 00:03:15.346000000 Z
-    content_type_id: resources
-  description: The [Behavioral Insights Team (BIT)](http://www.behaviouralinsights.co.uk/)
-    also offers its own [online course](http://courses.behavioralinsightsteam.com/courses/course-v1:BIT+LCE+2016-0/about)
-    for how to think through, design, and implement your own RCTs, and how to identify
-    questions that might be easily testable, and at low cost, in an experimental framework.
-    Check back regularly for updates to this course and its availability.
-  resource_category: How-to
-- sys:
-    id: 15dyabty9C6wqOOmAWssSG
-    created_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
-    content_type_id: resources
-  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
-    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
-    social experiments may help policymakers with poverty alleviation, and why experimental
-    designs provide compelling and unforeseen insights where other study approaches
-    may fail.
-  resource_category: Watch
-- sys:
-    id: 251rxqlKzCuGYqW6SM4s4w
-    created_at: !ruby/object:DateTime 2017-08-22 22:13:37.912000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-22 22:13:37.912000000 Z
-    content_type_id: resources
-  description: '"[Promoting Policies that work: Six steps for the Commission on Evidence-Based
-    Policymaking](http://thehill.com/blogs/congress-blog/the-administration/303781-promoting-policies-that-work-six-steps-for-the)"
-    by Quentin Palfrey -  a list of six concrete steps policymakers "can take to institutionalize
-    the use of administrative data to support policy-relevant research and evidence-informed
-    policymaking."'
+  description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
+    by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
   resource_category: Read
 - sys:
     id: 2tQMX4qmJKSsucMOakQ8Ig
@@ -385,14 +218,205 @@ resources:
     concerns in study design'
   resource_category: Read
 - sys:
-    id: 38Qf283Cy4W8sauUCUQmk2
-    created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+    id: 251rxqlKzCuGYqW6SM4s4w
+    created_at: !ruby/object:DateTime 2017-08-22 22:13:37.912000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:13:37.912000000 Z
     content_type_id: resources
-  description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
-    by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
+  description: '"[Promoting Policies that work: Six steps for the Commission on Evidence-Based
+    Policymaking](http://thehill.com/blogs/congress-blog/the-administration/303781-promoting-policies-that-work-six-steps-for-the)"
+    by Quentin Palfrey -  a list of six concrete steps policymakers "can take to institutionalize
+    the use of administrative data to support policy-relevant research and evidence-informed
+    policymaking."'
   resource_category: Read
+- sys:
+    id: 15dyabty9C6wqOOmAWssSG
+    created_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
+    content_type_id: resources
+  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
+    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
+    social experiments may help policymakers with poverty alleviation, and why experimental
+    designs provide compelling and unforeseen insights where other study approaches
+    may fail.
+  resource_category: Watch
+- sys:
+    id: 6Vk4SxAbVmOU6aYkAUwyk2
+    created_at: !ruby/object:DateTime 2017-08-23 00:03:15.346000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-23 00:03:15.346000000 Z
+    content_type_id: resources
+  description: The [Behavioral Insights Team (BIT)](http://www.behaviouralinsights.co.uk/)
+    also offers its own [online course](http://courses.behavioralinsightsteam.com/courses/course-v1:BIT+LCE+2016-0/about)
+    for how to think through, design, and implement your own RCTs, and how to identify
+    questions that might be easily testable, and at low cost, in an experimental framework.
+    Check back regularly for updates to this course and its availability.
+  resource_category: How-to
+- sys:
+    id: 6s4MjqmvEksoYu4WAU0Io8
+    created_at: !ruby/object:DateTime 2017-08-23 00:02:15.552000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-23 00:02:15.552000000 Z
+    content_type_id: resources
+  description: Watch additional videos from "[JPAL's Global Executive Education Course](https://www.povertyactionlab.org/node/9933/)",
+    led by social scientists at Harvard, MIT, and JPAL, covering topics such as "sampling
+    and sample size," and assessing “cost effectiveness" in an evaluation.
+  resource_category: Watch
+- sys:
+    id: 2buxad1YyMakgycocygmwS
+    created_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:15:29.067000000 Z
+    content_type_id: resources
+  description: Utilize the [Methods Guides](http://egap.org/list-methods-guides) and
+    online experimental Tools written by [Evidence in Governance and Politics (EGAP)](http://egap.org/).
+    These guides provide both technical and non-technical discussions on challenges
+    commonly faced in causal inference, why randomization is important to experimental
+    design and causal attribution, but also cases when of non-experimental designs
+    may lead to causal insights. Example code, written in the R programming language,
+    is accessible here online, as well as example vignettes.
+  resource_category: How-to
+- sys:
+    id: 12xYmE8oYq4G4CkW24Wykq
+    created_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+    content_type_id: resources
+  description: 'For an in-depth training, check out the [Applied Data Analytics Training
+    Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
+    the first-of-its-kind program to give working professionals an opportunity to
+    develop the key computer science and data science skill sets necessary to harness
+    the wealth of newly-available data and to creatively address real civic problems. '
+  resource_category: How-to
+quote:
+- sys:
+    id: 2LEDVDCYzm6Qi6w62oWoOG
+    created_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
+    content_type_id: quote
+  text: By 2018, the United States alone could face a shortage of 140,000 to 190,000
+    people with deep analytical skills as well as 1.5 million managers and analysts
+    with the know-how to use the analysis of big data to make effective decisions.
+  author: MGI and McKinsey’s Business Technology Office
+  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
+- sys:
+    id: 3cDnn0hMHmMOC2iqWGI4om
+    created_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
+    content_type_id: quote
+  text: What sort of personality makes for an effective data scientist? Definitely
+    curiosity…. __The biggest question in data science is 'Why?'__ Why is this happening?
+    If you notice that there's a pattern, ask, 'Why?' Is there something wrong with
+    the data or is this an actual pattern going on? Can we conclude anything from
+    this pattern? A natural curiosity will definitely give you a good foundation.
+  author: Carla Gentry, Data Scientist at Talent Analytics
+  link: https://www.linkedin.com/in/datanerd13/
+- sys:
+    id: 4WwrYwFWJ2cac4EUYQgw6E
+    created_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
+    content_type_id: quote
+  text: We have tons of data; we are insight poor
+  author: Tom Beach, Chief Data Strategist, USPTO
+  link: https://www.data.gov/developers/tweet-from-usdatagov-887/
+- sys:
+    id: 5rBYpQMKA0oQiQC04y20wy
+    created_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
+    content_type_id: quote
+  text: There’s a digital revolution taking place both in and out of government in
+    favor of open-sourced data, innovation, and collaboration.
+  author: Kathleen Sebelius, Former United States Secretary of Health and Human Services
+  link: https://en.wikipedia.org/wiki/Kathleen_Sebelius
+- sys:
+    id: 2WY44LtuvSGyEcKS2Eg0O
+    created_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
+    content_type_id: quote
+  text: Leaders in every sector will have to grapple with the implications of big
+    data, not just a few data-oriented managers.
+  author: MGI and McKinsey’s Business Technology Office
+  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
+- sys:
+    id: 5XH9IcWU7esUgQQQWGeGK8
+    created_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
+    content_type_id: quote
+  text: Deep questions remain about the ability for many areas of government and civil
+    society to identify, cultivate and retain individuals with the necessary skills
+    for success in a world increasingly driven by information technology.
+  author: " NetGain"
+  link: https://www.macfound.org/media/files/A_Future_of_Failure_-_Public_.pdf
+- sys:
+    id: 6f1RRzOlDaEws6SM2weWy4
+    created_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
+    content_type_id: quote
+  text: The shortage of data scientists is becoming a serious constraint in some sectors.
+  author: DJ Patil, Former Chief Data Scientist of the United States
+  link: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
+- sys:
+    id: jSfPVMq9TUGKOoEeA0ym6
+    created_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
+    content_type_id: quote
+  text: The world’s national, state and local governments don’t have the right digital
+    skills in the right quantities to meet the challenges of the coming century. This
+    is a Big Problem. 
+  author: Tom Steinberg, founder of mySociety.org
+  link: http://civichall.org/civicist/manifesto-for-public-technology/
 video:
+- sys:
+    id: 4yVEcdVsPCK6i0KccIoGQO
+    created_at: !ruby/object:DateTime 2017-08-23 00:08:08.743000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-23 00:08:08.743000000 Z
+    content_type_id: video
+  title: 'Data Analytical Thinking and Methods I: How To Define a Research Question
+    and Introduction to Statistical Approaches to Draw Inference'
+  duration: 42
+  description: 'During this session you will learn about quantitative data—including
+    so-called "big data"— and some of the statistical techniques researchers and policy
+    officials  use  to derive value from it. The lecture emphasizes  the broad structure
+    and necessary steps  needed in any data-related inquiry: define a research question,
+    formulate a testable hypothesis,  think about what data is available, what data
+    is missing, issues of measurement error, and other applied concerns, such as how
+    to  link datasets. At the end, we will discuss some of the statistical paradigms  that
+    can be used to draw inferences, as well as some of the key ideas when addressing
+    the privacy and confidentiality issues.'
+  video_link: http://bit.ly/sppwd-juliadraft
+  author:
+  - sys:
+      id: 2h2l7XkVSAooY8muK04cWq
+      created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 01:59:20.112000000 Z
+      content_type_id: author
+    name: Julia Lane
+    title: Professor
+    bio_link: http://cusp.nyu.edu/people/julia-lane/
+    organization: Center for Urban Science and Progress, NYU
+    photo:
+      sys:
+        id: 2UVPvPjobu2Eq8q8o42c4Q
+        created_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
+        updated_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
+      title: Julia Lane
+      description: 
+      url: "//images.contentful.com/yn4kaxil22ax/2UVPvPjobu2Eq8q8o42c4Q/3d8decacda7d43ddc56f7a5b3377031f/Julia_Lane.jpg"
+  resources:
+  - sys:
+      id: 38Qf283Cy4W8sauUCUQmk2
+      created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+      content_type_id: resources
+    description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
+      by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
+    resource_category: Read
+  - sys:
+      id: 12xYmE8oYq4G4CkW24Wykq
+      created_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+      content_type_id: resources
+    description: 'For an in-depth training, check out the [Applied Data Analytics
+      Training Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
+      the first-of-its-kind program to give working professionals an opportunity to
+      develop the key computer science and data science skill sets necessary to harness
+      the wealth of newly-available data and to creatively address real civic problems. '
+    resource_category: How-to
 - sys:
     id: 4y8waJXitiMu8GkYKMCWsG
     created_at: !ruby/object:DateTime 2017-08-22 22:15:50.883000000 Z
@@ -478,60 +502,4 @@ video:
       of non-experimental designs may lead to causal insights. Example code, written
       in the R programming language, is accessible here online, as well as example
       vignettes.
-    resource_category: How-to
-- sys:
-    id: 4yVEcdVsPCK6i0KccIoGQO
-    created_at: !ruby/object:DateTime 2017-08-23 00:08:08.743000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-23 00:08:08.743000000 Z
-    content_type_id: video
-  title: 'Data Analytical Thinking and Methods I: How To Define a Research Question
-    and Introduction to Statistical Approaches to Draw Inference'
-  duration: 42
-  description: 'During this session you will learn about quantitative data—including
-    so-called "big data"— and some of the statistical techniques researchers and policy
-    officials  use  to derive value from it. The lecture emphasizes  the broad structure
-    and necessary steps  needed in any data-related inquiry: define a research question,
-    formulate a testable hypothesis,  think about what data is available, what data
-    is missing, issues of measurement error, and other applied concerns, such as how
-    to  link datasets. At the end, we will discuss some of the statistical paradigms  that
-    can be used to draw inferences, as well as some of the key ideas when addressing
-    the privacy and confidentiality issues.'
-  video_link: http://bit.ly/sppwd-juliadraft
-  author:
-  - sys:
-      id: 2h2l7XkVSAooY8muK04cWq
-      created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 01:59:20.112000000 Z
-      content_type_id: author
-    name: Julia Lane
-    title: Professor
-    bio_link: http://cusp.nyu.edu/people/julia-lane/
-    organization: Center for Urban Science and Progress, NYU
-    photo:
-      sys:
-        id: 2UVPvPjobu2Eq8q8o42c4Q
-        created_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
-        updated_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
-      title: Julia Lane
-      description: 
-      url: "//images.contentful.com/yn4kaxil22ax/2UVPvPjobu2Eq8q8o42c4Q/3d8decacda7d43ddc56f7a5b3377031f/Julia_Lane.jpg"
-  resources:
-  - sys:
-      id: 38Qf283Cy4W8sauUCUQmk2
-      created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
-      content_type_id: resources
-    description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
-      by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
-    resource_category: Read
-  - sys:
-      id: 12xYmE8oYq4G4CkW24Wykq
-      created_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
-      content_type_id: resources
-    description: 'For an in-depth training, check out the [Applied Data Analytics
-      Training Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
-      the first-of-its-kind program to give working professionals an opportunity to
-      develop the key computer science and data science skill sets necessary to harness
-      the wealth of newly-available data and to creatively address real civic problems. '
     resource_category: How-to
