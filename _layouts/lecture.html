@@ -4,10 +4,65 @@
   {% include urlpath.html %}
   {% include head.html %}
   <body>
-    {% include header.html %}
+    {% include titlebar.html %}
+    <section class="dark-purple">
+      <div class="row">
+        <div class="small-10 large-10 large-centered small-centered columns">
+          <div class="row">
+            <div class="small-12 large-12 left-aligned columns">
+              <p class="white bold" id="program-title">Solving Public Problems with Data</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="course-metadata" class="purple padded">
+      <div class="row">
+        <div class="small-10 large-10 large-centered small-centered columns">
+          <div class="row">
+            <div class="small-8 large-8 left-aligned columns">
+              <h6 class="white bold">Lecture 1</h6>
+              <p class="white" id="course-title">{{ page.title }}</p>
+              <p class="small white bold">YOU WILL LEARN:</p>
+              <p class="tiny white">{{ page.objectives }}</p>
+            </div>
+            <div class="small-4 large-4 right-aligned columns">
+              <p class="small white bold">Track: DATA POLICY</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="course-content" class="padded">
+      <div class="row">
+        <div class="small-10 large-10 large-centered small-centered columns">
+          <div class="row">
+            <div class="small-12 large-12 left-aligned columns">
+              <!-- video embed -->
+              <iframe name="lecture" class="video-embed" width="100%" height="500" frameborder="0"  src="../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%201/story.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
+              <p class="small purple bold">DESCRIPTION</p>
+              <p class="tiny">
+                {{page.description}}
+              </p>
+              <p class="small purple bold">RESOURCES</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="noi-promo" class="blue padded">
+      <div class="row">
+        <div class="small-10 large-10 large-centered small-centered columns">
+          <span class="thin white">Still have questions? Need help with a project?</span>
+          <br />
+          <span class="white bold">Ask the Data Science community by joining Network of Innovators!</span>
+          <p><a class="button tiny" id="cta-button" href="#">ASK AN EXPERT</a></p>
+        </div>
+      </div>
+    </section>
+    <section id="learn-next" class="padded">
 
-    <h1>{{ page.title }}</h1>
-
+    </section>
     {% include footer.html %}
     {% include scripts.html %}
   </body>
