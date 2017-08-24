@@ -9,23 +9,36 @@ section {
   background-size: cover;
   background-position: 100%;
 }
+.left-aligned {
+  text-align: left;
+}
 .right-aligned {
   text-align: right;
+}
+.center-aligned {
+  text-align: center;
+}
+.small {
+  font-size: 0.7rem;
+}
+.tiny {
+  font-size: 0.4rem;
 }
 #title {
   min-height: 50%;
   padding-top: 12.5%
 }
-.purple {
+h1.purple, h2.purple, h3.purple, h4.purple, h5.purple, span.purple, p.purple {
   color: #523080;
-  font-family: 'Montserrat', sans-serif;
+}
+section.purple {
+  background-color: #523080;
 }
 .white {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+  color: rgba(255,255,255,1);
 }
 .grey {
-  color: grey;
+  color: rgba(255,255,255,0.7);
 }
 .bold {
   font-weight: 700;
@@ -69,21 +82,19 @@ section {
   overflow: hidden;
 }
 #quote-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 200;
 }
 #link-wrap {
   margin-top: 3%;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
-a#photo-credit:link,
-a#photo-credit:active,
-a#photo-credit:visited,
-a#photo-credit:hover  {
-  color: #EEE;
-  font-size: 0.1rem;
-  font-style: italic;
-  margin-right: 2rem;
+a.link:link,
+a.link:active,
+a.link:visited,
+a.link:hover {
+  text-decoration: none;
+  color: rgba(255,255,255,1);
 }
 .swipe {
   overflow: hidden;
@@ -99,23 +110,20 @@ a#photo-credit:hover  {
   width:100%;
   position: relative;
 }
-.content-preview {
-  padding: 2rem;
+.dark-background {
   background: rgba(0, 0, 0, 0.8);
-  text-align:center;
   border-bottom: 0.5px solid rgba(128, 128, 128, 0.8);
 }
 .section-headline {
   font-size: 0.8rem;
 }
 #preview-subhead {
-  font-family: 'Helvetica-bold';
+
 }
 #explainer-preview {
   margin: 2rem;
 }
-.authors {
-  background: #523080;
+.padded {
   padding: 2rem;
 }
 .author-list {
@@ -135,19 +143,49 @@ a#photo-credit:hover  {
 .caps {
   font-variant: small-caps;
 }
-.tiny {
-  font-size: 0.4rem
-}
 .lectures {
   padding: 2rem;
 }
 .chooser-headline {
-  font-family: 'Helvetica';
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+.lecture-block {
+  background-color: rgba(180, 180, 180, 1);
+  text-align: left;
+  min-height: 13rem;
+  margin: 1rem;
+  padding: 0;
+}
+.suggest-block {
+  background-color: #523080;
+  color: white;
+  min-height: 13rem;
+  margin: 1rem;
+  padding-top: 3rem;
 }
 .lecture-data {
-  text-align: left;
-  background-color: rgba(180, 180, 180, 1);
   padding: 0.5rem;
-  min-height: 7rem;
+}
+.suggest-cta {
+  font-size: 1.7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.form-element {
+  background-color: rgba(255,255,255,0.1);
+  height: 1.7rem;
+}
+.form-submit {
+  background-color: rgba(255,255,255,0.2);
+  height: 1.7rem;
+}
+.partner-logo {
+  max-height: 3rem;
+  opacity: 0.5;
+}
+.cc-attribution {
+  background-color: rgba(0,0,0,1)
+}
+.cc-badge {
+  margin-right: 1rem;
 }

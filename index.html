@@ -6,11 +6,11 @@ layout: base
 <section class="b-main-content hero">
   <div class="row" id="title">
     <div class="small-8 large-8 large-centered small-centered column">
-      <h4 class="purple">
+      <h4 class="purple bold">
         SOLVING PUBLIC PROBLEMS WITH DATA
       </h4>
       <h5 class="purple" id="subhead">
-        A new lecture series by the GovLab
+        A new lecture series by The GovLab
       </h5>
       <h5 class="purple" id="tagline">
         LEARN HOW TO USE DATA TO ACHIEVE YOUR PUBLIC MISSION
@@ -33,7 +33,7 @@ layout: base
                 <div id="quote-wrap">
                   <span class="purple" id="quote-text">"{{quote.text}}"</span>
                 </div>
-                <div id="link-wrap">
+                <div class="bold" id="link-wrap">
                   <a href="{{quote.link}}" target="_blank">
                     <span class="purple" id="quote-link">{{quote.author}}</span></a>
                 </div>
@@ -44,14 +44,14 @@ layout: base
       </div>
     </div>
     <div class="right-aligned row"> <!-- photo credit -->
-      <a id="photo-credit" href="https://unsplash.com/@delajed?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Jed Dela Cruz">Photo by Jed Dela Cruz on Unsplash</a>
+      <a class="tiny white link" href="https://unsplash.com/@delajed?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Jed Dela Cruz">Photo by Jed Dela Cruz on Unsplash</a>
     </div>
   </div>
 </section>
-<section class="content-preview">
+<section class="dark-background padded">
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <h4 class="white section-headline">TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.</h4>
+      <h4 class="white bold section-headline">TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.</h4>
       <span class="grey bold section-subhead" id="preview-subhead">Watch Data Scientist Ben Wellington explain why:</span>
     </div>
   </div>
@@ -61,10 +61,10 @@ layout: base
     </div>
   </div>
 </section>
-<section class="authors">
+<section class="purple padded">
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <h4 class="white section-headline">LEARN FROM LEADING DATA EXPERTS
+      <h4 class="white bold section-headline">LEARN FROM LEADING DATA EXPERTS
 </h4>
       <span class="white section-subhead" id="author-subhead">Gain access to a diverse know-how that goes beyond institutional boundaries</span>
     </div>
@@ -83,14 +83,14 @@ layout: base
     </div>
   </div>
 </section>
-<section class="content-preview">
+<section class="dark-background padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <span class="white">READY TO USE YOUR DATA TO ACHIEVE YOUR PUBLIC MISSION?</span>
     </div>
   </div>
 </section>
-<section class="lectures">
+<section class="lectures padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <span class="bold chooser-headline">CHOOSE A LECTURE</span><span class="chooser-headline"> or subscribe to our guided learning experience</span>
@@ -98,9 +98,9 @@ layout: base
   </div>
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <div class="author-list small-up-2 medium-up-3 large-up-4">
+      <div class="small-up-2 medium-up-3 large-up-4">
         {% for lecture in site.data.contentful.spaces.site_data.video %}
-          <div class="column column-block">
+          <div class="column column-block lecture-block">
             <a href="lectures{{ lecture.title | datapage_url: lectures }}">
               <img class="lecture-preview" src="{{ base }}/static/img/ben_wellington_preview.jpg" />
               <div class="lecture-data">
@@ -114,6 +114,32 @@ layout: base
             </a>
           </div>
         {% endfor %}
+        <div class="column column-block suggest-block">
+          <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
+          <p class="white suggest-cta">SUGGEST TOPIC</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="purple padded">
+  <div class="row">
+    <div class="small-10 large-10 large-centered small-centered columns">
+      <div class="row">
+        <div class="small-4 large-4 left-aligned columns">
+          <p class="white small bold">Not sure where to start?</p>
+          <p class="tiny white">Subscribe to our guided learning experience to receive our recommended weekly program!</p>
+        </div>
+        <div class="small-6 large-6 columns">
+          <form>
+            <div class="input-group">
+              <input class="small white input-group-field form-element" type="text" placeholder="Email">
+              <div class="input-group-button">
+                <input type="submit" class="tiny white bold button form-submit" value="SUBSCRIBE">
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
