@@ -9,7 +9,7 @@ layout: base
       <h4 class="purple bold">
         SOLVING PUBLIC PROBLEMS WITH DATA
       </h4>
-      <h5 class="purple" id="subhead">
+      <h5 class="purple">
         A new lecture series by The GovLab
       </h5>
       <h5 class="purple" id="tagline">
@@ -17,7 +17,7 @@ layout: base
       </h5>
     </div>
   </div>
-  <a class="button tiny" id="cta-button" href="#">START LEARNING</a>
+  <a class="button tiny raised cta-button" href="#">START LEARNING</a>
   <div class="row" id="quotes">
     <div class="small-8 large-8 small-centered large-centered columns">
       <div class="row"> <!-- giant " -->
@@ -31,7 +31,7 @@ layout: base
             {% for quote in site.data.contentful.spaces.site_data.quote %}
               <div>
                 <div id="quote-wrap">
-                  <span class="purple" id="quote-text">"{{quote.text}}"</span>
+                  <span class="purple markdownified" id="quote-text">"{{quote.text | markdownify}}"</span>
                 </div>
                 <div class="bold" id="link-wrap">
                   <a href="{{quote.link}}" target="_blank">

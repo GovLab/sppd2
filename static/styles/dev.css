@@ -67,20 +67,18 @@ section.blue {
 #headline {
   font-weight: 400;
 }
-#subhead {
-  font-weight: 300;
-  margin-top: -8px;
-}
 #tagline {
   margin-top: 1.5rem;
   font-weight: 300;
 }
-#cta-button {
+.cta-button {
   position: relative;
   background-color: #523080;
   color: #EFEFEF;
   top: 2rem;
   min-width: 8rem;
+}
+.raised {
   -webkit-box-shadow: 0px 3px 3px rgba(50, 50, 50, 0.4);
   -moz-box-shadow:    0px 3px 3px rgba(50, 50, 50, 0.4);
   box-shadow:         0px 3px 3px rgba(50, 50, 50, 0.4);
@@ -134,6 +132,9 @@ a.link:hover {
 }
 .section-headline {
   font-size: 0.8rem;
+}
+.subhead {
+  margin-top: 2rem;
 }
 #preview-subhead {
 
@@ -205,12 +206,62 @@ a.link:hover {
   height: 1.7rem;
 }
 .partner-logo {
-  max-height: 3rem;
+  max-height: 1.5rem;
   opacity: 0.5;
 }
 .cc-attribution {
-  background-color: rgba(0,0,0,1)
+  background-color: rgba(0,0,0,1);
 }
 .cc-badge {
   margin-right: 1rem;
+}
+#course-metadata {
+  padding-top: 2rem;
+}
+.resource-tabs {
+  top: 1rem;
+  background: transparent;
+  border: none;
+}
+a.resource-tab-button {
+  background-color: rgba(0,0,0,0.1);
+  min-width: 5rem;
+  color: rgba(0,0,0,0.3);
+  width: 5rem;
+  padding: 0.5rem;
+}
+  a.resource-tab-button[aria-selected=true] {
+    background: #523080;
+    color: white;
+  }
+.resource-content {
+  background: transparent;
+  border: 0;
+}
+.resource-panel {
+  padding-top: 0rem;
+
+}
+/* Markdownified data classifiers */
+#quote-text.markdownified p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #523080;
+  display: inline;
+}
+.markdownified p, .markdownified ul li {
+  font-size: 0.6rem;
+}
+#objectives ul {
+  margin-left: 0;
+}
+.markdownified ul li {
+  color: white;
+  margin-top: 0.2rem;
+}
+/* end */
+.resource-panel p a {
+  color: rgba(0,0,0,1);
+  font-weight: 700;
+  text-decoration: none;
 }

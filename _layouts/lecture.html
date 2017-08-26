@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+{% assign authors = page.author %}
+{% assign resources = page.resources %}
+{% assign categories = page.resources | map:'resource_category' | uniq %}
 <html class="no-js" lang="en">
   {% include urlpath.html %}
   {% include head.html %}
@@ -16,18 +18,26 @@
         </div>
       </div>
     </section>
-    <section id="course-metadata" class="purple padded">
+    <section id="course-metadata" class="purple">
       <div class="row">
         <div class="small-10 large-10 large-centered small-centered columns">
           <div class="row">
             <div class="small-8 large-8 left-aligned columns">
               <h6 class="white bold">Lecture 1</h6>
               <p class="white" id="course-title">{{ page.title }}</p>
-              <p class="small white bold">YOU WILL LEARN:</p>
-              <p class="tiny white">{{ page.objectives }}</p>
+              <p class="small white bold subhead">YOU WILL LEARN:</p>
+              <span class="tiny white markdownified" id="objectives">
+                {{ page.objectives | markdownify }}
+              </span>
             </div>
             <div class="small-4 large-4 right-aligned columns">
-              <p class="small white bold">Track: DATA POLICY</p>
+              <span class="tiny white">Taught by</span>
+              <ul>
+                {% for author in authors %}
+                  <li class="tiny white bold">{{ author.name}}</li>
+                {% endfor %}
+              </ul>
+              <span class="tiny white">{{ page.duration }} mins</span>
             </div>
           </div>
         </div>
@@ -39,12 +49,49 @@
           <div class="row">
             <div class="small-12 large-12 left-aligned columns">
               <!-- video embed -->
-              <iframe name="lecture" class="video-embed" width="100%" height="500" frameborder="0"  src="../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%201/story.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
-              <p class="small purple bold">DESCRIPTION</p>
-              <p class="tiny">
-                {{page.description}}
-              </p>
-              <p class="small purple bold">RESOURCES</p>
+              <iframe name="lecture" class="video-embed" width="100%" height="400" frameborder="0"  src="../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%201/story.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
+              <p class="small purple bold subhead">DESCRIPTION</p>
+              <span class="tiny markdownified">
+                {{ page.description | markdownify }}
+              </span>
+              <p class="small purple bold subhead">RESOURCES</p>
+              <div class="row collapse">
+                <div class="medium-2 columns">
+                  <ul class="vertical tabs resource-tabs" data-tabs id="resource-tabs">
+                    {% for category in categories %}
+                      <li
+                      class="tabs-title {%if forloop.first %}is-active{% endif %}">
+                        <a
+                        class="button tiny resource-tab-button markdownified"
+                        role="tab"
+                        aria-controls="{{ category | downcase }}"
+                        href="#{{  category | downcase }}"
+                        {%if forloop.first %}aria-selected="true"{% endif %}
+                        id="{{ category | downcase }}-label">
+                          {{  category | upcase }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                <div class="medium-10 columns">
+                  <div class="tabs-content resource-content" data-tabs-content="resource-tabs">
+                    {% for category in categories %}
+                      <div
+                      class="tabs-panel resource-panel markdownified {%if forloop.first %}is-active{% endif %}"
+                      role="tabpanel"
+                      aria-labelledby="{{ category | downcase}}-label"
+                      id="{{ category | downcase}}">
+                        {% for resource in resources %}
+                          {% if resource.resource_category == category %}
+                            {{ resource.description | markdownify }}
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -56,7 +103,7 @@
           <span class="thin white">Still have questions? Need help with a project?</span>
           <br />
           <span class="white bold">Ask the Data Science community by joining Network of Innovators!</span>
-          <p><a class="button tiny" id="cta-button" href="#">ASK AN EXPERT</a></p>
+          <p><a class="button tiny raised cta-button" href="#">ASK AN EXPERT</a></p>
         </div>
       </div>
     </section>
