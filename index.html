@@ -72,14 +72,16 @@ layout: base
   </div>
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <div class="author-list small-up-2 medium-up-3 large-up-5">
-        {% for author in site.data.contentful.spaces.site_data.author %}
-          <div class="column column-block">
-            <img class="author" src="{{author.photo.url}}">
-            <p class="white bold tiny author-name">{{author.name | upcase}}</p>
-            <p class="white tiny">{{author.title}}, {{author.organization}}</p>
-          </div>
-        {% endfor %}
+      <div class="row">
+        <div class="author-list small-up-2 medium-up-3 large-up-5 columns">
+          {% for author in site.data.contentful.spaces.site_data.author %}
+            <div class="column column-block">
+              <img class="author" src="{{author.photo.url}}">
+              <p class="white bold tiny author-name">{{author.name | upcase}}</p>
+              <p class="white tiny">{{author.title}}, {{author.organization}}</p>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
@@ -99,26 +101,32 @@ layout: base
   </div>
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <div class="small-up-2 medium-up-3 large-up-4">
+      <div class="row">
+        <div class="small-up-2 medium-up-4">
         {% for lecture in site.data.contentful.spaces.site_data.video %}
-          <div class="column column-block lecture-block">
-            <a href="lectures{{ lecture.title | datapage_url: lectures }}">
-              <img class="lecture-preview" src="{{ base }}/static/img/ben_wellington_preview.jpg" />
-              <div class="lecture-data">
-                <p class="tiny">{{lecture.title}}</p>
-                <p class="bold tiny">
-                  {% for author in lecture.author %}
-                    {{ author.name}}
-                  {% endfor %}
-                </p>
-              </div>
-            </a>
+          <div class="column column-block block-wrap">
+            <div class="lecture-block">
+              <a href="lectures{{ lecture.title | datapage_url: lectures }}">
+                <img class="lecture-preview" src="{{ base }}/static/img/ben_wellington_preview.jpg" />
+                <div class="lecture-data">
+                  <p class="tiny">{{lecture.title}}</p>
+                  <p class="bold tiny">
+                    {% for author in lecture.author %}
+                      {{ author.name}}
+                    {% endfor %}
+                  </p>
+                </div>
+              </a>
+            </div>
           </div>
         {% endfor %}
-        <div class="column column-block suggest-block">
-          <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
-          <p class="white suggest-cta">SUGGEST TOPIC</p>
+        <div class="column column-block block-wrap">
+          <div class="suggest-block">
+            <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
+            <p class="white suggest-cta">SUGGEST TOPIC</p>
+          </div>
         </div>
+      </div>
       </div>
     </div>
   </div>

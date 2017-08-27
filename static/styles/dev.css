@@ -168,19 +168,19 @@ a.link:hover {
 .chooser-headline {
   font-size: 1rem;
 }
+.block-wrap {
+  padding: 1rem;
+}
 .lecture-block {
   background-color: rgba(180, 180, 180, 1);
   text-align: left;
-  min-height: 13rem;
-  margin: 1rem;
-  padding: 0;
+  min-height: 12rem;
 }
 .suggest-block {
   background-color: #523080;
   color: white;
-  min-height: 13rem;
-  margin: 1rem;
-  padding-top: 3rem;
+  min-height: 12rem;
+  padding-top: 25%
 }
 .lecture-data {
   padding: 0.5rem;
