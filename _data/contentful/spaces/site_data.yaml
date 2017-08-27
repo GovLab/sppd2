@@ -210,6 +210,17 @@ resources:
     and sample size," and assessing “cost effectiveness" in an evaluation.
   resource_category: Watch
 - sys:
+    id: 15dyabty9C6wqOOmAWssSG
+    created_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
+    content_type_id: resources
+  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
+    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
+    social experiments may help policymakers with poverty alleviation, and why experimental
+    designs provide compelling and unforeseen insights where other study approaches
+    may fail.
+  resource_category: Watch
+- sys:
     id: 345V2SBv2MYmQQawQi2GM8
     created_at: !ruby/object:DateTime 2017-08-27 14:02:51.223000000 Z
     updated_at: !ruby/object:DateTime 2017-08-27 14:02:51.223000000 Z
@@ -253,17 +264,6 @@ resources:
     develop the key computer science and data science skill sets necessary to harness
     the wealth of newly-available data and to creatively address real civic problems. '
   resource_category: How-to
-- sys:
-    id: 15dyabty9C6wqOOmAWssSG
-    created_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-22 22:14:35.022000000 Z
-    content_type_id: resources
-  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
-    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
-    social experiments may help policymakers with poverty alleviation, and why experimental
-    designs provide compelling and unforeseen insights where other study approaches
-    may fail.
-  resource_category: Watch
 - sys:
     id: 4f3KJKWrm8Oe0uMQ0yy2MW
     created_at: !ruby/object:DateTime 2017-08-27 13:59:11.252000000 Z
@@ -319,232 +319,75 @@ resources:
     the use of administrative data to support policy-relevant research and evidence-informed
     policymaking."'
   resource_category: Read
-quote:
-- sys:
-    id: 3cDnn0hMHmMOC2iqWGI4om
-    created_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
-    content_type_id: quote
-  text: What sort of personality makes for an effective data scientist? Definitely
-    curiosity…. __The biggest question in data science is 'Why?'__ Why is this happening?
-    If you notice that there's a pattern, ask, 'Why?' Is there something wrong with
-    the data or is this an actual pattern going on? Can we conclude anything from
-    this pattern? A natural curiosity will definitely give you a good foundation.
-  author: Carla Gentry, Data Scientist at Talent Analytics
-  link: https://www.linkedin.com/in/datanerd13/
-- sys:
-    id: 4WwrYwFWJ2cac4EUYQgw6E
-    created_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
-    content_type_id: quote
-  text: We have tons of data; we are insight poor
-  author: Tom Beach, Chief Data Strategist, USPTO
-  link: https://www.data.gov/developers/tweet-from-usdatagov-887/
-- sys:
-    id: 2WY44LtuvSGyEcKS2Eg0O
-    created_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
-    content_type_id: quote
-  text: Leaders in every sector will have to grapple with the implications of big
-    data, not just a few data-oriented managers.
-  author: MGI and McKinsey’s Business Technology Office
-  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
-- sys:
-    id: 5rBYpQMKA0oQiQC04y20wy
-    created_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
-    content_type_id: quote
-  text: There’s a digital revolution taking place both in and out of government in
-    favor of open-sourced data, innovation, and collaboration.
-  author: Kathleen Sebelius, Former United States Secretary of Health and Human Services
-  link: https://en.wikipedia.org/wiki/Kathleen_Sebelius
-- sys:
-    id: 6f1RRzOlDaEws6SM2weWy4
-    created_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
-    content_type_id: quote
-  text: The shortage of data scientists is becoming a serious constraint in some sectors.
-  author: DJ Patil, Former Chief Data Scientist of the United States
-  link: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
-- sys:
-    id: 5XH9IcWU7esUgQQQWGeGK8
-    created_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
-    content_type_id: quote
-  text: Deep questions remain about the ability for many areas of government and civil
-    society to identify, cultivate and retain individuals with the necessary skills
-    for success in a world increasingly driven by information technology.
-  author: " NetGain"
-  link: https://www.macfound.org/media/files/A_Future_of_Failure_-_Public_.pdf
-- sys:
-    id: jSfPVMq9TUGKOoEeA0ym6
-    created_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
-    content_type_id: quote
-  text: The world’s national, state and local governments don’t have the right digital
-    skills in the right quantities to meet the challenges of the coming century. This
-    is a Big Problem. 
-  author: Tom Steinberg, founder of mySociety.org
-  link: http://civichall.org/civicist/manifesto-for-public-technology/
-- sys:
-    id: 2LEDVDCYzm6Qi6w62oWoOG
-    created_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
-    content_type_id: quote
-  text: By 2018, the United States alone could face a shortage of 140,000 to 190,000
-    people with deep analytical skills as well as 1.5 million managers and analysts
-    with the know-how to use the analysis of big data to make effective decisions.
-  author: MGI and McKinsey’s Business Technology Office
-  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
 video:
 - sys:
-    id: 74loammNRmUceImcekkaw8
-    created_at: !ruby/object:DateTime 2017-08-27 13:57:40.128000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-27 14:10:25.558000000 Z
+    id: 4yVEcdVsPCK6i0KccIoGQO
+    created_at: !ruby/object:DateTime 2017-08-23 00:08:08.743000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-27 20:05:34.699000000 Z
     content_type_id: video
-  title: Machine Learning Applications for the Public Sector
-  duration: 25
-  description: Oftentimes a business or organization may wish to do the same task
-    over and over again, and there is a lot of data at its disposal. In such settings,
-    machine learning algorithms may be a useful way forward to help solve many problems
-    that would be too burdensome for humans to do each time by hand. The lecture discusses
-    differences between prediction systems and recommendation tasks, supplemented
-    by examples from industry that include e-commerce applications, language modeling,
-    and image analysis. The lecture discusses challenges machine learning algorithms
-    face when the underlying data collected are "biased" or not representative of
-    your target population or problem.
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%202.2/story.html"
+  title: 'Data Analytical Thinking and Methods I: How To Define a Research Question
+    and Introduction to Statistical Approaches to Draw Inference'
+  duration: 42
+  description: 'During this session you will learn about quantitative data—including
+    so-called "big data"— and some of the statistical techniques researchers and policy
+    officials  use  to derive value from it. The lecture emphasizes  the broad structure
+    and necessary steps  needed in any data-related inquiry: define a research question,
+    formulate a testable hypothesis,  think about what data is available, what data
+    is missing, issues of measurement error, and other applied concerns, such as how
+    to  link datasets. At the end, we will discuss some of the statistical paradigms  that
+    can be used to draw inferences, as well as some of the key ideas when addressing
+    the privacy and confidentiality issues.'
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%202.1/story_html5.html"
+  poster:
+    sys:
+      id: 7epDXq1FfyYakcoEiOE0qK
+      created_at: !ruby/object:DateTime 2017-08-27 19:40:41.914000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 19:40:41.914000000 Z
+    title: julia poster
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/7epDXq1FfyYakcoEiOE0qK/a549d3863a2500c331d39153320103ca/julia_crop.jpg"
   author:
   - sys:
-      id: 3k5TbylweQC6SyYYsyKgk
-      created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:07:21.920000000 Z
+      id: 2h2l7XkVSAooY8muK04cWq
+      created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 01:59:20.112000000 Z
       content_type_id: author
-    name: Gideon Mann
-    title: Head of Data Science
-    bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
-    organization: CTO Office at Bloomberg LP
+    name: Julia Lane
+    title: Professor
+    bio_link: http://cusp.nyu.edu/people/julia-lane/
+    organization: Center for Urban Science and Progress, NYU
     photo:
       sys:
-        id: 3N6Div9CxqIcu8uQYUgu0M
-        created_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
-        updated_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
-      title: Gideon Mann
+        id: 2UVPvPjobu2Eq8q8o42c4Q
+        created_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
+        updated_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
+      title: Julia Lane
       description: 
-      url: "//images.contentful.com/yn4kaxil22ax/3N6Div9CxqIcu8uQYUgu0M/e5973fd90dbdc8eaf4dfa57cf06a57df/Gideon_Mann.png"
-- sys:
-    id: iUczSQwyxqeq8s8K22SGm
-    created_at: !ruby/object:DateTime 2017-08-27 14:00:49.796000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-27 14:10:13.183000000 Z
-    content_type_id: video
-  title: 'Discovering and Collecting Data: Practical Advice for Government Managers'
-  duration: 12
-  objectives: "- How to discover and collect relevant data from inside and outside
-    of your organization \n- The key questions you need ask yourself to assess the
-    value of the data you want to use\n- The skills you need to use data to achieve
-    your public mission"
-  description: 'This session will focus on strategies for identifying, finding and
-    getting data: where to locate information; when and how you can collect your own
-    data internally and externally (e.g. through FOIA requests or crowdsourcing) as
-    well as techniques to verify and validate your data sources. We also discuss questions
-    of data quality and how to identify what skills you need to have access to in
-    order to make use of the data you need.'
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%203/story.html"
-  author:
-  - sys:
-      id: 1KKFp74s80suW02su824SE
-      created_at: !ruby/object:DateTime 2017-08-16 01:49:01.102000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:06:35.887000000 Z
-      content_type_id: author
-    name: Carter Hewgley
-    title: Director of Analytics and Performance
-    bio_link: https://govex.jhu.edu/person/carter-hewgley/
-    organization: Center for Government Excellent, Johns Hopkins
-    photo:
-      sys:
-        id: 5m3vE584A822UgsiuWmg8s
-        created_at: !ruby/object:DateTime 2017-08-16 02:06:32.347000000 Z
-        updated_at: !ruby/object:DateTime 2017-08-16 02:06:32.347000000 Z
-      title: Carter Hewgley
-      description: 
-      url: "//images.contentful.com/yn4kaxil22ax/5m3vE584A822UgsiuWmg8s/783444f2673eb6308627a2eb701c59a7/Carter_Hewgley.jpg"
+      url: "//images.contentful.com/yn4kaxil22ax/2UVPvPjobu2Eq8q8o42c4Q/3d8decacda7d43ddc56f7a5b3377031f/Julia_Lane.jpg"
   resources:
   - sys:
-      id: 4f3KJKWrm8Oe0uMQ0yy2MW
-      created_at: !ruby/object:DateTime 2017-08-27 13:59:11.252000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-27 13:59:11.252000000 Z
+      id: 38Qf283Cy4W8sauUCUQmk2
+      created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
       content_type_id: resources
-    description: "[Data for Development: The Case for Information, Not Just Data](http://thegovlab.org/data-for-development-the-case-for-information-not-just-data/)
-      by Daniela Ligiero"
+    description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
+      by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
     resource_category: Read
   - sys:
-      id: 5Ch3rJQhpemAy0O8g0kSQc
-      created_at: !ruby/object:DateTime 2017-08-27 14:00:05.114000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-27 14:00:05.114000000 Z
+      id: 12xYmE8oYq4G4CkW24Wykq
+      created_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
       content_type_id: resources
-    description: "[Innovations in Federal Statistics: Combining Data Sources While
-      Protecting Privacy](https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy)
-      by the National Academies of Sciences's Panel on Improving Federal Statistics
-      for Policy and Social Science - a report that examines the opportunities and
-      risks of using government administrative and private sector data sources to
-      foster a paradigm shift in federal statistical programs that would combine diverse
-      data sources in a secure manner to enhance federal statistics."
-    resource_category: Read
-  - sys:
-      id: 6vbGOPedNuqCOAU244Q626
-      created_at: !ruby/object:DateTime 2017-08-27 14:00:38.539000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-27 14:00:38.539000000 Z
-      content_type_id: resources
-    description: "[Helping Smart Cities Harness Big Data](https://www.citylab.com/life/2016/09/how-mapbox-will-help-smart-cites-tackle-urban-challenges/502241/)
-      by Linda Pool"
-    resource_category: Read
-- sys:
-    id: 4nXYRlqFUcUaqemkUKoEic
-    created_at: !ruby/object:DateTime 2017-08-27 14:03:07.644000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-27 14:10:00.928000000 Z
-    content_type_id: video
-  title: Platforms and Where to Store the Data?
-  duration: 20
-  objectives: |-
-    - Why you should care about data
-    - Practical advice on tools that can help you collect/create data
-    - How to represent, store and manipulate data
-    - How to visualize and publish the data
-  description: In this session, we discuss the state of the art in technologies for
-    collecting, storing, analyzing and visualizing data. In particular, we focus on
-    four hypothetical applications for each topic in order that you understand what’s
-    possible and what options are available for you to be able to perform each activity.
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%205/story.html"
-  author:
-  - sys:
-      id: 7JwuTgA2oomwYG60OoiYoc
-      created_at: !ruby/object:DateTime 2017-08-16 01:52:06.576000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 02:06:05.903000000 Z
-      content_type_id: author
-    name: Arnaud Sahuguet
-    title: Director of the Foundry
-    bio_link: http://tech.cornell.edu/people/researchers
-    organization: Cornell Tech
-    photo:
-      sys:
-        id: 4C57GNMJi0U2SuoMugiEQI
-        created_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
-        updated_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
-      title: Arnaud Sahuguet
-      description: 
-      url: "//images.contentful.com/yn4kaxil22ax/4C57GNMJi0U2SuoMugiEQI/5e9be5a9c1c2a716a38e56f7544c8601/Arnaud_Sahuguet.jpg"
-  resources:
-  - sys:
-      id: 345V2SBv2MYmQQawQi2GM8
-      created_at: !ruby/object:DateTime 2017-08-27 14:02:51.223000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-27 14:02:51.223000000 Z
-      content_type_id: resources
-    description: "[Open Data Resource Kit](https://docs.google.com/document/d/16tDVNb8VPAZlcm1ObRtsHxPSesN3YYUOwALtZRro6io/edit?usp=sharing)"
-    resource_category: Read
+    description: 'For an in-depth training, check out the [Applied Data Analytics
+      Training Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
+      the first-of-its-kind program to give working professionals an opportunity to
+      develop the key computer science and data science skill sets necessary to harness
+      the wealth of newly-available data and to creatively address real civic problems. '
+    resource_category: How-to
 - sys:
     id: 4y8waJXitiMu8GkYKMCWsG
     created_at: !ruby/object:DateTime 2017-08-22 22:15:50.883000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-27 14:10:51.918000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-27 20:05:47.271000000 Z
     content_type_id: video
   title: 'Introduction to Evidence-Based Decision-Making: Examples in Economic Development'
   duration: 40
@@ -560,7 +403,15 @@ video:
     basic principles of evidence-based decision making, how this relates to "counterfactual"
     reasoning, and frameworks for thinking about how to apply rigorous, scientifically-based
     methods to solve problems in ways that are  both effective and cost-effective. '
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%201/story.html"
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%201/story_html5.html"
+  poster:
+    sys:
+      id: 6IfVsrDJDOwymwwi6ua6cE
+      created_at: !ruby/object:DateTime 2017-08-27 19:39:56.747000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 19:39:56.747000000 Z
+    title: Quentin Poster
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/6IfVsrDJDOwymwwi6ua6cE/3753a59364ff7e98399b869a895b57e4/quentin_crop.jpg"
   author:
   - sys:
       id: KNfZrrOBSmYMqUKye8ggY
@@ -638,58 +489,247 @@ video:
       participation in a social program.'
     resource_category: Read
 - sys:
-    id: 4yVEcdVsPCK6i0KccIoGQO
-    created_at: !ruby/object:DateTime 2017-08-23 00:08:08.743000000 Z
-    updated_at: !ruby/object:DateTime 2017-08-27 14:10:38.226000000 Z
+    id: 4nXYRlqFUcUaqemkUKoEic
+    created_at: !ruby/object:DateTime 2017-08-27 14:03:07.644000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-27 20:05:07.903000000 Z
     content_type_id: video
-  title: 'Data Analytical Thinking and Methods I: How To Define a Research Question
-    and Introduction to Statistical Approaches to Draw Inference'
-  duration: 42
-  description: 'During this session you will learn about quantitative data—including
-    so-called "big data"— and some of the statistical techniques researchers and policy
-    officials  use  to derive value from it. The lecture emphasizes  the broad structure
-    and necessary steps  needed in any data-related inquiry: define a research question,
-    formulate a testable hypothesis,  think about what data is available, what data
-    is missing, issues of measurement error, and other applied concerns, such as how
-    to  link datasets. At the end, we will discuss some of the statistical paradigms  that
-    can be used to draw inferences, as well as some of the key ideas when addressing
-    the privacy and confidentiality issues.'
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%202.1/story.html"
+  title: Platforms and Where to Store the Data?
+  duration: 20
+  objectives: |-
+    - Why you should care about data
+    - Practical advice on tools that can help you collect/create data
+    - How to represent, store and manipulate data
+    - How to visualize and publish the data
+  description: In this session, we discuss the state of the art in technologies for
+    collecting, storing, analyzing and visualizing data. In particular, we focus on
+    four hypothetical applications for each topic in order that you understand what’s
+    possible and what options are available for you to be able to perform each activity.
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%205/story_html5.html"
+  poster:
+    sys:
+      id: 7mbyi9xMBigGCO2mWAGoi
+      created_at: !ruby/object:DateTime 2017-08-27 19:42:29.392000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 19:42:29.392000000 Z
+    title: arnaud poster
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/7mbyi9xMBigGCO2mWAGoi/9b136939e040a259e070420151442d8a/arnaud_crop.jpg"
   author:
   - sys:
-      id: 2h2l7XkVSAooY8muK04cWq
-      created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-16 01:59:20.112000000 Z
+      id: 7JwuTgA2oomwYG60OoiYoc
+      created_at: !ruby/object:DateTime 2017-08-16 01:52:06.576000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:06:05.903000000 Z
       content_type_id: author
-    name: Julia Lane
-    title: Professor
-    bio_link: http://cusp.nyu.edu/people/julia-lane/
-    organization: Center for Urban Science and Progress, NYU
+    name: Arnaud Sahuguet
+    title: Director of the Foundry
+    bio_link: http://tech.cornell.edu/people/researchers
+    organization: Cornell Tech
     photo:
       sys:
-        id: 2UVPvPjobu2Eq8q8o42c4Q
-        created_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
-        updated_at: !ruby/object:DateTime 2017-08-16 01:58:57.330000000 Z
-      title: Julia Lane
+        id: 4C57GNMJi0U2SuoMugiEQI
+        created_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
+        updated_at: !ruby/object:DateTime 2017-08-16 02:06:01.318000000 Z
+      title: Arnaud Sahuguet
       description: 
-      url: "//images.contentful.com/yn4kaxil22ax/2UVPvPjobu2Eq8q8o42c4Q/3d8decacda7d43ddc56f7a5b3377031f/Julia_Lane.jpg"
+      url: "//images.contentful.com/yn4kaxil22ax/4C57GNMJi0U2SuoMugiEQI/5e9be5a9c1c2a716a38e56f7544c8601/Arnaud_Sahuguet.jpg"
   resources:
   - sys:
-      id: 38Qf283Cy4W8sauUCUQmk2
-      created_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-23 00:06:56.396000000 Z
+      id: 345V2SBv2MYmQQawQi2GM8
+      created_at: !ruby/object:DateTime 2017-08-27 14:02:51.223000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 14:02:51.223000000 Z
       content_type_id: resources
-    description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
-      by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
+    description: "[Open Data Resource Kit](https://docs.google.com/document/d/16tDVNb8VPAZlcm1ObRtsHxPSesN3YYUOwALtZRro6io/edit?usp=sharing)"
+    resource_category: Read
+- sys:
+    id: 74loammNRmUceImcekkaw8
+    created_at: !ruby/object:DateTime 2017-08-27 13:57:40.128000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-27 20:05:21.117000000 Z
+    content_type_id: video
+  title: Machine Learning Applications for the Public Sector
+  duration: 25
+  description: Oftentimes a business or organization may wish to do the same task
+    over and over again, and there is a lot of data at its disposal. In such settings,
+    machine learning algorithms may be a useful way forward to help solve many problems
+    that would be too burdensome for humans to do each time by hand. The lecture discusses
+    differences between prediction systems and recommendation tasks, supplemented
+    by examples from industry that include e-commerce applications, language modeling,
+    and image analysis. The lecture discusses challenges machine learning algorithms
+    face when the underlying data collected are "biased" or not representative of
+    your target population or problem.
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%202.2/story_html5.html"
+  poster:
+    sys:
+      id: 6bYIrm7hSMkiqUEeiAW2mK
+      created_at: !ruby/object:DateTime 2017-08-27 19:41:17.007000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 19:41:17.007000000 Z
+    title: gideon poster
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/6bYIrm7hSMkiqUEeiAW2mK/5ba01889d503e8012d869f38dd29b979/gideon_crop.jpg"
+  author:
+  - sys:
+      id: 3k5TbylweQC6SyYYsyKgk
+      created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:07:21.920000000 Z
+      content_type_id: author
+    name: Gideon Mann
+    title: Head of Data Science
+    bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
+    organization: CTO Office at Bloomberg LP
+    photo:
+      sys:
+        id: 3N6Div9CxqIcu8uQYUgu0M
+        created_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
+        updated_at: !ruby/object:DateTime 2017-08-16 02:07:14.665000000 Z
+      title: Gideon Mann
+      description: 
+      url: "//images.contentful.com/yn4kaxil22ax/3N6Div9CxqIcu8uQYUgu0M/e5973fd90dbdc8eaf4dfa57cf06a57df/Gideon_Mann.png"
+- sys:
+    id: iUczSQwyxqeq8s8K22SGm
+    created_at: !ruby/object:DateTime 2017-08-27 14:00:49.796000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-27 20:04:53.778000000 Z
+    content_type_id: video
+  title: 'Discovering and Collecting Data: Practical Advice for Government Managers'
+  duration: 12
+  objectives: "- How to discover and collect relevant data from inside and outside
+    of your organization \n- The key questions you need ask yourself to assess the
+    value of the data you want to use\n- The skills you need to use data to achieve
+    your public mission"
+  description: 'This session will focus on strategies for identifying, finding and
+    getting data: where to locate information; when and how you can collect your own
+    data internally and externally (e.g. through FOIA requests or crowdsourcing) as
+    well as techniques to verify and validate your data sources. We also discuss questions
+    of data quality and how to identify what skills you need to have access to in
+    order to make use of the data you need.'
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%203/story_html5.html"
+  poster:
+    sys:
+      id: 5emzuLUbQAMUiOcAq62WYs
+      created_at: !ruby/object:DateTime 2017-08-27 19:41:53.553000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 19:41:53.553000000 Z
+    title: carter poster
+    description: 
+    url: "//images.contentful.com/yn4kaxil22ax/5emzuLUbQAMUiOcAq62WYs/150180cc499dab45ea19cb003f0181ea/carter_crop.jpg"
+  author:
+  - sys:
+      id: 1KKFp74s80suW02su824SE
+      created_at: !ruby/object:DateTime 2017-08-16 01:49:01.102000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-16 02:06:35.887000000 Z
+      content_type_id: author
+    name: Carter Hewgley
+    title: Director of Analytics and Performance
+    bio_link: https://govex.jhu.edu/person/carter-hewgley/
+    organization: Center for Government Excellent, Johns Hopkins
+    photo:
+      sys:
+        id: 5m3vE584A822UgsiuWmg8s
+        created_at: !ruby/object:DateTime 2017-08-16 02:06:32.347000000 Z
+        updated_at: !ruby/object:DateTime 2017-08-16 02:06:32.347000000 Z
+      title: Carter Hewgley
+      description: 
+      url: "//images.contentful.com/yn4kaxil22ax/5m3vE584A822UgsiuWmg8s/783444f2673eb6308627a2eb701c59a7/Carter_Hewgley.jpg"
+  resources:
+  - sys:
+      id: 4f3KJKWrm8Oe0uMQ0yy2MW
+      created_at: !ruby/object:DateTime 2017-08-27 13:59:11.252000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 13:59:11.252000000 Z
+      content_type_id: resources
+    description: "[Data for Development: The Case for Information, Not Just Data](http://thegovlab.org/data-for-development-the-case-for-information-not-just-data/)
+      by Daniela Ligiero"
     resource_category: Read
   - sys:
-      id: 12xYmE8oYq4G4CkW24Wykq
-      created_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
-      updated_at: !ruby/object:DateTime 2017-08-23 00:07:38.537000000 Z
+      id: 5Ch3rJQhpemAy0O8g0kSQc
+      created_at: !ruby/object:DateTime 2017-08-27 14:00:05.114000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 14:00:05.114000000 Z
       content_type_id: resources
-    description: 'For an in-depth training, check out the [Applied Data Analytics
-      Training Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
-      the first-of-its-kind program to give working professionals an opportunity to
-      develop the key computer science and data science skill sets necessary to harness
-      the wealth of newly-available data and to creatively address real civic problems. '
-    resource_category: How-to
+    description: "[Innovations in Federal Statistics: Combining Data Sources While
+      Protecting Privacy](https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy)
+      by the National Academies of Sciences's Panel on Improving Federal Statistics
+      for Policy and Social Science - a report that examines the opportunities and
+      risks of using government administrative and private sector data sources to
+      foster a paradigm shift in federal statistical programs that would combine diverse
+      data sources in a secure manner to enhance federal statistics."
+    resource_category: Read
+  - sys:
+      id: 6vbGOPedNuqCOAU244Q626
+      created_at: !ruby/object:DateTime 2017-08-27 14:00:38.539000000 Z
+      updated_at: !ruby/object:DateTime 2017-08-27 14:00:38.539000000 Z
+      content_type_id: resources
+    description: "[Helping Smart Cities Harness Big Data](https://www.citylab.com/life/2016/09/how-mapbox-will-help-smart-cites-tackle-urban-challenges/502241/)
+      by Linda Pool"
+    resource_category: Read
+quote:
+- sys:
+    id: 3cDnn0hMHmMOC2iqWGI4om
+    created_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:16:31.239000000 Z
+    content_type_id: quote
+  text: What sort of personality makes for an effective data scientist? Definitely
+    curiosity…. __The biggest question in data science is 'Why?'__ Why is this happening?
+    If you notice that there's a pattern, ask, 'Why?' Is there something wrong with
+    the data or is this an actual pattern going on? Can we conclude anything from
+    this pattern? A natural curiosity will definitely give you a good foundation.
+  author: Carla Gentry, Data Scientist at Talent Analytics
+  link: https://www.linkedin.com/in/datanerd13/
+- sys:
+    id: 4WwrYwFWJ2cac4EUYQgw6E
+    created_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:09:14.497000000 Z
+    content_type_id: quote
+  text: We have tons of data; we are insight poor
+  author: Tom Beach, Chief Data Strategist, USPTO
+  link: https://www.data.gov/developers/tweet-from-usdatagov-887/
+- sys:
+    id: 2WY44LtuvSGyEcKS2Eg0O
+    created_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:10:16.774000000 Z
+    content_type_id: quote
+  text: Leaders in every sector will have to grapple with the implications of big
+    data, not just a few data-oriented managers.
+  author: MGI and McKinsey’s Business Technology Office
+  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
+- sys:
+    id: 5rBYpQMKA0oQiQC04y20wy
+    created_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:17:13.080000000 Z
+    content_type_id: quote
+  text: There’s a digital revolution taking place both in and out of government in
+    favor of open-sourced data, innovation, and collaboration.
+  author: Kathleen Sebelius, Former United States Secretary of Health and Human Services
+  link: https://en.wikipedia.org/wiki/Kathleen_Sebelius
+- sys:
+    id: 6f1RRzOlDaEws6SM2weWy4
+    created_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:09:47.778000000 Z
+    content_type_id: quote
+  text: The shortage of data scientists is becoming a serious constraint in some sectors.
+  author: DJ Patil, Former Chief Data Scientist of the United States
+  link: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
+- sys:
+    id: 5XH9IcWU7esUgQQQWGeGK8
+    created_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:14:35.770000000 Z
+    content_type_id: quote
+  text: Deep questions remain about the ability for many areas of government and civil
+    society to identify, cultivate and retain individuals with the necessary skills
+    for success in a world increasingly driven by information technology.
+  author: " NetGain"
+  link: https://www.macfound.org/media/files/A_Future_of_Failure_-_Public_.pdf
+- sys:
+    id: jSfPVMq9TUGKOoEeA0ym6
+    created_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:15:15.501000000 Z
+    content_type_id: quote
+  text: The world’s national, state and local governments don’t have the right digital
+    skills in the right quantities to meet the challenges of the coming century. This
+    is a Big Problem. 
+  author: Tom Steinberg, founder of mySociety.org
+  link: http://civichall.org/civicist/manifesto-for-public-technology/
+- sys:
+    id: 2LEDVDCYzm6Qi6w62oWoOG
+    created_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
+    updated_at: !ruby/object:DateTime 2017-08-16 02:14:00.873000000 Z
+    content_type_id: quote
+  text: By 2018, the United States alone could face a shortage of 140,000 to 190,000
+    people with deep analytical skills as well as 1.5 million managers and analysts
+    with the know-how to use the analysis of big data to make effective decisions.
+  author: MGI and McKinsey’s Business Technology Office
+  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation

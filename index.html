@@ -56,9 +56,9 @@ layout: base
     </div>
   </div>
   <div class="row">
-    <div class="small-8 large-8 large-centered small-centered columns">
+    <div class="small-10 large-10 large-centered small-centered columns">
       <!-- video embed -->
-      <iframe name="lecture" class="video-embed" width="100%" height="500" frameborder="0"  src="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%200/story.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
+      <iframe name="lecture" class="video-embed" width="100%" height="500" frameborder="0"  src="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%200/story_html5.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
     </div>
   </div>
 </section>
@@ -107,7 +107,7 @@ layout: base
           <div class="column column-block block-wrap">
             <div class="lecture-block">
               <a href="lectures{{ lecture.title | datapage_url: lectures }}">
-                <img class="lecture-preview" src="{{ base }}/static/img/ben_wellington_preview.jpg" />
+                <img class="lecture-preview" src="{{ lecture.poster.url }}" />
                 <div class="lecture-data">
                   <p class="tiny">{{lecture.title}}</p>
                   <p class="bold tiny">
