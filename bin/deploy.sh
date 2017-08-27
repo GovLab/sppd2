@@ -1,8 +1,6 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-# Run this script to deploy the app to Github Pages.
-
-RED='\033[0;31m'
+# Automated deploy script with Circle CI.
 
 # Exit if any subcommand fails.
 set -e
@@ -10,22 +8,26 @@ set -e
 # Check if any changes are uncommited.
 if ! git diff-files --quiet --ignore-submodules --
 then
-  echo >&2 "${RED}Please commit your changes first before deploying!"
+  echo >&2 "Please commit your changes first before deploying!"
   git diff-files --name-status -r --ignore-submodules -- >&2
   exit 0
 fi
 
+# Variables
+ORIGIN_URL=`git config --get remote.origin.url`
+
 echo "Started deploying"
 
 # Checkout gh-pages branch.
-if [ 'git branch | grep gh-pages' ]
+if [ `git branch | grep gh-pages` ]
 then
+  git checkout master
   git branch -D gh-pages
 fi
 git checkout -b gh-pages
 
 # Update from Contentful
-CONTENTFUL_ACCESS_TOKEN=${ENV_CONTENTFUL_ACCESS_TOKEN} CONTENTFUL_SPACE_ID=${ENV_CONTENTFUL_SPACE_ID} bundle exec jekyll contentful
+CONTENTFUL_ACCESS_TOKEN=${CONTENTFUL_ACCESS_TOKEN} CONTENTFUL_SPACE_ID=${CONTENTFUL_SPACE_ID} bundle exec jekyll contentful
 
 # Build site.
 bundle exec jekyll build
@@ -36,9 +38,12 @@ mv _site/* .
 rm -R _site/
 
 # Push to gh-pages.
+git config user.name "$USER_NAME"
+git config user.email "$USER_EMAIL"
+
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
-git push -f -q origin gh-pages
+git push -f $ORIGIN_URL gh-pages
 
 # Move back to previous branch.
 git checkout -
