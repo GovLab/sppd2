@@ -33,6 +33,9 @@ section {
 .tiny {
   font-size: 1rem;
 }
+.extra-tiny {
+  font-size: 0.7rem;
+}
 #title {
   min-height: 50%;
   padding-top: 8%
@@ -109,7 +112,11 @@ section.blue {
 a.link:link,
 a.link:active,
 a.link:visited,
-a.link:hover {
+a.link:hover,
+a.cta-button:link,
+a.cta-button:active,
+a.cta-button:visited,
+a.cta-button:hover {
   text-decoration: none;
   color: rgba(255,255,255,1);
 }
@@ -174,13 +181,15 @@ a.link:hover {
 .lecture-block {
   background-color: rgba(180, 180, 180, 1);
   text-align: left;
-  min-height: 12rem;
+  min-height: 20rem;
 }
 .suggest-block {
   background-color: #523080;
   color: white;
-  min-height: 12rem;
-  padding-top: 25%
+  min-height: 20rem;
+  padding-top: 25%;
+  padding-right: 10%;
+  padding-left: 10%
 }
 .lecture-data {
   padding: 0.5rem;
@@ -240,7 +249,9 @@ a.resource-tab-button {
 }
 .resource-panel {
   padding-top: 0rem;
-
+}
+#noi-preview {
+  max-width: 67%;
 }
 /* Markdownified data classifiers */
 #quote-text.markdownified p {
