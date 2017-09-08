@@ -1,0 +1,15 @@
+<div class="column column-block block-wrap">
+  <div class="lecture-block">
+    <a href="{{ path }}{{ title | datapage_url: lectures }}">
+      <img class="lecture-preview" src="{{ url }}" />
+      <div class="lecture-data">
+        <p class="tiny">{{title}}</p>
+        <p class="bold tiny">
+          {% for author in authors %}
+            {{ author.name }}
+          {% endfor %}
+        </p>
+      </div>
+    </a>
+  </div>
+</div>

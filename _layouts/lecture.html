@@ -2,6 +2,8 @@
 {% assign authors = page.author %}
 {% assign resources = page.resources %}
 {% assign categories = page.resources | map:'resource_category' | uniq %}
+{% assign lecture_count = site.data.contentful.spaces.site_data.video.size %}
+{% assign prev_lecture_number = page.order | minus: 1 %}
 <html class="no-js" lang="en">
   {% include urlpath.html %}
   {% include head.html %}
@@ -23,7 +25,7 @@
         <div class="small-10 large-10 large-centered small-centered columns">
           <div class="row">
             <div class="small-8 large-8 left-aligned columns">
-              <h6 class="white bold">Lecture 1</h6>
+              <h6 class="white bold">Lecture {{ page.order }} </h6>
               <p class="white" id="course-title">{{ page.title }}</p>
               <p class="small white bold subhead">YOU WILL LEARN:</p>
               <span class="tiny white markdownified" id="objectives">
@@ -112,6 +114,32 @@
     </section>
     <section id="learn-next" class="padded">
 
+      <div class="row">
+        <div class="small-10 large-10 large-centered small-centered columns">
+          <div class="left-aligned row">
+            <p class="small purple bold subhead">LEARN NEXT</p>
+          </div>
+          <div class="row">
+            <div class="small-up-1 medium-up-4">
+              {% assign lecture_data = site.data.contentful.spaces.site_data.video | sort: 'order' %}
+              {% for lecture in lecture_data offset: page.order %}
+                {% assign title = lecture.title %}
+                {% assign url = lecture.poster.url %}
+                {% assign authors = lecture.author %}
+                {% assign path="../lectures" %}
+                {% include lecture_preview.html title=title url=url authors=authors path=path %}
+              {% endfor %}
+              {% for lecture in lecture_data limit: prev_lecture_number %}
+                {% assign title = lecture.title %}
+                {% assign url = lecture.poster.url %}
+                {% assign authors = lecture.author %}
+                {% assign path="../lectures" %}
+                {% include lecture_preview.html title=title url=url authors=authors path=path %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     {% include footer.html %}
     {% include scripts.html %}

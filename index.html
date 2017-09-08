@@ -17,7 +17,7 @@ layout: base
       </h5>
     </div>
   </div>
-  <a class="button tiny raised cta-button" href="#">START LEARNING</a>
+  <a class="button tiny raised cta-button" href="#start-learning">START LEARNING</a>
   <div class="row" id="quotes">
     <div class="small-8 large-8 small-centered large-centered columns">
       <div class="row"> <!-- giant " -->
@@ -44,7 +44,7 @@ layout: base
       </div>
     </div>
     <div class="right-aligned row"> <!-- photo credit -->
-      <a class="tiny white link" href="https://unsplash.com/@delajed?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Jed Dela Cruz">Photo by Jed Dela Cruz on Unsplash</a>
+      <a class="extra-tiny white link" href="https://unsplash.com/@delajed?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Jed Dela Cruz">Photo by Jed Dela Cruz on Unsplash</a>
     </div>
   </div>
 </section>
@@ -73,7 +73,7 @@ layout: base
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="row">
-        <div class="author-list small-up-2 medium-up-3 large-up-5 columns">
+        <div class="author-list small-up-1 medium-up-3 large-up-5 columns">
           {% for author in site.data.contentful.spaces.site_data.author %}
             <div class="column column-block">
               <img class="author" src="{{author.photo.url}}">
@@ -90,6 +90,7 @@ layout: base
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <span class="white">READY TO USE YOUR DATA TO ACHIEVE YOUR PUBLIC MISSION?</span>
+      <a name="start-learning"></a>
     </div>
   </div>
 </section>
@@ -102,28 +103,19 @@ layout: base
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="row">
-        <div class="small-up-2 medium-up-4">
-        {% for lecture in site.data.contentful.spaces.site_data.video %}
-          <div class="column column-block block-wrap">
-            <div class="lecture-block">
-              <a href="lectures{{ lecture.title | datapage_url: lectures }}">
-                <img class="lecture-preview" src="{{ lecture.poster.url }}" />
-                <div class="lecture-data">
-                  <p class="tiny">{{lecture.title}}</p>
-                  <p class="bold tiny">
-                    {% for author in lecture.author %}
-                      {{ author.name}}
-                    {% endfor %}
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
+        <div class="small-up-1 medium-up-4">
+        {% assign lecture_data = site.data.contentful.spaces.site_data.video | sort: 'order' %}
+        {% for lecture in lecture_data %}
+          {% assign title = lecture.title %}
+          {% assign url = lecture.poster.url %}
+          {% assign authors = lecture.author %}
+          {% assign path="lectures" %}
+          {% include lecture_preview.html title=title url=url authors=authors path=path %}
         {% endfor %}
         <div class="column column-block block-wrap">
           <div class="suggest-block">
             <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
-            <p class="white suggest-cta">SUGGEST TOPIC</p>
+            <a class="link" href="https://govlab.typeform.com/to/lOLcb5" _target="blank"><p class="white suggest-cta">SUGGEST TOPIC</p></a>
           </div>
         </div>
       </div>
@@ -153,4 +145,3 @@ layout: base
     </div>
   </div>
 </section>
-<div id="overlay"></div>
