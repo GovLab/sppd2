@@ -36,7 +36,7 @@
               <span class="tiny white">Taught by</span>
               <ul>
                 {% for author in authors %}
-                  <li class="tiny white bold">{{ author.name}}</li>
+                  <li class="tiny white bold">{{ author.first_name }} {{ author.last_name }}</li>
                 {% endfor %}
               </ul>
               <span class="tiny white">{{ page.duration }} mins</span>

@@ -74,10 +74,11 @@ layout: base
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="row">
         <div class="author-list small-up-1 medium-up-3 large-up-5 columns">
-          {% for author in site.data.contentful.spaces.site_data.author %}
+          {% assign authors = site.data.contentful.spaces.site_data.author | sort: 'last_name' %}
+          {% for author in authors %}
             <div class="column column-block">
               <img class="author" src="{{author.photo.url}}">
-              <p class="white bold tiny author-name">{{author.name | upcase}}</p>
+              <p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p>
               <p class="white tiny">{{author.title}}, {{author.organization}}</p>
             </div>
           {% endfor %}
