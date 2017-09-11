@@ -7,7 +7,9 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.4
-
+    branches:
+      only:
+        - master
     steps:
       - checkout
       - run: sleep 120
