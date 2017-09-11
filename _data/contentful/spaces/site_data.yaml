@@ -31,7 +31,6 @@ video:
       created_at: !ruby/object:DateTime 2017-08-16 01:52:06.576000000 Z
       updated_at: !ruby/object:DateTime 2017-09-08 21:14:15.690000000 Z
       content_type_id: author
-    name: Arnaud Sahuguet
     first_name: Arnaud
     last_name: Sahuguet
     title: Director of the Foundry
@@ -86,7 +85,6 @@ video:
       created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
       updated_at: !ruby/object:DateTime 2017-09-08 21:10:37.855000000 Z
       content_type_id: author
-    name: Julia Lane
     first_name: Julia
     last_name: Lane
     title: Professor
@@ -153,7 +151,6 @@ video:
       created_at: !ruby/object:DateTime 2017-08-16 01:49:01.102000000 Z
       updated_at: !ruby/object:DateTime 2017-09-08 21:14:29.261000000 Z
       content_type_id: author
-    name: Carter Hewgley
     first_name: Carter
     last_name: Hewgley
     title: Director of Analytics and Performance
@@ -232,7 +229,6 @@ video:
       created_at: !ruby/object:DateTime 2017-08-16 01:51:38.364000000 Z
       updated_at: !ruby/object:DateTime 2017-09-08 21:09:56.703000000 Z
       content_type_id: author
-    name: Quentin Palfrey
     first_name: Quentin
     last_name: Palfrey
     title: Executive Director
@@ -336,7 +332,6 @@ video:
       created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
       updated_at: !ruby/object:DateTime 2017-09-08 21:14:57.351000000 Z
       content_type_id: author
-    name: Gideon Mann
     first_name: Gideon
     last_name: Mann
     title: Head of Data Science
@@ -488,7 +483,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:49:01.102000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:14:29.261000000 Z
     content_type_id: author
-  name: Carter Hewgley
   first_name: Carter
   last_name: Hewgley
   title: Director of Analytics and Performance
@@ -507,7 +501,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:53:21.827000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:10:18.759000000 Z
     content_type_id: author
-  name: Ben Wellington
   first_name: Ben
   last_name: Wellington
   title: creator of I Quant NY and Visiting Assistant Professor
@@ -526,7 +519,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:50:30.615000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:13:42.534000000 Z
     content_type_id: author
-  name: Amen Ra Mashariki
   first_name: Amen Ra
   last_name: Mashariki
   title: Urban Analytics Lead
@@ -545,7 +537,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:52:33.839000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:10:07.988000000 Z
     content_type_id: author
-  name: Stefaan Verhulst
   first_name: Stefaan
   last_name: Verhulst
   title: Co-Founder and Director of Research
@@ -564,7 +555,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:47:43.995000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:14:44.465000000 Z
     content_type_id: author
-  name: Beth Blauer
   first_name: Beth
   last_name: Blauer
   title: Executive Director
@@ -583,7 +573,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:48:29.434000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:12:58.671000000 Z
     content_type_id: author
-  name: Daniel Goroff
   first_name: Daniel
   last_name: Goroff
   title: Distinguished Visiting Professor
@@ -602,7 +591,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:51:38.364000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:09:56.703000000 Z
     content_type_id: author
-  name: Quentin Palfrey
   first_name: Quentin
   last_name: Palfrey
   title: Executive Director
@@ -622,7 +610,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:51:07.680000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:11:39.367000000 Z
     content_type_id: author
-  name: Beth Simone Noveck
   first_name: Beth Simone
   last_name: Noveck
   title: Professor  and Director
@@ -641,7 +628,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:49:34.665000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:10:37.855000000 Z
     content_type_id: author
-  name: Julia Lane
   first_name: Julia
   last_name: Lane
   title: Professor
@@ -660,7 +646,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:50:02.215000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:14:57.351000000 Z
     content_type_id: author
-  name: Gideon Mann
   first_name: Gideon
   last_name: Mann
   title: Head of Data Science
@@ -679,7 +664,6 @@ author:
     created_at: !ruby/object:DateTime 2017-08-16 01:52:06.576000000 Z
     updated_at: !ruby/object:DateTime 2017-09-08 21:14:15.690000000 Z
     content_type_id: author
-  name: Arnaud Sahuguet
   first_name: Arnaud
   last_name: Sahuguet
   title: Director of the Foundry
