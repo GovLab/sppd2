@@ -50,7 +50,14 @@
           <div class="row">
             <div class="small-12 large-12 left-aligned columns">
               <!-- video embed -->
-              <iframe name="lecture" class="video-embed" width="100%" height="400" frameborder="0"  src="{{ page.video_link }}" style="border:0; min-width: 100%" scrolling="no"></iframe>
+              <div class="show-for-small-only">
+                <a href="{{ page.video_link }}">
+                  <img src="{{ base }}/static/img/play_button.png" />
+                </a>
+              </div>
+              <div class="hide-for-small-only">
+                <iframe name="lecture" class="video-embed" width="100%" height="400" frameborder="0"  src="{{ page.video_link }}" style="border:0; min-width: 100%" scrolling="no"></iframe>
+              </div>
               <p class="small purple bold subhead">DESCRIPTION</p>
               <span class="tiny markdownified">
                 {{ page.description | markdownify }}
@@ -59,7 +66,8 @@
               <div class="row collapse">
                 <div class="medium-2 columns">
                   <ul class="vertical tabs resource-tabs" data-tabs id="resource-tabs">
-                    {% for category in categories %}
+                    {% assign static_categories = 'read,watch,how-to' | split:',' %}
+                    {% for category in static_categories %}
                       <li
                       class="tabs-title {%if forloop.first %}is-active{% endif %}">
                         <a
