@@ -225,10 +225,10 @@ video:
     sys:
       id: 44bXFDFDZuc8UKCmiAI8Ki
       created_at: !ruby/object:DateTime 2017-09-14 17:19:14.480000000 Z
-      updated_at: !ruby/object:DateTime 2017-09-14 17:19:14.480000000 Z
+      updated_at: !ruby/object:DateTime 2017-09-14 21:03:25.103000000 Z
     title: coming soon
     description: 
-    url: "//images.contentful.com/yn4kaxil22ax/44bXFDFDZuc8UKCmiAI8Ki/a65bd8f4062f619630ac262a44862abb/coming_soon.jpg"
+    url: "//images.contentful.com/yn4kaxil22ax/44bXFDFDZuc8UKCmiAI8Ki/a93090e98aa4984e65b81073206815bf/coming_soon.jpg"
   author:
   - sys:
       id: 4krSPeV7iEQMKYAgUGs6Y6
