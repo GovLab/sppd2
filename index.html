@@ -58,7 +58,17 @@ layout: base
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <!-- video embed -->
-      <iframe name="lecture" class="video-embed" width="100%" height="500" frameborder="0"  src="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%200/story_html5.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
+      <div class="show-for-small-only">
+        <a href="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%200/story_html5.html">
+          <div>
+            <img src="{{ base }}/static/img/ben_wellington_preview.jpg" width="100%" height="100%" />
+            <img src="{{ base }}/static/img/play_button.png" style="transform: translate(0%, -90%);" />
+          </div>
+        </a>
+      </div>
+      <div class="hide-for-small-only">
+        <iframe name="lecture" class="video-embed" width="100%" height="500" frameborder="0"  src="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%200/story_html5.html" style="border:0; min-width: 100%" scrolling="no"></iframe>
+      </div>
     </div>
   </div>
 </section>
@@ -79,7 +89,7 @@ layout: base
             <div class="column column-block">
               <img class="author" src="{{author.photo.url}}">
               <p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p>
-              <p class="white extra-tiny">{{author.title}}, {{author.organization}}</p>
+              <a class="link" href="{{ author.bio_link }}" target="_blank"><p class="white extra-tiny">{{author.title}}, {{author.organization}}</a></p>
             </div>
           {% endfor %}
         </div>
@@ -98,7 +108,7 @@ layout: base
 <section class="lectures padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <span class="bold chooser-headline">CHOOSE A LECTURE</span><span class="chooser-headline"> or <a class="black-link" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">subscribe</a> to our guided learning experience</span>
+      <span class="bold chooser-headline">CHOOSE A LECTURE</span><span class="chooser-headline"> or <a class="black-link" style="text-decoration: underline;" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">subscribe to our guided learning experience</a></span>
     </div>
   </div>
   <div class="row">

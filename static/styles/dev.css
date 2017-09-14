@@ -273,9 +273,7 @@ a.resource-tab-button {
   color: white;
   margin-top: 0.2rem;
 }
-/* end */
 .resource-panel p a {
-  color: rgba(0,0,0,1);
+  color: #523080;
   font-weight: 700;
-  text-decoration: none;
 }
