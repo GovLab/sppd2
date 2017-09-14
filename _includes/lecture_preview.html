@@ -1,15 +1,29 @@
 <div class="column column-block block-wrap">
-  <div class="lecture-block">
-    <a href="{{ path }}{{ title | datapage_url: lectures }}">
+  {% if active %}
+    <div class="lecture-block">
+      <a href="{{ path }}{{ title | datapage_url: lectures }}">
+        <img class="lecture-preview" src="{{ url }}" />
+        <div class="lecture-data">
+          <p class="tiny">{{title}}</p>
+          <p class="bold tiny">
+            {% for author in authors %}
+              <a class="black-link" href="{{author.bio_link}}" target="_blank">{{ author.first_name }} {{ author.last_name }}</a>
+            {% endfor %}
+          </p>
+        </div>
+      </a>
+    </div>
+  {% else if %}
+    <div class="lecture-block coming-soon">
       <img class="lecture-preview" src="{{ url }}" />
       <div class="lecture-data">
         <p class="tiny">{{title}}</p>
         <p class="bold tiny">
           {% for author in authors %}
-            {{ author.first_name }} {{ author.last_name }}
+            <a class="black-link" href="{{author.bio_link}}" target="_blank">{{ author.first_name }} {{ author.last_name }}</a>
           {% endfor %}
         </p>
       </div>
-    </a>
-  </div>
+    </div>
+  {% endif %}
 </div>

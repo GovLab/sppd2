@@ -25,7 +25,6 @@
         <div class="small-10 large-10 large-centered small-centered columns">
           <div class="row">
             <div class="small-8 large-8 left-aligned columns">
-              <h6 class="white bold">Lecture {{ page.order }} </h6>
               <p class="white" id="course-title">{{ page.title }}</p>
               <p class="small white bold subhead">YOU WILL LEARN:</p>
               <span class="tiny white markdownified" id="objectives">
@@ -105,7 +104,7 @@
           <span class="thin white">Still have questions? Need help with a project?</span>
           <br />
           <span class="white bold">Ask the Data Science community by joining Network of Innovators!</span>
-          <a href="https://networkofinnovators.org" target="_blank">
+          <a href="https://discuss.networkofinnovators.org/c/SPPwD" target="_blank">
             <img id="noi-preview" src="{{base}}/static/img/noi-screenshot.png" />
           </a>
           <p><a class="button tiny raised cta-button" href="https://networkofinnovators.org" target="_blank">ASK AN EXPERT</a></p>
@@ -123,18 +122,20 @@
             <div class="small-up-1 medium-up-4">
               {% assign lecture_data = site.data.contentful.spaces.site_data.video | sort: 'order' %}
               {% for lecture in lecture_data offset: page.order %}
+                {% assign active = lecture.active %}
                 {% assign title = lecture.title %}
                 {% assign url = lecture.poster.url %}
                 {% assign authors = lecture.author %}
                 {% assign path="../lectures" %}
-                {% include lecture_preview.html title=title url=url authors=authors path=path %}
+                {% include lecture_preview.html active=active title=title url=url authors=authors path=path %}
               {% endfor %}
               {% for lecture in lecture_data limit: prev_lecture_number %}
+                {% assign active = lecture.active %}
                 {% assign title = lecture.title %}
                 {% assign url = lecture.poster.url %}
                 {% assign authors = lecture.author %}
                 {% assign path="../lectures" %}
-                {% include lecture_preview.html title=title url=url authors=authors path=path %}
+                {% include lecture_preview.html active=active title=title url=url authors=authors path=path %}
               {% endfor %}
             </div>
           </div>

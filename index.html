@@ -51,8 +51,8 @@ layout: base
 <section class="dark-background padded bottom-bordered">
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <h4 class="white bold section-headline">TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.</h4>
-      <span class="grey bold section-subhead" id="preview-subhead">Watch Data Scientist Ben Wellington explain why:</span>
+      <h4 class="small white bold">TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.</h4>
+      <span class="small grey bold" id="preview-subhead">Watch Data Scientist Ben Wellington explain why:</span>
     </div>
   </div>
   <div class="row">
@@ -65,21 +65,21 @@ layout: base
 <section class="purple padded">
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <h4 class="white bold section-headline">LEARN FROM LEADING DATA EXPERTS
+      <h4 class="small white bold">LEARN FROM LEADING DATA EXPERTS
 </h4>
-      <span class="white section-subhead" id="author-subhead">Gain access to a diverse know-how that goes beyond institutional boundaries</span>
+      <span class="small white" id="author-subhead">Gain access to a diverse know-how that goes beyond institutional boundaries</span>
     </div>
   </div>
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="row">
-        <div class="author-list small-up-1 medium-up-3 large-up-5 columns">
+        <div class="author-list small-up-1 medium-up-3 large-up-4 columns">
           {% assign authors = site.data.contentful.spaces.site_data.author | sort: 'last_name' %}
           {% for author in authors %}
             <div class="column column-block">
               <img class="author" src="{{author.photo.url}}">
               <p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p>
-              <p class="white tiny">{{author.title}}, {{author.organization}}</p>
+              <p class="white extra-tiny">{{author.title}}, {{author.organization}}</p>
             </div>
           {% endfor %}
         </div>
@@ -98,7 +98,7 @@ layout: base
 <section class="lectures padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <span class="bold chooser-headline">CHOOSE A LECTURE</span><span class="chooser-headline"> or subscribe to our guided learning experience</span>
+      <span class="bold chooser-headline">CHOOSE A LECTURE</span><span class="chooser-headline"> or <a class="black-link" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">subscribe</a> to our guided learning experience</span>
     </div>
   </div>
   <div class="row">
@@ -107,17 +107,20 @@ layout: base
         <div class="small-up-1 medium-up-4">
         {% assign lecture_data = site.data.contentful.spaces.site_data.video | sort: 'order' %}
         {% for lecture in lecture_data %}
+          {% assign active = lecture.active %}
           {% assign title = lecture.title %}
           {% assign url = lecture.poster.url %}
           {% assign authors = lecture.author %}
           {% assign path="lectures" %}
-          {% include lecture_preview.html title=title url=url authors=authors path=path %}
+          {% include lecture_preview.html active=active title=title url=url authors=authors path=path %}
         {% endfor %}
         <div class="column column-block block-wrap">
-          <div class="suggest-block">
-            <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
-            <a class="link" href="https://govlab.typeform.com/to/lOLcb5" _target="blank"><p class="white suggest-cta">SUGGEST TOPIC</p></a>
-          </div>
+          <a class="link" href="https://govlab.typeform.com/to/lOLcb5" target="_blank">
+            <div class="suggest-block">
+              <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
+              <p class="white suggest-cta">SUGGEST TOPIC</p>
+            </div>
+          </a>
         </div>
       </div>
       </div>
@@ -132,15 +135,10 @@ layout: base
           <p class="white small bold">Not sure where to start?</p>
           <p class="tiny white">Subscribe to our guided learning experience to receive our recommended weekly program!</p>
         </div>
-        <div class="small-6 large-6 columns">
-          <form>
-            <div class="input-group">
-              <input class="small white input-group-field form-element" type="text" placeholder="Email">
-              <div class="input-group-button">
-                <input type="submit" class="tiny white bold button form-submit" value="SUBSCRIBE">
-              </div>
-            </div>
-          </form>
+        <div class="small-6 large-6 left-aligned columns">
+          <a class="link" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">
+            <input type="submit" class="tiny white bold button form-submit" value="SUBSCRIBE">
+          </a>
         </div>
       </div>
     </div>
