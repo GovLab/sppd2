@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://6aDskyWspkU_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/5iz9mLQH7cr" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und">Solving Public Problems with Data</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6T4k8yUkqdr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Why Data Matter (Total Session Length: 20:28)</name>
+			<description lang="und">Why Data Matter (Total Session Length: 20:28)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6NDY77iEKTw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Introduction (1:30)</name>
+			<description lang="und">Introduction (1:30)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6GLcn8JrPoQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Who is Open Data For? (1:14)</name>
+			<description lang="und">Who is Open Data For? (1:14)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6I3A4NrsO6j" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What Do We Do With Data? (0:39)</name>
+			<description lang="und">What Do We Do With Data? (0:39)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/5bDljFfs98t" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Average NYC Taxi Trip Speed (0:56)</name>
+			<description lang="und">Average NYC Taxi Trip Speed (0:56)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/5iujT1UAHQQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Parking Ticket Percentages (1:19)</name>
+			<description lang="und">Parking Ticket Percentages (1:19)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/5tRFBpuC1Fg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">NYC Restaurant Inspection Scores (1:30)</name>
+			<description lang="und">NYC Restaurant Inspection Scores (1:30)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/60xhqeDxByh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Bike Share Usage by Gender (0:32)</name>
+			<description lang="und">Bike Share Usage by Gender (0:32)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/5lnnXhFBPr1" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">NYC Taxi Fare Revenue (2:10)</name>
+			<description lang="und">NYC Taxi Fare Revenue (2:10)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/5qvx7E6LD4z" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">NYC Restaurant Inspections (1:24)</name>
+			<description lang="und">NYC Restaurant Inspections (1:24)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6bPXkfcF563" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Taxi Tips (1:22)</name>
+			<description lang="und">Taxi Tips (1:22)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6C6Z29cGZxx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Fiscal Year 2017 NYPD Budget (1:34)</name>
+			<description lang="und">Fiscal Year 2017 NYPD Budget (1:34)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6Chu9ohELnZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Fire Hydrant Parking Violations (2:09)</name>
+			<description lang="und">Fire Hydrant Parking Violations (2:09)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6qOlOOUMLUk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Ticketing Legal Parking Spots (2:17)</name>
+			<description lang="und">Ticketing Legal Parking Spots (2:17)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6nYoDWASttS" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Improving Workflows with Data (0:44)</name>
+			<description lang="und">Improving Workflows with Data (0:44)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6a3S9OjsRQD" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Conclusion (1:08)</name>
+			<description lang="und">Conclusion (1:08)</description>
+		</activity>
+		<activity id="http://6aDskyWspkU_course_id/6MejFDf9EiN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">End of Session</name>
+			<description lang="und">End of Session</description>
+		</activity>
+	</activities>
+</tincan>

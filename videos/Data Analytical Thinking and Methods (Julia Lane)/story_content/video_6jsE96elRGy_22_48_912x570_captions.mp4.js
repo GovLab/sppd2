@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"1%0A00:00:00,3%20--%3E%2000:00:06,12%0AAnother%20type%20of%20error%20that%20can%20come%20in%20that%20you%20need%20to%20be%20thinking%20about%20is%20how%20data%20sets%20are%20being%20linked.%0A%0A"}')

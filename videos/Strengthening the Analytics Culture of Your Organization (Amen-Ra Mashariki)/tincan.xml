@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://64TXDWU0WoW_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6jTbqs2baAZ" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und">Solving Public Problems with Data</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6XzYUYjL2RL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Strengthening a Data Analytic Culture (Total Session Length: 53:33)</name>
+			<description lang="und">Strengthening a Data Analytic Culture (Total Session Length: 53:33)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6BaPXaUaTQm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Instructor Introduction (0:50)</name>
+			<description lang="und">Instructor Introduction (0:50)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/5Yo8GuI1eGz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Session Outline (0:53)</name>
+			<description lang="und">Session Outline (0:53)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6NJ10RBypRr" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 1 - Understand Your Organization's Needs and the Ability to Meet Them (5:18)</name>
+			<description lang="und">Pillar 1 - Understand Your Organization's Needs and the Ability to Meet Them (5:18)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6GblV2KS6ZV" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 2 - Understand Your Organization's Characteristics (8:43)</name>
+			<description lang="und">Pillar 2 - Understand Your Organization's Characteristics (8:43)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/688MV2kp5x6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 3 - Obtain Executive Buy-In (4:17)</name>
+			<description lang="und">Pillar 3 - Obtain Executive Buy-In (4:17)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/67kzya92eHc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 4 - Distinguish Analytics from Data Management (3:48)</name>
+			<description lang="und">Pillar 4 - Distinguish Analytics from Data Management (3:48)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6W3jB1KoBHP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 5 - Show Return on Investment Early with Complete Successes (7:47)</name>
+			<description lang="und">Pillar 5 - Show Return on Investment Early with Complete Successes (7:47)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/5x6VDO6bxcT" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 6 - Create a Low Barrier of Entry (5:36)</name>
+			<description lang="und">Pillar 6 - Create a Low Barrier of Entry (5:36)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6V66ZDJjOkC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 7 - Provide Repeatable and Flexible Training (3:35)</name>
+			<description lang="und">Pillar 7 - Provide Repeatable and Flexible Training (3:35)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/5YYSusLyq7w" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 8 - Create Reusable Analytics Frameworks (4:16)</name>
+			<description lang="und">Pillar 8 - Create Reusable Analytics Frameworks (4:16)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/5nGjdDaS29a" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 9 - Grow Towards Making Yourself Smaller (3:21)</name>
+			<description lang="und">Pillar 9 - Grow Towards Making Yourself Smaller (3:21)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6caNNeDvALF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pillar 10 - Clarify &amp; Solidify the Role of Analytics (3:37)</name>
+			<description lang="und">Pillar 10 - Clarify &amp; Solidify the Role of Analytics (3:37)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/6MbFi1oAKJd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Final Thoughts (1:26)</name>
+			<description lang="und">Final Thoughts (1:26)</description>
+		</activity>
+		<activity id="http://64TXDWU0WoW_course_id/5mA2b5QiMdF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">End of Session</name>
+			<description lang="und">End of Session</description>
+		</activity>
+	</activities>
+</tincan>

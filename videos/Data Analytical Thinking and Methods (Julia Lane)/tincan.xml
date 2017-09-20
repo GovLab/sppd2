@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://64Xzj6vWFrO_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/67tXPcPVSUa" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und">Solving Public Problems with Data</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6GiksbwfXvf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Data Analytical Thinking and Methods (Total Session Length: 42:46)</name>
+			<description lang="und">Data Analytical Thinking and Methods (Total Session Length: 42:46)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5vEbdDvKSaF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Instructor Introduction (1:08)</name>
+			<description lang="und">Instructor Introduction (1:08)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6NDY77iEKTw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Key Ideas (1:53)</name>
+			<description lang="und">Key Ideas (1:53)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6ZRg1aAFl22" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Session Outline (2:04)</name>
+			<description lang="und">Session Outline (2:04)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5mTFtCOE5fo" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Define a Research Question (0:10)</name>
+			<description lang="und">Define a Research Question (0:10)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5hObm6SPZ6E" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Defining the Problem (1:47)</name>
+			<description lang="und">Defining the Problem (1:47)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6cgt1NsXbfL" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Define a Research Question (2:28)</name>
+			<description lang="und">Define a Research Question (2:28)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5jjjTOWBehK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Motivating Policy Question (1:37)</name>
+			<description lang="und">Motivating Policy Question (1:37)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5zfmKw246tH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Defining a Conceptual Framework (2:08)</name>
+			<description lang="und">Defining a Conceptual Framework (2:08)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6SlUWJ9AOMb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Data Availability and Measurement Errors (0:07)</name>
+			<description lang="und">Data Availability and Measurement Errors (0:07)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/68Gfvo0glvU" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Applied Example: How Research Funding Shapes Science (4:20)</name>
+			<description lang="und">Applied Example: How Research Funding Shapes Science (4:20)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6kHnBZXMwu2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Building a Large-Scale Researcher Database (0:51)</name>
+			<description lang="und">Building a Large-Scale Researcher Database (0:51)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5ePjDT7xMSI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Measurement Error (1:39)</name>
+			<description lang="und">Measurement Error (1:39)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5wynDKLH6YI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Row Error (1:58)</name>
+			<description lang="und">Row Error (1:58)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5xlDjtTBjiI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Column Error (1:28)</name>
+			<description lang="und">Column Error (1:28)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6ewAH00hYaN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Cell Error (1:36)</name>
+			<description lang="und">Cell Error (1:36)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5amZC48vkIh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Consequences for Inference (1:07)</name>
+			<description lang="und">Consequences for Inference (1:07)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5X7zfvQvxis" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Link Datasets (0:07)</name>
+			<description lang="und">Link Datasets (0:07)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5dc6MlfoL0o" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Linking Datasets (5:13)</name>
+			<description lang="und">Linking Datasets (5:13)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5vow8oFw0LZ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Statistical Approaches (0:07)</name>
+			<description lang="und">Statistical Approaches (0:07)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5ju6QXHmJo3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Statistical Issues (3:29)</name>
+			<description lang="und">Statistical Issues (3:29)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6nvLPXktjXe" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Address Privacy and Confidentiality/Ethics (0:18)</name>
+			<description lang="und">Address Privacy and Confidentiality/Ethics (0:18)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6lLp2amR9CN" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Privacy, Big Data, and the Public Good (0:25)</name>
+			<description lang="und">Privacy, Big Data, and the Public Good (0:25)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6Xmrx5SHbFH" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Issues of Consent (1:48)</name>
+			<description lang="und">Issues of Consent (1:48)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5d9SCtqPxUE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Disseminate and Replicate Results (0:23)</name>
+			<description lang="und">Disseminate and Replicate Results (0:23)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6l3JGKzvwor" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Protecting Confidentiality (2:35)</name>
+			<description lang="und">Protecting Confidentiality (2:35)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6SYIbX2TeYX" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">What is Disclosure? (2:20)</name>
+			<description lang="und">What is Disclosure? (2:20)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6QqTyswaIN3" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Approaches to Protect Information About Individuals (0:40)</name>
+			<description lang="und">Approaches to Protect Information About Individuals (0:40)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6DS5ICEiWWP" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Example of  Effect (1:45)</name>
+			<description lang="und">Example of  Effect (1:45)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/6pa2LNTQDRE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">And a Reminder of "Why" (1:13)</name>
+			<description lang="und">And a Reminder of "Why" (1:13)</description>
+		</activity>
+		<activity id="http://64Xzj6vWFrO_course_id/5ar2k84UgUx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">End of Session</name>
+			<description lang="und">End of Session</description>
+		</activity>
+	</activities>
+</tincan>

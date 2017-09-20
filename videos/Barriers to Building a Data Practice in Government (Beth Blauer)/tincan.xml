@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://5qpCbLJFxP6_course_id" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und" />
+			<launch lang="und">story.html</launch>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6AEg0RW62BF" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Solving Public Problems with Data</name>
+			<description lang="und">Solving Public Problems with Data</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6OFvFvtgfM0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Barriers to Building a Data Practice in Government (Total Session Length: 26 minutes)</name>
+			<description lang="und">Barriers to Building a Data Practice in Government (Total Session Length: 26 minutes)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/5fQvDarS0FK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Instructor Introduction (1:49)</name>
+			<description lang="und">Instructor Introduction (1:49)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6G13C1aiaaf" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">StateStat and Maryland Case Study (1:36)</name>
+			<description lang="und">StateStat and Maryland Case Study (1:36)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6SP4NlNWgV0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Session Outline (0:23)</name>
+			<description lang="und">Session Outline (0:23)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6iZWo9HPuhR" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Collecting and Using Data (2:54)</name>
+			<description lang="und">Collecting and Using Data (2:54)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/607lVIWS66J" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Lack of Institutional Readiness (3:53)</name>
+			<description lang="und">Lack of Institutional Readiness (3:53)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6KcWDsJRSn0" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Lack of a Governance Framework (3:38)</name>
+			<description lang="und">Lack of a Governance Framework (3:38)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6NX7Jd6S7Vg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Ethical Concerns of Using Data (1:48)</name>
+			<description lang="und">Ethical Concerns of Using Data (1:48)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/5uMalpteclC" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Case Study: Anonymized NYC Taxi Data (4:33)</name>
+			<description lang="und">Case Study: Anonymized NYC Taxi Data (4:33)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/67dsOmVXn8E" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Case Study: Juvenile Justice (4:35)</name>
+			<description lang="und">Case Study: Juvenile Justice (4:35)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/5eLKyEPQUfc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Conclusion (0:32)</name>
+			<description lang="und">Conclusion (0:32)</description>
+		</activity>
+		<activity id="http://5qpCbLJFxP6_course_id/6nQFXyXqDjw" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">End of Session</name>
+			<description lang="und">End of Session</description>
+		</activity>
+	</activities>
+</tincan>
