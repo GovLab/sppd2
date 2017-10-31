@@ -95,6 +95,9 @@ section.blue {
   color: #523080;
   font-family: 'Helvetica-bold';
 }
+#quote-row {
+  padding-top: 84px;
+}
 #quote-slider {
   overflow: hidden;
 }
@@ -199,7 +202,7 @@ a.black-link:hover {
 }
 #program-title {
   margin-top: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 #course-title {
   font-size: 2rem;
@@ -215,7 +218,7 @@ a.black-link:hover {
 }
 .form-submit {
   background-color: rgba(255,255,255,0.2);
-  height: 1.7rem;
+  /*height: 1.7rem;*/
 }
 .partner-logo {
   max-height: 3rem;

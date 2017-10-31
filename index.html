@@ -17,15 +17,10 @@ layout: base
       </h5>
     </div>
   </div>
-  <a class="button tiny raised cta-button" href="#start-learning">START LEARNING</a>
+  <a class="button raised cta-button" href="#start-learning">START LEARNING</a>
   <div class="row" id="quotes">
     <div class="small-8 large-8 small-centered large-centered columns">
-      <div class="row"> <!-- giant " -->
-        <div id="quote-symbol">
-          &rdquo;
-        </div>
-      </div>
-      <div class="row">
+      <div class="row" id='quote-row'>
         <div id='quote-slider' class='swipe'>
           <div class='swipe-wrap'>
             {% for quote in site.data.contentful.spaces.site_data.quote %}
@@ -48,7 +43,31 @@ layout: base
     </div>
   </div>
 </section>
-<section class="dark-background padded bottom-bordered">
+<section class="purple padded">
+  <div class="row">
+    <div class="small-8 large-8 large-centered small-centered columns">
+      <h4 class="small white bold">LEARN FROM LEADING DATA EXPERTS</h4>
+      <span class="small white" id="author-subhead">Gain access to a diverse know-how that goes beyond institutional boundaries</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-10 large-10 large-centered small-centered columns">
+      <div class="row">
+        <div class="author-list small-up-1 medium-up-3 large-up-4 columns">
+          {% assign authors = site.data.contentful.spaces.site_data.author | sort: 'last_name' %}
+          {% for author in authors %}
+            <div class="column column-block">
+              <img class="author" src="{{author.photo.url}}">
+              <p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p>
+              <a class="link" href="{{ author.bio_link }}" target="_blank"><p class="white extra-tiny">{{author.title}}, {{author.organization}}</a></p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="dark-background padded">
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
       <h4 class="small white bold">TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.</h4>
@@ -74,31 +93,6 @@ layout: base
 </section>
 <section class="purple padded">
   <div class="row">
-    <div class="small-8 large-8 large-centered small-centered columns">
-      <h4 class="small white bold">LEARN FROM LEADING DATA EXPERTS
-</h4>
-      <span class="small white" id="author-subhead">Gain access to a diverse know-how that goes beyond institutional boundaries</span>
-    </div>
-  </div>
-  <div class="row">
-    <div class="small-10 large-10 large-centered small-centered columns">
-      <div class="row">
-        <div class="author-list small-up-1 medium-up-3 large-up-4 columns">
-          {% assign authors = site.data.contentful.spaces.site_data.author | sort: 'last_name' %}
-          {% for author in authors %}
-            <div class="column column-block">
-              <img class="author" src="{{author.photo.url}}">
-              <p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p>
-              <a class="link" href="{{ author.bio_link }}" target="_blank"><p class="white extra-tiny">{{author.title}}, {{author.organization}}</a></p>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="dark-background padded">
-  <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
       <span class="white">READY TO USE YOUR DATA TO ACHIEVE YOUR PUBLIC MISSION?</span>
       <a name="start-learning"></a>
@@ -108,7 +102,7 @@ layout: base
 <section class="lectures padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <span class="bold chooser-headline">CHOOSE A LECTURE</span><span class="chooser-headline"> or <a class="black-link" style="text-decoration: underline;" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">subscribe to our guided learning experience</a></span>
+      <span class="bold chooser-headline">Click on a tile below to watch any lecture. There are 5 lectures that vary in length from 25 to 60 minutes. Each lecture includes selected readings and links to additional resources.</span>
     </div>
   </div>
   <div class="row">
@@ -128,7 +122,7 @@ layout: base
           <a class="link" href="https://govlab.typeform.com/to/lOLcb5" target="_blank">
             <div class="suggest-block">
               <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
-              <p class="white suggest-cta">SUGGEST TOPIC</p>
+              <p class="white suggest-cta">SUGGEST A TOPIC</p>
             </div>
           </a>
         </div>
@@ -147,7 +141,7 @@ layout: base
         </div>
         <div class="small-6 large-6 left-aligned columns">
           <a class="link" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">
-            <input type="submit" class="tiny white bold button form-submit" value="SUBSCRIBE">
+            <input type="submit" class="white button form-submit" value="CLICK HERE TO TELL US MORE ABOUT YOU">
           </a>
         </div>
       </div>
