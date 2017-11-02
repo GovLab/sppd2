@@ -303,6 +303,10 @@ a.resource-tab-button {
   height: 100%;
 }
 
+.block-center {
+   margin: 0 auto;
+}
+
 @media (min-width:1024px) {
   .align-left-large {
     text-align: left;
