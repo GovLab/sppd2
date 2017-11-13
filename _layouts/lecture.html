@@ -4,6 +4,7 @@
 {% assign categories = page.resources | map:'resource_category' | uniq %}
 {% assign lecture_count = site.data.contentful.spaces.site_data.video.size %}
 {% assign prev_lecture_number = page.order | minus: 1 %}
+{% assign copy = site.data.contentful.spaces.site_data.lecturePageContent[0] %}
 <html class="no-js" lang="en">
   {% include urlpath.html %}
   {% include head.html %}
@@ -14,7 +15,7 @@
         <div class="small-10 large-10 large-centered small-centered columns">
           <div class="row">
             <div class="small-12 large-12 left-aligned columns">
-              <a href="{{ base }}/index.html"><p class="white bold" id="program-title">Solving Public Problems with Data</p></a>
+              <a href="{{ base }}/index.html"><p class="white bold" id="program-title">{{ copy.title }}</p></a>
             </div>
           </div>
         </div>
@@ -26,13 +27,13 @@
           <div class="row">
             <div class="small-8 large-8 left-aligned columns">
               <p class="white" id="course-title">{{ page.title }}</p>
-              <p class="small white bold subhead">YOU WILL LEARN:</p>
+              <p class="small white bold subhead">{{ copy.objectives_title }}</p>
               <span class="tiny white markdownified" id="objectives">
                 {{ page.objectives | markdownify }}
               </span>
             </div>
             <div class="small-4 large-4 right-aligned columns">
-              <span class="tiny white">Taught by</span>
+              <span class="tiny white">{{ copy.author_title }}</span>
               <ul>
                 {% for author in authors %}
                   <li class="tiny white bold">{{ author.first_name }} {{ author.last_name }}</li>
@@ -109,13 +110,13 @@
     <section id="noi-promo" class="blue padded">
       <div class="row">
         <div class="small-10 large-10 large-centered small-centered columns">
-          <span class="thin white">Still have questions? Need help with a project?</span>
+          <span class="white">{{ copy.noi1 }}</span>
           <br />
-          <span class="white bold">Ask the Data Science community by joining Network of Innovators!</span>
+          <span class="white bold">{{ copy.noi2 }}</span>
           <a href="https://discuss.networkofinnovators.org/c/SPPwD" target="_blank">
             <img id="noi-preview" src="{{base}}/static/img/noi-screenshot.png" />
           </a>
-          <p><a class="button raised cta-button" href="https://networkofinnovators.org" target="_blank" style="margin-bottom: 60px;">ASK AN EXPERT</a></p>
+          <p><a class="button raised cta-button" href="https://networkofinnovators.org" target="_blank" style="margin-bottom: 60px;">{{ copy.noi3 }}</a></p>
         </div>
       </div>
     </section>
@@ -124,7 +125,7 @@
       <div class="row">
         <div class="small-10 large-10 large-centered small-centered columns">
           <div class="left-aligned row">
-            <p class="small purple bold subhead">LEARN NEXT</p>
+            <p class="small purple bold subhead">{{ copy.related_lectures_title }}</p>
           </div>
           <div class="row">
             <div class="small-up-1 medium-up-2 large-up-4">

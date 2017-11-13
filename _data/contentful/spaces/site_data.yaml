@@ -1,14 +1,203 @@
 ---
-quote:
+resources:
 - sys:
-    id: 5rBYpQMKA0oQiQC04y20wy
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:24.882000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:24.882000000 Z
-    content_type_id: quote
-  text: There’s a digital revolution taking place both in and out of government in
-    favor of open-sourced data, innovation, and collaboration.
-  author: Kathleen Sebelius, Former United States Secretary of Health and Human Services
-  link: https://en.wikipedia.org/wiki/Kathleen_Sebelius
+    id: 60ujguUpS86oKQ66GkMQeM
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
+    content_type_id: resources
+  description: Watch "[Your Company’s Data Could Help End World Hunger](http://www.ted.com/talks/mallory_soldner_your_company_s_data_could_end_world_hunger)"
+    by Mallory Soldner, UPS Advanced Analytics Manager, explain what is data philanthropy
+    and how the next generation of corporate social responsibility is using data and
+    companies' decision-scientist expertise to solve the big problems our world is
+    facing.
+  resource_category: Watch
+- sys:
+    id: 6Vk4SxAbVmOU6aYkAUwyk2
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:18.916000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:18.916000000 Z
+    content_type_id: resources
+  description: The [Behavioral Insights Team (BIT)](http://www.behaviouralinsights.co.uk/)
+    also offers its own [online course](http://courses.behavioralinsightsteam.com/courses/course-v1:BIT+LCE+2016-0/about)
+    for how to think through, design, and implement your own RCTs, and how to identify
+    questions that might be easily testable, and at low cost, in an experimental framework.
+    Check back regularly for updates to this course and its availability.
+  resource_category: How-to
+- sys:
+    id: 5Ch3rJQhpemAy0O8g0kSQc
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:14.972000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:14.972000000 Z
+    content_type_id: resources
+  description: "[Innovations in Federal Statistics: Combining Data Sources While Protecting
+    Privacy](https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy)
+    by the National Academies of Sciences's Panel on Improving Federal Statistics
+    for Policy and Social Science - a report that examines the opportunities and risks
+    of using government administrative and private sector data sources to foster a
+    paradigm shift in federal statistical programs that would combine diverse data
+    sources in a secure manner to enhance federal statistics."
+  resource_category: Read
+- sys:
+    id: 15dyabty9C6wqOOmAWssSG
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:22.395000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:22.395000000 Z
+    content_type_id: resources
+  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
+    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
+    social experiments may help policymakers with poverty alleviation, and why experimental
+    designs provide compelling and unforeseen insights where other study approaches
+    may fail.
+  resource_category: Watch
+- sys:
+    id: 2tQMX4qmJKSsucMOakQ8Ig
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:20.466000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:20.466000000 Z
+    content_type_id: resources
+  description: '"[Incentives for Immunization](https://www.povertyactionlab.org/sites/default/files/publications/incentives-for-immunization_0.pdf)"
+    by JPAL - a write-up of a study referenced in Quentin''s lecture, on how using
+    costly incentives in an evaluation may actually decrease the marginal cost of
+    participation in a social program.'
+  resource_category: Read
+- sys:
+    id: 6s4MjqmvEksoYu4WAU0Io8
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:19.680000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:19.680000000 Z
+    content_type_id: resources
+  description: Watch additional videos from "[JPAL's Global Executive Education Course](https://www.povertyactionlab.org/node/9933/)",
+    led by social scientists at Harvard, MIT, and JPAL, covering topics such as "sampling
+    and sample size," and assessing “cost effectiveness" in an evaluation.
+  resource_category: Watch
+- sys:
+    id: 4rEjXgjI5aGuEGCKyO24sg
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
+    content_type_id: resources
+  description: __Thinking about designing your own Data Collaborative?__ Use [our
+    canvas](http://datacollaboratives.org/canvas.html) and find out what would be
+    your next steps.
+  resource_category: How-to
+- sys:
+    id: 4f3KJKWrm8Oe0uMQ0yy2MW
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:15.756000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:15.756000000 Z
+    content_type_id: resources
+  description: "[Data for Development: The Case for Information, Not Just Data](http://thegovlab.org/data-for-development-the-case-for-information-not-just-data/)
+    by Daniela Ligiero"
+  resource_category: Read
+- sys:
+    id: PlqGgSiLMi8isYQ0saw4K
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
+    content_type_id: resources
+  description: 'More readings at [Data Collaboratives section of the Open Governance
+    Research Exchange](http://ogrx.org/categories/data-collaboratives.html). '
+  resource_category: Read
+- sys:
+    id: 4VOl7yvbrakmC864GqsQOK
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
+    content_type_id: resources
+  description: "[Data Responsibility: A New Social Good for the Information Age](https://theconversation.com/data-responsibility-a-new-social-good-for-the-information-age-67417),
+    by Stefaan Verhulst - an essay offering a new understanding of data responsibility
+    comprising a duty to share, a data to protect, and a duty to act."
+  resource_category: Read
+- sys:
+    id: 28Oc77pfeAowWe6kEyQs04
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
+    content_type_id: resources
+  description: "[Data Collaboratives: Exchanging Data to Improve People's Lives](https://medium.com/@sverhulst/data-collaboratives-exchanging-data-to-improve-people-s-lives-d0fcfc1bdd9a#.z6cdr1dsm),
+    by Stefaan Verhulst and David Sangokoya - an essay on leveraging the potential
+    of data to solve complex public problems through data collaboratives and four
+    critical accelerators towards responsible data sharing and collaboration."
+  resource_category: Read
+- sys:
+    id: 6JqzuStc1Ggw8yEWUkqmaW
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
+    content_type_id: resources
+  description: "[Data Collaboratives: Matching Demand with Supply of (Corporate) Data
+    to solve Public Problems](https://medium.com/@sverhulst/data-collaboratives-matching-demand-with-supply-of-corporate-data-to-solve-public-problems-dc75b4d683e1#.xth0w2zww),
+    by Stefaan Verhulst, Iryna SUsha and Alexander Kostura - a report describing emerging
+    practice, opportunities and challenges in data collaboratives as identified at
+    the International Data Responsibility Conference."
+  resource_category: Read
+- sys:
+    id: 3CbskYE3XquE6KKmYkoQqC
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:24.114000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:24.114000000 Z
+    content_type_id: resources
+  description: '"[Introduction to Evaluations](https://www.povertyactionlab.org/sites/default/files/resources/Introduction%20to%20Evaluations.Final_.pdf)"
+    by JPAL - an overarching summary of "impact evaluations", their history, how to
+    randomize effectively in experiments, why randomization is important, and common
+    concerns in study design'
+  resource_category: Read
+- sys:
+    id: 345V2SBv2MYmQQawQi2GM8
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:11.453000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:11.453000000 Z
+    content_type_id: resources
+  description: "[Open Data Resource Kit](https://docs.google.com/document/d/16tDVNb8VPAZlcm1ObRtsHxPSesN3YYUOwALtZRro6io/edit?usp=sharing)"
+  resource_category: Read
+- sys:
+    id: 251rxqlKzCuGYqW6SM4s4w
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:23.248000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:23.248000000 Z
+    content_type_id: resources
+  description: '"[Promoting Policies that work: Six steps for the Commission on Evidence-Based
+    Policymaking](http://thehill.com/blogs/congress-blog/the-administration/303781-promoting-policies-that-work-six-steps-for-the)"
+    by Quentin Palfrey -  a list of six concrete steps policymakers "can take to institutionalize
+    the use of administrative data to support policy-relevant research and evidence-informed
+    policymaking."'
+  resource_category: Read
+- sys:
+    id: 12xYmE8oYq4G4CkW24Wykq
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
+    content_type_id: resources
+  description: 'For an in-depth training, check out the [Applied Data Analytics Training
+    Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
+    the first-of-its-kind program to give working professionals an opportunity to
+    develop the key computer science and data science skill sets necessary to harness
+    the wealth of newly-available data and to creatively address real civic problems. '
+  resource_category: How-to
+- sys:
+    id: 38Qf283Cy4W8sauUCUQmk2
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
+    content_type_id: resources
+  description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
+    by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
+  resource_category: Read
+- sys:
+    id: 1zFjJYrCoEMuM4uwEIs6MM
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:02.122000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:02.122000000 Z
+    content_type_id: resources
+  description: "[Changing Culture](https://govex.jhu.edu/changing-culture/) by GovEx
+    - a practical guide to help governments advance open data, analytics and performance
+    management practices by shaping their organizational culture. "
+  resource_category: Read
+- sys:
+    id: 6vbGOPedNuqCOAU244Q626
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:14.095000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:14.095000000 Z
+    content_type_id: resources
+  description: "[Helping Smart Cities Harness Big Data](https://www.citylab.com/life/2016/09/how-mapbox-will-help-smart-cites-tackle-urban-challenges/502241/)
+    by Linda Pool"
+  resource_category: Read
+- sys:
+    id: 2buxad1YyMakgycocygmwS
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:21.255000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:21.255000000 Z
+    content_type_id: resources
+  description: Utilize the [Methods Guides](http://egap.org/list-methods-guides) and
+    online experimental Tools written by [Evidence in Governance and Politics (EGAP)](http://egap.org/).
+    These guides provide both technical and non-technical discussions on challenges
+    commonly faced in causal inference, why randomization is important to experimental
+    design and causal attribution, but also cases when of non-experimental designs
+    may lead to causal insights. Example code, written in the R programming language,
+    is accessible here online, as well as example vignettes.
+  resource_category: How-to
+quote:
 - sys:
     id: 5XH9IcWU7esUgQQQWGeGK8
     created_at: !ruby/object:DateTime 2017-10-12 17:41:27.368000000 Z
@@ -28,6 +217,16 @@ quote:
   author: DJ Patil, Former Chief Data Scientist of the United States
   link: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
 - sys:
+    id: jSfPVMq9TUGKOoEeA0ym6
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:26.588000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:26.588000000 Z
+    content_type_id: quote
+  text: The world’s national, state and local governments don’t have the right digital
+    skills in the right quantities to meet the challenges of the coming century. This
+    is a Big Problem. 
+  author: Tom Steinberg, founder of mySociety.org
+  link: http://civichall.org/civicist/manifesto-for-public-technology/
+- sys:
     id: 4WwrYwFWJ2cac4EUYQgw6E
     created_at: !ruby/object:DateTime 2017-10-12 17:41:30.813000000 Z
     updated_at: !ruby/object:DateTime 2017-10-12 17:41:30.813000000 Z
@@ -35,15 +234,6 @@ quote:
   text: We have tons of data; we are insight poor
   author: Tom Beach, Chief Data Strategist, USPTO
   link: https://www.data.gov/developers/tweet-from-usdatagov-887/
-- sys:
-    id: 2WY44LtuvSGyEcKS2Eg0O
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:28.959000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:28.959000000 Z
-    content_type_id: quote
-  text: Leaders in every sector will have to grapple with the implications of big
-    data, not just a few data-oriented managers.
-  author: MGI and McKinsey’s Business Technology Office
-  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
 - sys:
     id: 3cDnn0hMHmMOC2iqWGI4om
     created_at: !ruby/object:DateTime 2017-10-12 17:41:25.788000000 Z
@@ -67,15 +257,241 @@ quote:
   author: MGI and McKinsey’s Business Technology Office
   link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
 - sys:
-    id: jSfPVMq9TUGKOoEeA0ym6
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:26.588000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:26.588000000 Z
+    id: 2WY44LtuvSGyEcKS2Eg0O
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:28.959000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:28.959000000 Z
     content_type_id: quote
-  text: The world’s national, state and local governments don’t have the right digital
-    skills in the right quantities to meet the challenges of the coming century. This
-    is a Big Problem. 
-  author: Tom Steinberg, founder of mySociety.org
-  link: http://civichall.org/civicist/manifesto-for-public-technology/
+  text: Leaders in every sector will have to grapple with the implications of big
+    data, not just a few data-oriented managers.
+  author: MGI and McKinsey’s Business Technology Office
+  link: http://www.mckinsey.com/business-functions/digital-mckinsey/our-insights/big-data-the-next-frontier-for-innovation
+- sys:
+    id: 5rBYpQMKA0oQiQC04y20wy
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:24.882000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:24.882000000 Z
+    content_type_id: quote
+  text: There’s a digital revolution taking place both in and out of government in
+    favor of open-sourced data, innovation, and collaboration.
+  author: Kathleen Sebelius, Former United States Secretary of Health and Human Services
+  link: https://en.wikipedia.org/wiki/Kathleen_Sebelius
+author:
+- sys:
+    id: 3IzMAygpAccqO6Giaia8i4
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:31.607000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:31.607000000 Z
+    content_type_id: author
+  first_name: Ben
+  last_name: Wellington
+  title: Creator of I Quant NY and Visiting Assistant Professor
+  bio_link: http://iquantny.tumblr.com/about
+  organization: Pratt Institute in Brooklyn
+  photo:
+    sys:
+      id: 2tY9uvec0Ym4YGYsiQwSQy
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:33.101000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:33.101000000 Z
+    title: ben
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/2tY9uvec0Ym4YGYsiQwSQy/50991bf390aa0d78f48d6eaac9a56e01/ben.jpg"
+- sys:
+    id: 7JwuTgA2oomwYG60OoiYoc
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:33.204000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:33.204000000 Z
+    content_type_id: author
+  first_name: Arnaud
+  last_name: Sahuguet
+  title: Director of the Foundry
+  bio_link: http://tech.cornell.edu/people/researchers
+  organization: Cornell Tech
+  photo:
+    sys:
+      id: 25qHOP6IqMqsogOAkKuEsI
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:37.761000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:37.761000000 Z
+    title: arnaud
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/25qHOP6IqMqsogOAkKuEsI/660c4f0128fa71ed55101feacb4e6e47/arnaud.jpg"
+- sys:
+    id: 2Dx5hLd7KwgQCIGoegsgES
+    created_at: !ruby/object:DateTime 2017-10-12 17:40:56.284000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:40:56.284000000 Z
+    content_type_id: author
+  first_name: Beth
+  last_name: Blauer
+  title: Executive Director
+  bio_link: https://govex.jhu.edu/author/bblauer/
+  organization: Johns Hopkins Center for Government Excellence
+  photo:
+    sys:
+      id: 1NrWqGXXmICcmWiaKGIIqY
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:39.467000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:39.467000000 Z
+    title: beth blauer
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/1NrWqGXXmICcmWiaKGIIqY/8d9f7dacd0f0d7be8fed4a5abac3c249/beth_blauer.jpg"
+- sys:
+    id: 5yMHeD6eKkGcCKi6Ag8IE
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:34.762000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-02 20:22:41.441000000 Z
+    content_type_id: author
+  first_name: Beth Simone
+  last_name: Noveck
+  title: Professor and Director
+  bio_link: http://www.thegovlab.org/beth-noveck.html
+  organization: The Governance Lab
+  photo:
+    sys:
+      id: 5SCqzXVoKkUOa0qGCOM8Iu
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:34.645000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:34.645000000 Z
+    title: beth
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/5SCqzXVoKkUOa0qGCOM8Iu/8aece888448d65c7403be7e0ab8bc4d3/beth.jpg"
+- sys:
+    id: 33rWmzZoveSs6i2cSss6Em
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:10.645000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-02 20:26:16.913000000 Z
+    content_type_id: author
+  first_name: Dinorah
+  last_name: Cantú-Pedraza
+  title: Coordinator
+  bio_link: http://www.thegovlab.org/team.html
+  organization: The GovLab Academy
+  photo:
+    sys:
+      id: 2CjzeU64BquWwsQuMG8ey0
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:29.926000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:29.926000000 Z
+    title: dinorah-cantu-pedraza
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/2CjzeU64BquWwsQuMG8ey0/cd67c92891c0b4b4b29cf5570216b6ef/dinorah-cantu-pedraza.jpg"
+- sys:
+    id: 4krSPeV7iEQMKYAgUGs6Y6
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:38.802000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:38.802000000 Z
+    content_type_id: author
+  first_name: Daniel
+  last_name: Goroff
+  title: Program Director
+  bio_link: https://www.linkedin.com/in/daniel-goroff-99883640/
+  organization: Alfred P. Sloan Foundation
+  photo:
+    sys:
+      id: iYLDIJQglUO8kG62gSie8
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:35.459000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:35.459000000 Z
+    title: daniel
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/iYLDIJQglUO8kG62gSie8/e68466520025df4ae0611e76af2ba381/daniel.jpg"
+- sys:
+    id: 1KKFp74s80suW02su824SE
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:37.902000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:37.902000000 Z
+    content_type_id: author
+  first_name: Carter
+  last_name: Hewgley
+  title: Director of Analytics and Performance
+  bio_link: https://govex.jhu.edu/person/carter-hewgley/
+  organization: Center for Government Excellence, Johns Hopkins
+  photo:
+    sys:
+      id: 3gXO38TkOAKYgE2W2cSWuQ
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:38.682000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:38.682000000 Z
+    title: carter
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/3gXO38TkOAKYgE2W2cSWuQ/50dfdac44731e85b0eee3b893c9bc383/carter.jpg"
+- sys:
+    id: 1Y3Zea1ZAIuKEMym0OoAGA
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:35.579000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-02 20:28:20.344000000 Z
+    content_type_id: author
+  first_name: Amen Ra
+  last_name: Mashariki
+  title: Urban Analytics Lead
+  bio_link: https://www.linkedin.com/in/amen-ra-mashariki-1452885
+  organization: 'Esri: GIS Mapping Software, Spatial Data Analytics & Location Platform'
+  photo:
+    sys:
+      id: YDeUgoH1iS46O8OaeEeiu
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:36.193000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:36.194000000 Z
+    title: amen ra
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/YDeUgoH1iS46O8OaeEeiu/2383745f89a26adc6cd98ba6fdd284fe/amen_ra.jpg"
+- sys:
+    id: KNfZrrOBSmYMqUKye8ggY
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:33.967000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-02 20:34:57.310000000 Z
+    content_type_id: author
+  first_name: Quentin
+  last_name: Palfrey
+  title: Former Executive Director
+  bio_link: https://www.linkedin.com/in/quentin-palfrey-a57103/
+  organization: Abdul Latif Jameel Poverty Action Lab, North America | MIT Department
+    of Economics
+  photo:
+    sys:
+      id: 6v5Jn8xpN6aEioEmIy8Eo4
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:30.721000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:30.721000000 Z
+    title: quentin
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/6v5Jn8xpN6aEioEmIy8Eo4/ad1487dfcb8ed436db1b5d087255516d/quentin.jpg"
+- sys:
+    id: 7dncesqupG6SokU0Ye2suG
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
+    content_type_id: author
+  first_name: Stefaan
+  last_name: Verhulst
+  title: Co-Founder and Director of Research
+  bio_link: http://www.thegovlab.org/stefaan-verhulst.html
+  organization: The Governance Lab
+  photo:
+    sys:
+      id: 46Wb29om0wcicOWe2W0SE2
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
+    title: stefaan
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/46Wb29om0wcicOWe2W0SE2/39e85936d831e20efd8be3e259976628/stefaan.jpg"
+- sys:
+    id: 2h2l7XkVSAooY8muK04cWq
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
+    content_type_id: author
+  first_name: Julia
+  last_name: Lane
+  title: Professor
+  bio_link: http://cusp.nyu.edu/people/julia-lane/
+  organization: NYU Center for Urban Science and Progress
+  photo:
+    sys:
+      id: 4F837LktLyiCySeOekyMom
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
+    title: julia
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/4F837LktLyiCySeOekyMom/324da65a55860033169e44ebf89965ba/julia.jpg"
+- sys:
+    id: 3k5TbylweQC6SyYYsyKgk
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:36.322000000 Z
+    updated_at: !ruby/object:DateTime 2017-10-12 17:41:36.322000000 Z
+    content_type_id: author
+  first_name: Gideon
+  last_name: Mann
+  title: Head of Data Science
+  bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
+  organization: CTO Office at Bloomberg LP
+  photo:
+    sys:
+      id: 3pkL3PfEwMaW4MiemM4Qe6
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:40.234000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:40.234000000 Z
+    title: gideon
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/3pkL3PfEwMaW4MiemM4Qe6/ed1386412291696f2e42f20a5441424e/gideon.jpg"
 video:
 - sys:
     id: 74loammNRmUceImcekkaw8
@@ -273,73 +689,6 @@ video:
       participation in a social program.'
     resource_category: Read
   order: 1
-- sys:
-    id: 4yVEcdVsPCK6i0KccIoGQO
-    created_at: !ruby/object:DateTime 2017-10-12 17:40:57.926000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-13 16:06:32.356000000 Z
-    content_type_id: video
-  title: 'Data Analytical Thinking and Methods I: How To Define a Research Question
-    and Introduction to Statistical Approaches to Draw Inference'
-  active: true
-  duration: 42
-  description: 'During this session you will learn about quantitative data—including
-    so-called "big data"— and some of the statistical techniques researchers and policy
-    officials  use  to derive value from it. The lecture emphasizes  the broad structure
-    and necessary steps  needed in any data-related inquiry: define a research question,
-    formulate a testable hypothesis,  think about what data is available, what data
-    is missing, issues of measurement error, and other applied concerns, such as how
-    to  link datasets. At the end, we will discuss some of the statistical paradigms  that
-    can be used to draw inferences, as well as some of the key ideas when addressing
-    the privacy and confidentiality issues.'
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Data%20Analytical%20Thinking%20and%20Methods%20(Julia%20Lane)/story_html5.html"
-  poster:
-    sys:
-      id: 7epDXq1FfyYakcoEiOE0qK
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:43.697000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:43.697000000 Z
-    title: julia poster
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/7epDXq1FfyYakcoEiOE0qK/6388f30009b4e28a5ed15debaf062a16/julia_crop.jpg"
-  author:
-  - sys:
-      id: 2h2l7XkVSAooY8muK04cWq
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
-      content_type_id: author
-    first_name: Julia
-    last_name: Lane
-    title: Professor
-    bio_link: http://cusp.nyu.edu/people/julia-lane/
-    organization: NYU Center for Urban Science and Progress
-    photo:
-      sys:
-        id: 4F837LktLyiCySeOekyMom
-        created_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
-        updated_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
-      title: julia
-      description: 
-      url: "//images.contentful.com/nd6t1o1igxfa/4F837LktLyiCySeOekyMom/324da65a55860033169e44ebf89965ba/julia.jpg"
-  resources:
-  - sys:
-      id: 38Qf283Cy4W8sauUCUQmk2
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
-      content_type_id: resources
-    description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
-      by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
-    resource_category: Read
-  - sys:
-      id: 12xYmE8oYq4G4CkW24Wykq
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
-      content_type_id: resources
-    description: 'For an in-depth training, check out the [Applied Data Analytics
-      Training Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
-      the first-of-its-kind program to give working professionals an opportunity to
-      develop the key computer science and data science skill sets necessary to harness
-      the wealth of newly-available data and to creatively address real civic problems. '
-    resource_category: How-to
-  order: 2
 - sys:
     id: iUczSQwyxqeq8s8K22SGm
     created_at: !ruby/object:DateTime 2017-10-12 17:40:58.741000000 Z
@@ -603,6 +952,73 @@ video:
     resource_category: Read
   order: 5
 - sys:
+    id: 4yVEcdVsPCK6i0KccIoGQO
+    created_at: !ruby/object:DateTime 2017-10-12 17:40:57.926000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-13 16:06:32.356000000 Z
+    content_type_id: video
+  title: 'Data Analytical Thinking and Methods I: How To Define a Research Question
+    and Introduction to Statistical Approaches to Draw Inference'
+  active: true
+  duration: 42
+  description: 'During this session you will learn about quantitative data—including
+    so-called "big data"— and some of the statistical techniques researchers and policy
+    officials  use  to derive value from it. The lecture emphasizes  the broad structure
+    and necessary steps  needed in any data-related inquiry: define a research question,
+    formulate a testable hypothesis,  think about what data is available, what data
+    is missing, issues of measurement error, and other applied concerns, such as how
+    to  link datasets. At the end, we will discuss some of the statistical paradigms  that
+    can be used to draw inferences, as well as some of the key ideas when addressing
+    the privacy and confidentiality issues.'
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Data%20Analytical%20Thinking%20and%20Methods%20(Julia%20Lane)/story_html5.html"
+  poster:
+    sys:
+      id: 7epDXq1FfyYakcoEiOE0qK
+      created_at: !ruby/object:DateTime 2017-10-12 17:40:43.697000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:40:43.697000000 Z
+    title: julia poster
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/7epDXq1FfyYakcoEiOE0qK/6388f30009b4e28a5ed15debaf062a16/julia_crop.jpg"
+  author:
+  - sys:
+      id: 2h2l7XkVSAooY8muK04cWq
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
+      content_type_id: author
+    first_name: Julia
+    last_name: Lane
+    title: Professor
+    bio_link: http://cusp.nyu.edu/people/julia-lane/
+    organization: NYU Center for Urban Science and Progress
+    photo:
+      sys:
+        id: 4F837LktLyiCySeOekyMom
+        created_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
+        updated_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
+      title: julia
+      description: 
+      url: "//images.contentful.com/nd6t1o1igxfa/4F837LktLyiCySeOekyMom/324da65a55860033169e44ebf89965ba/julia.jpg"
+  resources:
+  - sys:
+      id: 38Qf283Cy4W8sauUCUQmk2
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
+      content_type_id: resources
+    description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
+      by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
+    resource_category: Read
+  - sys:
+      id: 12xYmE8oYq4G4CkW24Wykq
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
+      content_type_id: resources
+    description: 'For an in-depth training, check out the [Applied Data Analytics
+      Training Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
+      the first-of-its-kind program to give working professionals an opportunity to
+      develop the key computer science and data science skill sets necessary to harness
+      the wealth of newly-available data and to creatively address real civic problems. '
+    resource_category: How-to
+  order: 2
+- sys:
     id: 3Um1dc8xKMKMaC8iGwQukk
     created_at: !ruby/object:DateTime 2017-10-12 17:41:00.401000000 Z
     updated_at: !ruby/object:DateTime 2017-11-13 16:28:43.491000000 Z
@@ -711,419 +1127,50 @@ video:
       your next steps.
     resource_category: How-to
   order: 9
-resources:
+lecturePageContent:
 - sys:
-    id: 6Vk4SxAbVmOU6aYkAUwyk2
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:18.916000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:18.916000000 Z
-    content_type_id: resources
-  description: The [Behavioral Insights Team (BIT)](http://www.behaviouralinsights.co.uk/)
-    also offers its own [online course](http://courses.behavioralinsightsteam.com/courses/course-v1:BIT+LCE+2016-0/about)
-    for how to think through, design, and implement your own RCTs, and how to identify
-    questions that might be easily testable, and at low cost, in an experimental framework.
-    Check back regularly for updates to this course and its availability.
-  resource_category: How-to
+    id: 8bSxf79PkAA2GUyAAK8Ew
+    created_at: !ruby/object:DateTime 2017-11-13 17:31:54.058000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-13 17:31:54.058000000 Z
+    content_type_id: lecturePageContent
+  title: Solving Public Problems with Data
+  objectives_title: 'YOU WILL LEARN:'
+  author_title: Taught by
+  noi1: Still have questions? Need help with a project?
+  noi2: Ask the Data Science community by joining Network of Innovators!
+  noi3: ASK AN EXPERT
+  related_lectures_title: LEARN NEXT
+indexPageContent:
 - sys:
-    id: 5Ch3rJQhpemAy0O8g0kSQc
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:14.972000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:14.972000000 Z
-    content_type_id: resources
-  description: "[Innovations in Federal Statistics: Combining Data Sources While Protecting
-    Privacy](https://www.nap.edu/catalog/24652/innovations-in-federal-statistics-combining-data-sources-while-protecting-privacy)
-    by the National Academies of Sciences's Panel on Improving Federal Statistics
-    for Policy and Social Science - a report that examines the opportunities and risks
-    of using government administrative and private sector data sources to foster a
-    paradigm shift in federal statistical programs that would combine diverse data
-    sources in a secure manner to enhance federal statistics."
-  resource_category: Read
-- sys:
-    id: 2tQMX4qmJKSsucMOakQ8Ig
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:20.466000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:20.466000000 Z
-    content_type_id: resources
-  description: '"[Incentives for Immunization](https://www.povertyactionlab.org/sites/default/files/publications/incentives-for-immunization_0.pdf)"
-    by JPAL - a write-up of a study referenced in Quentin''s lecture, on how using
-    costly incentives in an evaluation may actually decrease the marginal cost of
-    participation in a social program.'
-  resource_category: Read
-- sys:
-    id: 6s4MjqmvEksoYu4WAU0Io8
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:19.680000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:19.680000000 Z
-    content_type_id: resources
-  description: Watch additional videos from "[JPAL's Global Executive Education Course](https://www.povertyactionlab.org/node/9933/)",
-    led by social scientists at Harvard, MIT, and JPAL, covering topics such as "sampling
-    and sample size," and assessing “cost effectiveness" in an evaluation.
-  resource_category: Watch
-- sys:
-    id: 15dyabty9C6wqOOmAWssSG
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:22.395000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:22.395000000 Z
-    content_type_id: resources
-  description: Watch "[Social experiments to fight poverty](https://www.ted.com/talks/esther_duflo_social_experiments_to_fight_poverty)"
-    by Esther Duflo, Professor of Economics at MIT, explain in further detail why
-    social experiments may help policymakers with poverty alleviation, and why experimental
-    designs provide compelling and unforeseen insights where other study approaches
-    may fail.
-  resource_category: Watch
-- sys:
-    id: 4f3KJKWrm8Oe0uMQ0yy2MW
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:15.756000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:15.756000000 Z
-    content_type_id: resources
-  description: "[Data for Development: The Case for Information, Not Just Data](http://thegovlab.org/data-for-development-the-case-for-information-not-just-data/)
-    by Daniela Ligiero"
-  resource_category: Read
-- sys:
-    id: PlqGgSiLMi8isYQ0saw4K
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
-    content_type_id: resources
-  description: 'More readings at [Data Collaboratives section of the Open Governance
-    Research Exchange](http://ogrx.org/categories/data-collaboratives.html). '
-  resource_category: Read
-- sys:
-    id: 4rEjXgjI5aGuEGCKyO24sg
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
-    content_type_id: resources
-  description: __Thinking about designing your own Data Collaborative?__ Use [our
-    canvas](http://datacollaboratives.org/canvas.html) and find out what would be
-    your next steps.
-  resource_category: How-to
-- sys:
-    id: 28Oc77pfeAowWe6kEyQs04
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
-    content_type_id: resources
-  description: "[Data Collaboratives: Exchanging Data to Improve People's Lives](https://medium.com/@sverhulst/data-collaboratives-exchanging-data-to-improve-people-s-lives-d0fcfc1bdd9a#.z6cdr1dsm),
-    by Stefaan Verhulst and David Sangokoya - an essay on leveraging the potential
-    of data to solve complex public problems through data collaboratives and four
-    critical accelerators towards responsible data sharing and collaboration."
-  resource_category: Read
-- sys:
-    id: 4VOl7yvbrakmC864GqsQOK
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
-    content_type_id: resources
-  description: "[Data Responsibility: A New Social Good for the Information Age](https://theconversation.com/data-responsibility-a-new-social-good-for-the-information-age-67417),
-    by Stefaan Verhulst - an essay offering a new understanding of data responsibility
-    comprising a duty to share, a data to protect, and a duty to act."
-  resource_category: Read
-- sys:
-    id: 6JqzuStc1Ggw8yEWUkqmaW
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
-    content_type_id: resources
-  description: "[Data Collaboratives: Matching Demand with Supply of (Corporate) Data
-    to solve Public Problems](https://medium.com/@sverhulst/data-collaboratives-matching-demand-with-supply-of-corporate-data-to-solve-public-problems-dc75b4d683e1#.xth0w2zww),
-    by Stefaan Verhulst, Iryna SUsha and Alexander Kostura - a report describing emerging
-    practice, opportunities and challenges in data collaboratives as identified at
-    the International Data Responsibility Conference."
-  resource_category: Read
-- sys:
-    id: 3CbskYE3XquE6KKmYkoQqC
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:24.114000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:24.114000000 Z
-    content_type_id: resources
-  description: '"[Introduction to Evaluations](https://www.povertyactionlab.org/sites/default/files/resources/Introduction%20to%20Evaluations.Final_.pdf)"
-    by JPAL - an overarching summary of "impact evaluations", their history, how to
-    randomize effectively in experiments, why randomization is important, and common
-    concerns in study design'
-  resource_category: Read
-- sys:
-    id: 12xYmE8oYq4G4CkW24Wykq
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:17.380000000 Z
-    content_type_id: resources
-  description: 'For an in-depth training, check out the [Applied Data Analytics Training
-    Program](http://www.applieddataanalytics.org/data-analytics/program-overview/),
-    the first-of-its-kind program to give working professionals an opportunity to
-    develop the key computer science and data science skill sets necessary to harness
-    the wealth of newly-available data and to creatively address real civic problems. '
-  resource_category: How-to
-- sys:
-    id: 38Qf283Cy4W8sauUCUQmk2
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:18.173000000 Z
-    content_type_id: resources
-  description: "[Big Data and Social Science: A Practical Guide to Methods and Tools](http://www.bigdatasocialscience.com/)
-    by Ian Foster, Rayid Ghani, Ron S. Jarmin, Frauke Kreuter, and Julia Lane"
-  resource_category: Read
-- sys:
-    id: 345V2SBv2MYmQQawQi2GM8
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:11.453000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:11.453000000 Z
-    content_type_id: resources
-  description: "[Open Data Resource Kit](https://docs.google.com/document/d/16tDVNb8VPAZlcm1ObRtsHxPSesN3YYUOwALtZRro6io/edit?usp=sharing)"
-  resource_category: Read
-- sys:
-    id: 251rxqlKzCuGYqW6SM4s4w
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:23.248000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:23.248000000 Z
-    content_type_id: resources
-  description: '"[Promoting Policies that work: Six steps for the Commission on Evidence-Based
-    Policymaking](http://thehill.com/blogs/congress-blog/the-administration/303781-promoting-policies-that-work-six-steps-for-the)"
-    by Quentin Palfrey -  a list of six concrete steps policymakers "can take to institutionalize
-    the use of administrative data to support policy-relevant research and evidence-informed
-    policymaking."'
-  resource_category: Read
-- sys:
-    id: 6vbGOPedNuqCOAU244Q626
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:14.095000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:14.095000000 Z
-    content_type_id: resources
-  description: "[Helping Smart Cities Harness Big Data](https://www.citylab.com/life/2016/09/how-mapbox-will-help-smart-cites-tackle-urban-challenges/502241/)
-    by Linda Pool"
-  resource_category: Read
-- sys:
-    id: 2buxad1YyMakgycocygmwS
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:21.255000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:21.255000000 Z
-    content_type_id: resources
-  description: Utilize the [Methods Guides](http://egap.org/list-methods-guides) and
-    online experimental Tools written by [Evidence in Governance and Politics (EGAP)](http://egap.org/).
-    These guides provide both technical and non-technical discussions on challenges
-    commonly faced in causal inference, why randomization is important to experimental
-    design and causal attribution, but also cases when of non-experimental designs
-    may lead to causal insights. Example code, written in the R programming language,
-    is accessible here online, as well as example vignettes.
-  resource_category: How-to
-- sys:
-    id: 60ujguUpS86oKQ66GkMQeM
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
-    content_type_id: resources
-  description: Watch "[Your Company’s Data Could Help End World Hunger](http://www.ted.com/talks/mallory_soldner_your_company_s_data_could_end_world_hunger)"
-    by Mallory Soldner, UPS Advanced Analytics Manager, explain what is data philanthropy
-    and how the next generation of corporate social responsibility is using data and
-    companies' decision-scientist expertise to solve the big problems our world is
-    facing.
-  resource_category: Watch
-- sys:
-    id: 1zFjJYrCoEMuM4uwEIs6MM
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:02.122000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:02.122000000 Z
-    content_type_id: resources
-  description: "[Changing Culture](https://govex.jhu.edu/changing-culture/) by GovEx
-    - a practical guide to help governments advance open data, analytics and performance
-    management practices by shaping their organizational culture. "
-  resource_category: Read
-author:
-- sys:
-    id: 3IzMAygpAccqO6Giaia8i4
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:31.607000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:31.607000000 Z
-    content_type_id: author
-  first_name: Ben
-  last_name: Wellington
-  title: Creator of I Quant NY and Visiting Assistant Professor
-  bio_link: http://iquantny.tumblr.com/about
-  organization: Pratt Institute in Brooklyn
-  photo:
+    id: 1okTrn6GLCs2kqOYMmiUMM
+    created_at: !ruby/object:DateTime 2017-11-13 17:06:49.091000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-13 17:08:53.222000000 Z
+    content_type_id: indexPageContent
+  title: SOLVING PUBLIC PROBLEMS WITH DATA
+  subtitle: A new lecture series by The GovLab
+  subtitle2: LEARN HOW TO USE DATA TO ACHIEVE YOUR PUBLIC MISSION
+  learn_button: START LEARNING
+  authors_title: LEARN FROM LEADING DATA EXPERTS
+  authors_subtitle: Gain access to a diverse know-how that goes beyond institutional
+    boundaries
+  splash_video_title: TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.
+  splash_video_subtitle: 'Watch Data Scientist Ben Wellington explain why:'
+  splash_video_url: "./videos/Solving%20Public%20Problems%20with%20Data%20-%20Why%20Data%20Matters%20(Ben%20Wellington)/story_html5.html"
+  splash_video_thumbnail:
     sys:
-      id: 2tY9uvec0Ym4YGYsiQwSQy
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:33.101000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:33.101000000 Z
-    title: ben
+      id: 4G5GwVreVyYUsagY0cGq4C
+      created_at: !ruby/object:DateTime 2017-11-13 17:08:40.888000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-13 17:08:40.888000000 Z
+    title: ben wellington preview
     description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/2tY9uvec0Ym4YGYsiQwSQy/50991bf390aa0d78f48d6eaac9a56e01/ben.jpg"
-- sys:
-    id: 2Dx5hLd7KwgQCIGoegsgES
-    created_at: !ruby/object:DateTime 2017-10-12 17:40:56.284000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:40:56.284000000 Z
-    content_type_id: author
-  first_name: Beth
-  last_name: Blauer
-  title: Executive Director
-  bio_link: https://govex.jhu.edu/author/bblauer/
-  organization: Johns Hopkins Center for Government Excellence
-  photo:
-    sys:
-      id: 1NrWqGXXmICcmWiaKGIIqY
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:39.467000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:39.467000000 Z
-    title: beth blauer
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/1NrWqGXXmICcmWiaKGIIqY/8d9f7dacd0f0d7be8fed4a5abac3c249/beth_blauer.jpg"
-- sys:
-    id: 7JwuTgA2oomwYG60OoiYoc
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:33.204000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:33.204000000 Z
-    content_type_id: author
-  first_name: Arnaud
-  last_name: Sahuguet
-  title: Director of the Foundry
-  bio_link: http://tech.cornell.edu/people/researchers
-  organization: Cornell Tech
-  photo:
-    sys:
-      id: 25qHOP6IqMqsogOAkKuEsI
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:37.761000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:37.761000000 Z
-    title: arnaud
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/25qHOP6IqMqsogOAkKuEsI/660c4f0128fa71ed55101feacb4e6e47/arnaud.jpg"
-- sys:
-    id: 5yMHeD6eKkGcCKi6Ag8IE
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:34.762000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-02 20:22:41.441000000 Z
-    content_type_id: author
-  first_name: Beth Simone
-  last_name: Noveck
-  title: Professor and Director
-  bio_link: http://www.thegovlab.org/beth-noveck.html
-  organization: The Governance Lab
-  photo:
-    sys:
-      id: 5SCqzXVoKkUOa0qGCOM8Iu
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:34.645000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:34.645000000 Z
-    title: beth
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/5SCqzXVoKkUOa0qGCOM8Iu/8aece888448d65c7403be7e0ab8bc4d3/beth.jpg"
-- sys:
-    id: 33rWmzZoveSs6i2cSss6Em
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:10.645000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-02 20:26:16.913000000 Z
-    content_type_id: author
-  first_name: Dinorah
-  last_name: Cantú-Pedraza
-  title: Coordinator
-  bio_link: http://www.thegovlab.org/team.html
-  organization: The GovLab Academy
-  photo:
-    sys:
-      id: 2CjzeU64BquWwsQuMG8ey0
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:29.926000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:29.926000000 Z
-    title: dinorah-cantu-pedraza
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/2CjzeU64BquWwsQuMG8ey0/cd67c92891c0b4b4b29cf5570216b6ef/dinorah-cantu-pedraza.jpg"
-- sys:
-    id: 4krSPeV7iEQMKYAgUGs6Y6
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:38.802000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:38.802000000 Z
-    content_type_id: author
-  first_name: Daniel
-  last_name: Goroff
-  title: Program Director
-  bio_link: https://www.linkedin.com/in/daniel-goroff-99883640/
-  organization: Alfred P. Sloan Foundation
-  photo:
-    sys:
-      id: iYLDIJQglUO8kG62gSie8
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:35.459000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:35.459000000 Z
-    title: daniel
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/iYLDIJQglUO8kG62gSie8/e68466520025df4ae0611e76af2ba381/daniel.jpg"
-- sys:
-    id: 1KKFp74s80suW02su824SE
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:37.902000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:37.902000000 Z
-    content_type_id: author
-  first_name: Carter
-  last_name: Hewgley
-  title: Director of Analytics and Performance
-  bio_link: https://govex.jhu.edu/person/carter-hewgley/
-  organization: Center for Government Excellence, Johns Hopkins
-  photo:
-    sys:
-      id: 3gXO38TkOAKYgE2W2cSWuQ
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:38.682000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:38.682000000 Z
-    title: carter
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/3gXO38TkOAKYgE2W2cSWuQ/50dfdac44731e85b0eee3b893c9bc383/carter.jpg"
-- sys:
-    id: 1Y3Zea1ZAIuKEMym0OoAGA
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:35.579000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-02 20:28:20.344000000 Z
-    content_type_id: author
-  first_name: Amen Ra
-  last_name: Mashariki
-  title: Urban Analytics Lead
-  bio_link: https://www.linkedin.com/in/amen-ra-mashariki-1452885
-  organization: 'Esri: GIS Mapping Software, Spatial Data Analytics & Location Platform'
-  photo:
-    sys:
-      id: YDeUgoH1iS46O8OaeEeiu
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:36.193000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:36.194000000 Z
-    title: amen ra
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/YDeUgoH1iS46O8OaeEeiu/2383745f89a26adc6cd98ba6fdd284fe/amen_ra.jpg"
-- sys:
-    id: KNfZrrOBSmYMqUKye8ggY
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:33.967000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-02 20:34:57.310000000 Z
-    content_type_id: author
-  first_name: Quentin
-  last_name: Palfrey
-  title: Former Executive Director
-  bio_link: https://www.linkedin.com/in/quentin-palfrey-a57103/
-  organization: Abdul Latif Jameel Poverty Action Lab, North America | MIT Department
-    of Economics
-  photo:
-    sys:
-      id: 6v5Jn8xpN6aEioEmIy8Eo4
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:30.721000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:30.721000000 Z
-    title: quentin
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/6v5Jn8xpN6aEioEmIy8Eo4/ad1487dfcb8ed436db1b5d087255516d/quentin.jpg"
-- sys:
-    id: 7dncesqupG6SokU0Ye2suG
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
-    content_type_id: author
-  first_name: Stefaan
-  last_name: Verhulst
-  title: Co-Founder and Director of Research
-  bio_link: http://www.thegovlab.org/stefaan-verhulst.html
-  organization: The Governance Lab
-  photo:
-    sys:
-      id: 46Wb29om0wcicOWe2W0SE2
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
-    title: stefaan
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/46Wb29om0wcicOWe2W0SE2/39e85936d831e20efd8be3e259976628/stefaan.jpg"
-- sys:
-    id: 2h2l7XkVSAooY8muK04cWq
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:37.100000000 Z
-    content_type_id: author
-  first_name: Julia
-  last_name: Lane
-  title: Professor
-  bio_link: http://cusp.nyu.edu/people/julia-lane/
-  organization: NYU Center for Urban Science and Progress
-  photo:
-    sys:
-      id: 4F837LktLyiCySeOekyMom
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:33.845000000 Z
-    title: julia
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/4F837LktLyiCySeOekyMom/324da65a55860033169e44ebf89965ba/julia.jpg"
-- sys:
-    id: 3k5TbylweQC6SyYYsyKgk
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:36.322000000 Z
-    updated_at: !ruby/object:DateTime 2017-10-12 17:41:36.322000000 Z
-    content_type_id: author
-  first_name: Gideon
-  last_name: Mann
-  title: Head of Data Science
-  bio_link: https://www.linkedin.com/in/gideon-mann-223a2912
-  organization: CTO Office at Bloomberg LP
-  photo:
-    sys:
-      id: 3pkL3PfEwMaW4MiemM4Qe6
-      created_at: !ruby/object:DateTime 2017-10-12 17:40:40.234000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:40:40.234000000 Z
-    title: gideon
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/3pkL3PfEwMaW4MiemM4Qe6/ed1386412291696f2e42f20a5441424e/gideon.jpg"
+    url: "//images.contentful.com/nd6t1o1igxfa/4G5GwVreVyYUsagY0cGq4C/54303f375656041cf892a0663184908d/ben_wellington_preview.jpg"
+  lectures_title: READY TO USE YOUR DATA TO ACHIEVE YOUR PUBLIC MISSION?
+  lectures_subtitle: Click on a tile below to watch any lecture. There are 5 lectures
+    that vary in length from 25 to 60 minutes. Each lecture includes selected readings
+    and links to additional resources.
+  suggest_topic1: DIDN’T FIND WHAT YOU’RE LOOKING FOR?
+  suggest_topic2: SUGGEST A TOPIC
+  subscribe1: Not sure where to start?
+  subscribe2: Subscribe to our guided learning experience to receive our recommended
+    weekly program!
+  subscribe3: CLICK HERE TO TELL US MORE ABOUT YOU

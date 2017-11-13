@@ -3,21 +3,22 @@ title: GovLab Academy
 layout: base
 ---
 {% include urlpath.html %}
+{% assign copy = site.data.contentful.spaces.site_data.indexPageContent[0] %}
 <section class="b-main-content hero">
   <div class="row" id="title">
     <div class="small-8 large-8 large-centered small-centered column">
       <h4 class="purple bold">
-        SOLVING PUBLIC PROBLEMS WITH DATA
+        {{ copy.title }}
       </h4>
       <h5 class="purple">
-        A new lecture series by The GovLab
+        {{ copy.subtitle }}
       </h5>
       <h5 class="purple" id="tagline">
-        LEARN HOW TO USE DATA TO ACHIEVE YOUR PUBLIC MISSION
+        {{ copy.subtitle2 }}
       </h5>
     </div>
   </div>
-  <a class="button raised cta-button" href="#start-learning">START LEARNING</a>
+  <a class="button raised cta-button" href="#start-learning">{{ copy.learn_button }}</a>
   <div class="row" id="quotes">
     <div class="small-8 large-8 small-centered large-centered columns">
       <div class="row" id='quote-row'>
@@ -46,8 +47,8 @@ layout: base
 <section class="purple padded">
   <div class="row">
     <div class="small-8 large-8 large-centered small-centered columns">
-      <h4 class="small white bold">LEARN FROM LEADING DATA EXPERTS</h4>
-      <span class="small white" id="author-subhead">Gain access to a diverse know-how that goes beyond institutional boundaries</span>
+      <h4 class="small white bold">{{ copy.authors_title }}</h4>
+      <span class="small white" id="author-subhead">{{ copy.authors_subtitle }}</span>
     </div>
   </div>
   <div class="row">
@@ -72,18 +73,18 @@ layout: base
     <div class="small-10 large-5 large-offset-1 small-offset-1 columns" style="height: 250px;">
       <div class="relative">
         <div class="vertically-center">
-          <h4 class="small white bold">TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.</h4>
-          <span class="small grey bold" id="preview-subhead">Watch Data Scientist Ben Wellington explain why:</span>
+          <h4 class="small white bold">{{ copy.splash_video_title }}</h4>
+          <span class="small grey bold" id="preview-subhead">{{ copy.splash_video_subtitle }}</span>
         </div>
       </div>
     </div>
     <div class="small-10 small-offset-1 large-offset-0 large-5 columns end video" style="height: 250px;">
       <div class="relative block-center" style="max-width: 500px;">
         <div class="vertically-center">
-          <a href="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Why%20Data%20Matters%20(Ben%20Wellington)/story_html5.html" target="_blank">
+          <a href="{{ copy.splash_video_url }}" target="_blank">
             <div class="inline-block">
               <img src="{{ base }}/static/img/play_button.png" class="play-button" />
-              <img src="{{ base }}/static/img/ben_wellington_preview.jpg" />
+              <img src="{{ copy.splash_video_thumbnail.url }}" />
             </div>
           </a>
         </div>
@@ -94,7 +95,7 @@ layout: base
 <section class="purple padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <span class="white">READY TO USE YOUR DATA TO ACHIEVE YOUR PUBLIC MISSION?</span>
+      <span class="white">{{ copy.lectures_title }}</span>
       <a name="start-learning"></a>
     </div>
   </div>
@@ -102,7 +103,7 @@ layout: base
 <section class="lectures padded">
   <div class="row">
     <div class="small-10 large-10 large-centered small-centered columns">
-      <span class="bold chooser-headline">Click on a tile below to watch any lecture. There are 5 lectures that vary in length from 25 to 60 minutes. Each lecture includes selected readings and links to additional resources.</span>
+      <span class="bold chooser-headline">{{ copy.lectures_subtitle }}</span>
     </div>
   </div>
   <div class="row">
@@ -121,8 +122,8 @@ layout: base
         <div class="column column-block block-wrap">
           <a class="link" href="https://govlab.typeform.com/to/lOLcb5" target="_blank">
             <div class="suggest-block">
-              <p class="white tiny">DIDN’T FIND WHAT YOU’RE LOOKING FOR?</p>
-              <p class="white suggest-cta">SUGGEST A TOPIC</p>
+              <p class="white tiny">{{ copy.suggest_topic1 }}</p>
+              <p class="white suggest-cta">{{ copy.suggest_topic2 }}</p>
             </div>
           </a>
         </div>
@@ -136,12 +137,12 @@ layout: base
     <div class="small-10 large-10 large-centered small-centered columns">
       <div class="row">
         <div class="small-4 large-4 left-aligned columns">
-          <p class="white small bold">Not sure where to start?</p>
-          <p class="tiny white">Subscribe to our guided learning experience to receive our recommended weekly program!</p>
+          <p class="white small bold">{{ copy.subscribe1 }}</p>
+          <p class="tiny white">{{ copy.subscribe2 }}</p>
         </div>
         <div class="small-6 large-6 left-aligned columns">
           <a class="link" href="https://govlab.typeform.com/to/CiI9Hj" target="_blank">
-            <input type="submit" class="white button form-submit" value="CLICK HERE TO TELL US MORE ABOUT YOU">
+            <input type="submit" class="white button form-submit" value="{{ copy.subscribe3 }}">
           </a>
         </div>
       </div>
