@@ -690,6 +690,115 @@ video:
     resource_category: Read
   order: 1
 - sys:
+    id: 3Um1dc8xKMKMaC8iGwQukk
+    created_at: !ruby/object:DateTime 2017-10-12 17:41:00.401000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-13 16:28:43.491000000 Z
+    content_type_id: video
+  title: 'Data Collaboratives: Creating Public Value by Exchanging Data'
+  active: true
+  duration: 53
+  objectives: |-
+    - The kind of problems that data collaboratives can solve;
+    - The public value that corporate data can generate;
+    - The different types of corporate data and different ways how can it be exchanged;
+    - The motivations and inherent risks of exchanging data.
+  description: Much of the data that would be valuable to access and analyze resides
+    with the private sector—in the form of, for instance, Web clicks, online purchases,
+    sensor data, and call data records. With consumers connected to more and more
+    platforms as well as the increasing prevalence of sensing technologies (i.e. the
+    Internet of Things), data on how people and societies behave is becoming even
+    more privately owned. In this session, we discuss private sources of data to solve
+    public problems and best practices for how data can be shared between private
+    and public organizations.
+  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Data%20Collaboratives%20(Stefaan%20Verlhust)/story_html5.html"
+  poster:
+    sys:
+      id: 6LuGquXGqQmG40ySssKkI8
+      created_at: !ruby/object:DateTime 2017-11-13 16:28:24.060000000 Z
+      updated_at: !ruby/object:DateTime 2017-11-13 16:28:24.060000000 Z
+    title: stefaan verlhust
+    description: 
+    url: "//images.contentful.com/nd6t1o1igxfa/6LuGquXGqQmG40ySssKkI8/2d9e699eb97d9c867debe8f3e0cb7edb/video_6Uzz4eA6Su4_22_48_1012x570.jpg"
+  author:
+  - sys:
+      id: 7dncesqupG6SokU0Ye2suG
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
+      content_type_id: author
+    first_name: Stefaan
+    last_name: Verhulst
+    title: Co-Founder and Director of Research
+    bio_link: http://www.thegovlab.org/stefaan-verhulst.html
+    organization: The Governance Lab
+    photo:
+      sys:
+        id: 46Wb29om0wcicOWe2W0SE2
+        created_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
+        updated_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
+      title: stefaan
+      description: 
+      url: "//images.contentful.com/nd6t1o1igxfa/46Wb29om0wcicOWe2W0SE2/39e85936d831e20efd8be3e259976628/stefaan.jpg"
+  resources:
+  - sys:
+      id: 28Oc77pfeAowWe6kEyQs04
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
+      content_type_id: resources
+    description: "[Data Collaboratives: Exchanging Data to Improve People's Lives](https://medium.com/@sverhulst/data-collaboratives-exchanging-data-to-improve-people-s-lives-d0fcfc1bdd9a#.z6cdr1dsm),
+      by Stefaan Verhulst and David Sangokoya - an essay on leveraging the potential
+      of data to solve complex public problems through data collaboratives and four
+      critical accelerators towards responsible data sharing and collaboration."
+    resource_category: Read
+  - sys:
+      id: 6JqzuStc1Ggw8yEWUkqmaW
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
+      content_type_id: resources
+    description: "[Data Collaboratives: Matching Demand with Supply of (Corporate)
+      Data to solve Public Problems](https://medium.com/@sverhulst/data-collaboratives-matching-demand-with-supply-of-corporate-data-to-solve-public-problems-dc75b4d683e1#.xth0w2zww),
+      by Stefaan Verhulst, Iryna SUsha and Alexander Kostura - a report describing
+      emerging practice, opportunities and challenges in data collaboratives as identified
+      at the International Data Responsibility Conference."
+    resource_category: Read
+  - sys:
+      id: 4VOl7yvbrakmC864GqsQOK
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
+      content_type_id: resources
+    description: "[Data Responsibility: A New Social Good for the Information Age](https://theconversation.com/data-responsibility-a-new-social-good-for-the-information-age-67417),
+      by Stefaan Verhulst - an essay offering a new understanding of data responsibility
+      comprising a duty to share, a data to protect, and a duty to act."
+    resource_category: Read
+  - sys:
+      id: PlqGgSiLMi8isYQ0saw4K
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
+      content_type_id: resources
+    description: 'More readings at [Data Collaboratives section of the Open Governance
+      Research Exchange](http://ogrx.org/categories/data-collaboratives.html). '
+    resource_category: Read
+  - sys:
+      id: 60ujguUpS86oKQ66GkMQeM
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
+      content_type_id: resources
+    description: Watch "[Your Company’s Data Could Help End World Hunger](http://www.ted.com/talks/mallory_soldner_your_company_s_data_could_end_world_hunger)"
+      by Mallory Soldner, UPS Advanced Analytics Manager, explain what is data philanthropy
+      and how the next generation of corporate social responsibility is using data
+      and companies' decision-scientist expertise to solve the big problems our world
+      is facing.
+    resource_category: Watch
+  - sys:
+      id: 4rEjXgjI5aGuEGCKyO24sg
+      created_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
+      updated_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
+      content_type_id: resources
+    description: __Thinking about designing your own Data Collaborative?__ Use [our
+      canvas](http://datacollaboratives.org/canvas.html) and find out what would be
+      your next steps.
+    resource_category: How-to
+  order: 9
+- sys:
     id: iUczSQwyxqeq8s8K22SGm
     created_at: !ruby/object:DateTime 2017-10-12 17:40:58.741000000 Z
     updated_at: !ruby/object:DateTime 2017-11-13 16:11:45.192000000 Z
@@ -1018,141 +1127,20 @@ video:
       the wealth of newly-available data and to creatively address real civic problems. '
     resource_category: How-to
   order: 2
-- sys:
-    id: 3Um1dc8xKMKMaC8iGwQukk
-    created_at: !ruby/object:DateTime 2017-10-12 17:41:00.401000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-13 16:28:43.491000000 Z
-    content_type_id: video
-  title: 'Data Collaboratives: Creating Public Value by Exchanging Data'
-  active: true
-  duration: 53
-  objectives: |-
-    - The kind of problems that data collaboratives can solve;
-    - The public value that corporate data can generate;
-    - The different types of corporate data and different ways how can it be exchanged;
-    - The motivations and inherent risks of exchanging data.
-  description: Much of the data that would be valuable to access and analyze resides
-    with the private sector—in the form of, for instance, Web clicks, online purchases,
-    sensor data, and call data records. With consumers connected to more and more
-    platforms as well as the increasing prevalence of sensing technologies (i.e. the
-    Internet of Things), data on how people and societies behave is becoming even
-    more privately owned. In this session, we discuss private sources of data to solve
-    public problems and best practices for how data can be shared between private
-    and public organizations.
-  video_link: "../videos/Solving%20Public%20Problems%20with%20Data%20-%20Data%20Collaboratives%20(Stefaan%20Verlhust)/story_html5.html"
-  poster:
-    sys:
-      id: 6LuGquXGqQmG40ySssKkI8
-      created_at: !ruby/object:DateTime 2017-11-13 16:28:24.060000000 Z
-      updated_at: !ruby/object:DateTime 2017-11-13 16:28:24.060000000 Z
-    title: stefaan verlhust
-    description: 
-    url: "//images.contentful.com/nd6t1o1igxfa/6LuGquXGqQmG40ySssKkI8/2d9e699eb97d9c867debe8f3e0cb7edb/video_6Uzz4eA6Su4_22_48_1012x570.jpg"
-  author:
-  - sys:
-      id: 7dncesqupG6SokU0Ye2suG
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:32.395000000 Z
-      content_type_id: author
-    first_name: Stefaan
-    last_name: Verhulst
-    title: Co-Founder and Director of Research
-    bio_link: http://www.thegovlab.org/stefaan-verhulst.html
-    organization: The Governance Lab
-    photo:
-      sys:
-        id: 46Wb29om0wcicOWe2W0SE2
-        created_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
-        updated_at: !ruby/object:DateTime 2017-10-12 17:40:32.263000000 Z
-      title: stefaan
-      description: 
-      url: "//images.contentful.com/nd6t1o1igxfa/46Wb29om0wcicOWe2W0SE2/39e85936d831e20efd8be3e259976628/stefaan.jpg"
-  resources:
-  - sys:
-      id: 28Oc77pfeAowWe6kEyQs04
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:07.242000000 Z
-      content_type_id: resources
-    description: "[Data Collaboratives: Exchanging Data to Improve People's Lives](https://medium.com/@sverhulst/data-collaboratives-exchanging-data-to-improve-people-s-lives-d0fcfc1bdd9a#.z6cdr1dsm),
-      by Stefaan Verhulst and David Sangokoya - an essay on leveraging the potential
-      of data to solve complex public problems through data collaboratives and four
-      critical accelerators towards responsible data sharing and collaboration."
-    resource_category: Read
-  - sys:
-      id: 6JqzuStc1Ggw8yEWUkqmaW
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:06.443000000 Z
-      content_type_id: resources
-    description: "[Data Collaboratives: Matching Demand with Supply of (Corporate)
-      Data to solve Public Problems](https://medium.com/@sverhulst/data-collaboratives-matching-demand-with-supply-of-corporate-data-to-solve-public-problems-dc75b4d683e1#.xth0w2zww),
-      by Stefaan Verhulst, Iryna SUsha and Alexander Kostura - a report describing
-      emerging practice, opportunities and challenges in data collaboratives as identified
-      at the International Data Responsibility Conference."
-    resource_category: Read
-  - sys:
-      id: 4VOl7yvbrakmC864GqsQOK
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:05.605000000 Z
-      content_type_id: resources
-    description: "[Data Responsibility: A New Social Good for the Information Age](https://theconversation.com/data-responsibility-a-new-social-good-for-the-information-age-67417),
-      by Stefaan Verhulst - an essay offering a new understanding of data responsibility
-      comprising a duty to share, a data to protect, and a duty to act."
-    resource_category: Read
-  - sys:
-      id: PlqGgSiLMi8isYQ0saw4K
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:04.745000000 Z
-      content_type_id: resources
-    description: 'More readings at [Data Collaboratives section of the Open Governance
-      Research Exchange](http://ogrx.org/categories/data-collaboratives.html). '
-    resource_category: Read
-  - sys:
-      id: 60ujguUpS86oKQ66GkMQeM
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:03.833000000 Z
-      content_type_id: resources
-    description: Watch "[Your Company’s Data Could Help End World Hunger](http://www.ted.com/talks/mallory_soldner_your_company_s_data_could_end_world_hunger)"
-      by Mallory Soldner, UPS Advanced Analytics Manager, explain what is data philanthropy
-      and how the next generation of corporate social responsibility is using data
-      and companies' decision-scientist expertise to solve the big problems our world
-      is facing.
-    resource_category: Watch
-  - sys:
-      id: 4rEjXgjI5aGuEGCKyO24sg
-      created_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
-      updated_at: !ruby/object:DateTime 2017-10-12 17:41:02.923000000 Z
-      content_type_id: resources
-    description: __Thinking about designing your own Data Collaborative?__ Use [our
-      canvas](http://datacollaboratives.org/canvas.html) and find out what would be
-      your next steps.
-    resource_category: How-to
-  order: 9
-lecturePageContent:
-- sys:
-    id: 8bSxf79PkAA2GUyAAK8Ew
-    created_at: !ruby/object:DateTime 2017-11-13 17:31:54.058000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-13 17:31:54.058000000 Z
-    content_type_id: lecturePageContent
-  title: Solving Public Problems with Data
-  objectives_title: 'YOU WILL LEARN:'
-  author_title: Taught by
-  noi1: Still have questions? Need help with a project?
-  noi2: Ask the Data Science community by joining Network of Innovators!
-  noi3: ASK AN EXPERT
-  related_lectures_title: LEARN NEXT
 indexPageContent:
 - sys:
     id: 1okTrn6GLCs2kqOYMmiUMM
     created_at: !ruby/object:DateTime 2017-11-13 17:06:49.091000000 Z
-    updated_at: !ruby/object:DateTime 2017-11-13 17:08:53.222000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-13 17:37:39.003000000 Z
     content_type_id: indexPageContent
   title: SOLVING PUBLIC PROBLEMS WITH DATA
-  subtitle: A new lecture series by The GovLab
-  subtitle2: LEARN HOW TO USE DATA TO ACHIEVE YOUR PUBLIC MISSION
+  subtitle: An Introduction to Data Science and Data Analytical Thinking in the Public
+    Interest
+  subtitle2: A series of online lectures by leading experts from the Governance Lab
   learn_button: START LEARNING
   authors_title: LEARN FROM LEADING DATA EXPERTS
-  authors_subtitle: Gain access to a diverse know-how that goes beyond institutional
-    boundaries
+  authors_subtitle: Access knowledge and know-how from data experts in a variety of
+    organizations and institutions.
   splash_video_title: TODAY, KNOWING HOW TO WORK WITH DATA MATTERS MORE THAN EVER.
   splash_video_subtitle: 'Watch Data Scientist Ben Wellington explain why:'
   splash_video_url: "./videos/Solving%20Public%20Problems%20with%20Data%20-%20Why%20Data%20Matters%20(Ben%20Wellington)/story_html5.html"
@@ -1174,3 +1162,17 @@ indexPageContent:
   subscribe2: Subscribe to our guided learning experience to receive our recommended
     weekly program!
   subscribe3: CLICK HERE TO TELL US MORE ABOUT YOU
+lecturePageContent:
+- sys:
+    id: 8bSxf79PkAA2GUyAAK8Ew
+    created_at: !ruby/object:DateTime 2017-11-13 17:31:54.058000000 Z
+    updated_at: !ruby/object:DateTime 2017-11-13 17:36:56.041000000 Z
+    content_type_id: lecturePageContent
+  title: Solving Public Problems with Data
+  objectives_title: 'YOU WILL LEARN:'
+  author_title: Taught by
+  noi1: Questions? Need help with a project?
+  noi2: Ask the public data science community at The Network of Innovators (NoI).
+    NoI is a peer learning platform for finding practitioners with expertise and experience.
+  noi3: ASK AN EXPERT
+  related_lectures_title: LEARN NEXT

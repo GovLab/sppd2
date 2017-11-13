@@ -260,6 +260,9 @@ a.resource-tab-button:hover {
 .resource-panel {
   padding-top: 0rem;
 }
+#noi-preview-link {
+  display: block;
+}
 #noi-preview {
   max-width: 67%;
 }
