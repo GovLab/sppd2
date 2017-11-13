@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111010111" textdirection="ltr" device="false" fontscale="150" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns11111010111" font="Proxima Nova" controllayout="npnxnanbsnfns11111010111" colorscheme="pxabnsnfns11111010111" string_table="pxabnsnfns11111010111" />
+    <layout name="pxabnsnfns11111010111" font="Proxima Nova" controllayout="pxabnsnfns11111010111" colorscheme="pxabnsnfns11111010111" string_table="pxabnsnfns11111010111" />
+    <layout name="npxnabnsnfns11111010111" font="Proxima Nova" controllayout="npxnabnsnfns11111010111" colorscheme="pxabnsnfns11111010111" string_table="pxabnsnfns11111010111" />
+    <layout name="npnxnanbnsnfns11111010111" font="Proxima Nova" controllayout="npnxnanbnsnfns11111010111" colorscheme="pxabnsnfns11111010111" string_table="pxabnsnfns11111010111" />
+    <layout name="pxabnsnfns11111010110" font="Proxima Nova" controllayout="pxabnsnfns11111010110" colorscheme="pxabnsnfns11111010111" string_table="pxabnsnfns11111010111" />
+    <layout name="pnxnanbnsnfns11111010111" font="Proxima Nova" controllayout="pnxnanbnsnfns11111010111" colorscheme="pxabnsnfns11111010111" string_table="pxabnsnfns11111010111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Solving Public Problems with Data" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="279" />
+                  <property name="height" value="140" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/5jUfUHgEX1S.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="transcript" value="false" group="linkright" />
+              <listitem name="glossary" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="true" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111010110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxnanbnsnfns11111010111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111010111">
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDACFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x808080" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+                <color rgb="0xD2D4D6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+                <color rgb="0xD2D4D6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+                <color rgb="0xD2D4D6" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA897BF" alpha="100" stop="0" />
+                <color rgb="0xA897BF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA897BF" alpha="100" stop="0" />
+                <color rgb="0xA897BF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x58078C" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDADADA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEE5C44" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEE5B43" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="0" stop="0" />
+                <color rgb="0xF3F3F3" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+                <color rgb="0xD9D9D9" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="0" stop="0" />
+                <color rgb="0xBABABA" alpha="0" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79C143" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA897BF" alpha="100" stop="0" />
+                <color rgb="0xA897BF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+                <color rgb="0x444444" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x523080" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x343F49" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCDED9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCDED9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79C143" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8BDB4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEE5B43" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x018895" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x008895" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD2D4D6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111010111">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Proxima Nova">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Open Sans">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6rfVC5NertC" displaytext="Solving Public Problems with Data" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6rfVC5NertC.6cyHjBJFs4h" displaytext="Data Collaboratives (Total Session Length: 53:22)" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfVC5NertC.5oDgf4FHjw1" displaytext="Instructor Introduction (0:18)" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfVC5NertC.66zFGeMzJTt" displaytext="Session Outline (1:11)" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfVC5NertC.6NfxpwTCI2s" displaytext="Nepal Case Study (2:06)" expand="false" type="slide" />
+            <slidelink slideid="_player.6rfVC5NertC.6jjrXfiWhc0" displaytext="Data Collaboratives (0:27)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SYi4z5iKmq" displaytext="Five Ways Data Collaboratives Create Public Value" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SYi4z5iKmq.5wU8QmbvRbg" displaytext="Five Ways Data Collaboratives Create Public Value (0:55)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SYi4z5iKmq.5W2mtXbQJhb" displaytext="Situational Awareness and Response (1:31)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SYi4z5iKmq.6PkRcPPGGV7" displaytext="Public Service Design and Delivery (1:55)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SYi4z5iKmq.6CLBP3lEffK" displaytext="Knowledge Creation and Transfer (1:40)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SYi4z5iKmq.6K8qx9Q3lpg" displaytext="Prediction and Forecasting (1:57)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SYi4z5iKmq.5zBHKe2QnZd" displaytext="Increased Diversity of Problem Solvers (2:49)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6GYxkRewxOi" displaytext="Exchanging Data" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6GYxkRewxOi.6YubzxT3Mwb" displaytext="Exchanging Data (0:54)" expand="false" type="slide" />
+            <slidelink slideid="_player.6GYxkRewxOi.6kHWzUB1zKz" displaytext="Types of Corporate Data (4:47)" expand="false" type="slide" />
+            <slidelink slideid="_player.6GYxkRewxOi.6XkPrpTCBqX" displaytext="Types of Data Collaboratives (5:12)" expand="false" type="slide" />
+            <slidelink slideid="_player.6GYxkRewxOi.5gu7R9tVeSz" displaytext="Types of Data Collaboratives (3:18)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ydXKaBMwZ9" displaytext="Motivations and Risks in Collaboratives" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ydXKaBMwZ9.6hnZL93OyvJ" displaytext="Motivations and Risks in Data Collaboratives (1:03)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.5ueJzfeoV0t" displaytext="The 6 R's Behind Corporate Data Sharing (0:44)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6A0BEGs6zXN" displaytext="Reciprocity (1:11)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.5lbjyePe9aN" displaytext="Research and Insights (0:50)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6nS1TuYgjvD" displaytext="Reputation and Public Relations (0:50)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6baKukkd7fJ" displaytext="Revenue Generation (1:32)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6DJJFBM9nCY" displaytext="Ensuring Regulatory Compliance (1:06)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.5ym4P2T4NhY" displaytext="Responsibility and Corporate Philanthropy (1:14)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6e9hWeccfjh" displaytext="Risks of Sharing Data (2:09)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.5Wu8kirxqy2" displaytext="Examples of Ineffective Data Collaboratives (1:23)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.5ytJyetEMim" displaytext="Collection (1:38)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.5sr6LUMEvup" displaytext="Processing and Analysis (1:05)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6ZSfBGUX5Eg" displaytext="Data Usage (0:50)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6ZNcg2IqZvH" displaytext="Data Sharing (0:46)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6UQDq1TW9NF" displaytext="Broad Challenges to Collaboratives (2:18)" expand="false" type="slide" />
+            <slidelink slideid="_player.5ydXKaBMwZ9.6VYky6n35BW" displaytext="Questions and Needs Moving Forward (4:13)" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6rfVC5NertC.6cyHjBJFs4h" slidebank="false" type="slide">data collaboratives stefaan g. verhulst funded by a grant from the www.thegovlab.org </slidetext>
+      <slidetext slideid="6rfVC5NertC.5oDgf4FHjw1" slidebank="false" type="slide">co-founder, govlab @ new york university chief of research, govlab stefaan g. verhulst data collaboratives: a new kind of public-private partnership that allows for value to be generated by exchanging data. </slidetext>
+      <slidetext slideid="6rfVC5NertC.66zFGeMzJTt" slidebank="false" type="slide">session outline what is the public value that’s being generated? what is the public value that’s being generated? what kind of data is being exchanged? what are the potential ways to share data? what are the benefits for corporations to share data? what are the risks of sharing data? </slidetext>
+      <slidetext slideid="6rfVC5NertC.6NfxpwTCI2s" slidebank="false" type="slide">nepal case study april 25th, 2015 nepal gorkha earthquake 9,000 people killed 22,000 injured the sharing of data led to the creation of maps that informed the emergency teams on where the needs were the highest. find out more about this case study here. </slidetext>
+      <slidetext slideid="6rfVC5NertC.6jjrXfiWhc0" slidebank="false" type="slide">data collaboratives = creating value by exchanging data  data collaboratives </slidetext>
+      <slidetext slideid="6SYi4z5iKmq.5wU8QmbvRbg" slidebank="false" type="slide">benefits of data collaboratives: situational awareness and response public service design and delivery knowledge creation and transfer prediction and forecasting wider variety of problem-solvers working collaboratively to solve complex problems  five ways data collaboratives create public value </slidetext>
+      <slidetext slideid="6SYi4z5iKmq.5W2mtXbQJhb" slidebank="false" type="slide">a greater understanding and ability to track conditions on the ground can improve interventions, including and especially during emerging situations like crisis relief. situational awareness and response example: satellite imagery for humanitarian action orbital insights and the world bank are using satellite imagery to measure and track poverty. example: putting telecommunications data in the hands of humanitarian organizations through real impact analytics' data for good program, mtn shares call details records (cdr) data with international development nonprofits and organizations to leverage access to mobile data for the millennium development goals. photo: orbital insight photo: real impact analytics find out more about this case study here. find out more about this case study here. </slidetext>
+      <slidetext slideid="6SYi4z5iKmq.6PkRcPPGGV7" slidebank="false" type="slide">access to previously inaccessible datasets can enable more accurate modelling of public service design and guide service delivery in a targeted, evidence-based manner. example: corporate data to improve infrastructure global mapping company, esri, and waze’s connected citizens program uses crowdsourced traffic information to help governments design better transportation. public service design &amp; delivery photo: google waze the public sector often suffers from unequal usage of resources because it lacks the evidence needed to effectively target resources and interventions. data collaboratives enable more accurate modeling of public service design and delivery. example: improving regulatory compliance through access to corporate data global fishing watch is the result of a collaboration among google, oceana and skytruth to map and measure fishing activity worldwide, this information can be used by governments to ensure that fishing regulations are adequately monitored and tracked. find out more about this case study here. find out more about this case study here. </slidetext>
+      <slidetext slideid="6SYi4z5iKmq.6CLBP3lEffK" slidebank="false" type="slide">bringing more and more diverse datasets to bear can fill knowledge gaps and ensure that those responsible for solving problems have the most useful information at hand. knowledge creation and transfer example: new strategies for climate resilience based on private sector data as part of the data for climate action (d4ca) initiative, a variety of companies have made their anonymized, aggregated datasets available. find out more about this case study here. </slidetext>
+      <slidetext slideid="6SYi4z5iKmq.6K8qx9Q3lpg" slidebank="false" type="slide">bringing more and more diverse datasets to bear can fill knowledge gaps and ensure that those responsible for solving problems have the most useful information at hand. example: using satellite data to predict water shortage intel and the earth research institute at the university of california santa barbara are using satellite imagery to predict drought conditions and develop targeted interventions for farmers and governments. prediction and forecasting example: using social media to predict natural disasters the us geological survey and twitter have partnered in order to predict and anticipate earthquakes. photo: twitter blog find out more about this partnership here. </slidetext>
+      <slidetext slideid="6SYi4z5iKmq.5zBHKe2QnZd" slidebank="false" type="slide">efforts to solve intractable problems too often play out behind closed doors with little diversity among the potential solvers and decision-makers. data collaboratives by definition enable collaboration across sectors, enabling a wide range of leaders, thinkers and stakeholders to work together toward common ends. increased diversity of problem solvers example: surfacing new ideas to accelerate development efforts in ivory coast and senegal, orange telecom hosted a global challenge that allowed researchers to use anonymized, aggregated call detail record (cdr) data to help solve various development problems, including those related to transportation, health, and agriculture. photo: d4d challenge find out more about this case study here. example: mobilizing a global team of researchers to improve earthquake response efforts digicel haiti provided researchers anonymized data on the position of 1.9 million sims in haiti from 42 days before the 2010 earthquake to 158 days afterwards. find out more about this case study here. </slidetext>
+      <slidetext slideid="6GYxkRewxOi.6YubzxT3Mwb" slidebank="false" type="slide">exchanging data what are the different types of corporate data? how can it be exchanged? what is the public value that’s being generated? what is the public value that’s being generated? what kind of data is being exchanged? what kind of data is being exchanged? what are the potential ways to share data? what are the potential ways to share data? what are the benefits for corporations to share data? what are the benefits for corporations to share data? what are the risks of sharing data? what are the risks of sharing data? </slidetext>
+      <slidetext slideid="6GYxkRewxOi.6kHWzUB1zKz" slidebank="false" type="slide">types of corporate data disclosed personal data, e.g. survey results, subscription data, etc. observed personal data, e.g. clicks on an online setting, banking details, phone call data, etc. disclosed non-personal data, e.g. citizen science data, crowdsourced data, etc. observed non-personal data, e.g. data collected through sensors about infrastructure, traffic, etc. </slidetext>
+      <slidetext slideid="6GYxkRewxOi.6XkPrpTCBqX" slidebank="false" type="slide">trusted intermediaries, where companies share data with a limited number of known partners example: orbital insights / world bank partnership  prizes and challenges, in which companies make data available to qualified applicants who compete to develop new apps or discover innovative uses for the data example: data 4 development challenge research partnerships, in which corporations share data with universities and other research organization example: mapping snow melting in the sierra nevada types of data collaboratives </slidetext>
+      <slidetext slideid="6GYxkRewxOi.5gu7R9tVeSz" slidebank="false" type="slide">intelligence products, where companies share (often aggregated) data that provides general insight into market conditions, customer demographic information, or other broad trends example: jp morgan chase institute application programming interfaces (apis), which allow developers and others to access data for testing, product development, and data analytics example: us geological survey and twitter corporate data cooperatives or pooling, in which corporations — and other important dataholders such as government agencies — group together to create “collaborative databases” with shared data resources example: global fishing watch types of data collaboratives </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6hnZL93OyvJ" slidebank="false" type="slide">what are the motivations and benefits for corporations to share data? what are the inherent risks of sharing data? motivations and risks in data collaboratives </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.5ueJzfeoV0t" slidebank="false" type="slide">the 6 r’s behind corporate data sharing reciprocity research &amp; insights reputation &amp; public relations revenue generation regulatory compliance responsibility &amp; corporate philanthropy </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6A0BEGs6zXN" slidebank="false" type="slide">corporations may share their data with others entities across sectors for mutual benefit, especially when gaining access to other data sources that may be important to their own business decisions.  example: accelerating medicines partnership (amp) reciprocity find out more about this case study here. </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.5lbjyePe9aN" slidebank="false" type="slide">opening up corporate data may generate new answers to particular questions providing companies insights that may not have been extracted otherwise.  example: bbva innova challenge research and insights find out more about this case study here. </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6nS1TuYgjvD" slidebank="false" type="slide">sharing data for public good may enhance a firm’s corporate image and reputation, potentially attracting new users, customers, employees and investors who value socially conscious corporate actors.  example: mapping hunger in america through consumer statistics reputation and public relations find out more about this case study here. </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6baKukkd7fJ" slidebank="false" type="slide">opening up corporate data does not always have to be for free. under some conditions, corporate data may be offered for sale, generating extra revenue for firms in b2b and b2g arrangements.  example: telefónica digital’s smart steps revenue generation find out more about this case study here. </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6DJJFBM9nCY" slidebank="false" type="slide">sharing data can also help corporations comply with sectoral regulations and become more transparent and trusted.  example: open diversity data ensuring regulatory compliance find out more about this case study here. </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.5ym4P2T4NhY" slidebank="false" type="slide">sharing corporate data achieves many of the goals sought by traditional corporate social responsibility or philanthropy. companies can derive value from socially responsible behavior not just because of the positive image such an activity produces, but because opening up data can also improve the competitive business environment within which the business operates.  responsibility and corporate philanthropy example: uber partnership with city of boston find out more about this case study here. </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6e9hWeccfjh" slidebank="false" type="slide">data risks exist at every stage of the data value cycle, from collection to use. they are often the result of: technological weaknesses (e.g. security flaws) individual and institutional norms and standards of quality (e.g. weak scientific rigor in analysis) legal confusion or gaps, or misaligned business and other incentives (e.g. seeking to push to boundaries of what is societally appropriate) risks of sharing data risks at various stages of the data lifecycle: </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.5Wu8kirxqy2" slidebank="false" type="slide">inbloom: aimed to store, and aggregate student data for states and districts find out more about this here. google flu trends: attempted to provide real-time predictions of flu prevalence through analysis of google search terms find out more about this here. examples of ineffective data collaboratives </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.5ytJyetEMim" slidebank="false" type="slide">risks at the collection stage: collecting inaccurate, old or “dirty” data affecting data quality and ability to draw meaningful insights incomplete or non-representative sampling of the universe (e.g. ignoring population segments with a limited data footprint) potentially leading to non-inclusive or unrepresentative approaches or interventions collection </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.5sr6LUMEvup" slidebank="false" type="slide">risks at the analysis and processing stage: insufficient, outdated or inflexible security provisions creating the potential for data vulnerabilities or breaches aggregation and correlation of incompatible datasets inaccurate data modeling or use of biased algorithms, which, like dirty data at the collection stage, can lead to confidence in fundamentally flawed insights processing and analysis </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6ZSfBGUX5Eg" slidebank="false" type="slide">risks at the data usage stage: when data is ultimately put to use, risks emerge especially when using shared data controversially or incongruously in relation to the original objective for its collection. such risks can have negative results like: misinterpretation of data re-identification of individual data subjects decisional interference data usage </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6ZNcg2IqZvH" slidebank="false" type="slide">risks at the data sharing stage: incompatible cultural or institutional norms or expectations conflicting legal jurisdictions and different levels of security lack of stewardship on both ends to ensure responsible sharing of personally identifiable information as it travels across cases and sectors improper or unauthorized access to shared data data sharing </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6UQDq1TW9NF" slidebank="false" type="slide">potential harms to corporations: criminal or civil legal investigations and/or regulatory fines; loss of regulatory licenses, standards, certifications; reputational and industrial damages – impacting: competitive positioning and advantage;  share price and/or cost of capital; customer attrition rates; employee recruitment, productivity and retention overall increase in operating expenses broad challenges to data collaboratives </slidetext>
+      <slidetext slideid="5ydXKaBMwZ9.6VYky6n35BW" slidebank="false" type="slide">questions and needs moving forward do we need a “data steward” within private companies to manage and coordinate requests for data? how to establish a trusted infrastructure for sharing and accessing data (this could be for example a single secure platform within an nso where all data providers (mnos etc.) could transfer data)? how to develop a responsible data decision tree to assess benefit and risk of exchanging data? 1 2 3 </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>

@@ -241,9 +241,13 @@ a.black-link:hover {
 a.resource-tab-button {
   background-color: rgba(0,0,0,0.1);
   min-width: 5rem;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.5);
   width: 5rem;
   padding: 0.5rem;
+}
+a.resource-tab-button:hover {
+  background-color: rgba(0,0,0,0.15);
+  color: #000;
 }
   a.resource-tab-button[aria-selected=true] {
     background: #523080;

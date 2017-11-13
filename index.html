@@ -57,9 +57,9 @@ layout: base
           {% assign authors = site.data.contentful.spaces.site_data.author | sort: 'last_name' %}
           {% for author in authors %}
             <div class="column column-block">
-              <img class="author" src="{{author.photo.url}}">
-              <p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p>
-              <a class="link" href="{{ author.bio_link }}" target="_blank"><p class="white extra-tiny">{{author.title}}, {{author.organization}}</a></p>
+              <a class="link" href="{{ author.bio_link }}" target="_blank"><img class="author" src="{{author.photo.url}}"></a>
+              <a class="link" href="{{ author.bio_link }}" target="_blank"><p class="white bold tiny author-name">{{author.first_name | upcase}} {{author.last_name | upcase}}</p></a>
+              <a class="link" href="{{ author.bio_link }}" target="_blank"><p class="white extra-tiny">{{author.title}}, {{author.organization}}</p></a>
             </div>
           {% endfor %}
         </div>
@@ -80,7 +80,7 @@ layout: base
     <div class="small-10 small-offset-1 large-offset-0 large-5 columns end video" style="height: 250px;">
       <div class="relative block-center" style="max-width: 500px;">
         <div class="vertically-center">
-          <a href="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Session%200/story_html5.html" target="_blank">
+          <a href="./videos/Solving%20Public%20Problems%20with%20Data%20-%20Why%20Data%20Matters%20(Ben%20Wellington)/story_html5.html" target="_blank">
             <div class="inline-block">
               <img src="{{ base }}/static/img/play_button.png" class="play-button" />
               <img src="{{ base }}/static/img/ben_wellington_preview.jpg" />
