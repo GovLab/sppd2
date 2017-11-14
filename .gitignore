@@ -2,3 +2,4 @@ _site
 lectures
 .sass-cache
 .jekyll-metadata
+.DS_Store
