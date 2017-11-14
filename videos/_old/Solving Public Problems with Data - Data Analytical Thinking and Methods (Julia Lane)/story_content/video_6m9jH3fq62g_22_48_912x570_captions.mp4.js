@@ -1,1 +1,0 @@
-window.globalProvideData('caption', '{"data":"1%0A00:00:00,44%20--%3E%2000:00:03,77%0ANow%20what%20you%20want%20to%20think%20about,%20you%20want%20to%20think%20about%20what%20data%20are%20available%0A%0A2%0A00:00:03,83%20--%3E%2000:00:07,18%0Aand%20what%20the%20measurement%20error%20is.%20Now%20I%E2%80%99m%20going%20to%20talk%20a%20little%20bit%20about%20that.%0A%0A"}')

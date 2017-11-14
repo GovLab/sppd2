@@ -1,1 +1,0 @@
-window.globalProvideData('caption', '{"data":"1%0A00:00:00,67%20--%3E%2000:00:05,59%0ASo%20let\u0027s%20talk%20about%20statistical%20approaches.%20I\u0027ve%20talked%20a%20lot%20about%20machine%20learning,%20let\u0027s%20talk%20a%20little%20bit%20about%0A%0A2%0A00:00:05,6%20--%3E%2000:00:07,31%0Astatistical%20approaches%20to%20the%20problem.%0A%0A"}')
